@@ -1,0 +1,180 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Babylon - Berry Christmas</title>
+    <style>
+        html, body {
+            overflow: hidden;
+            width   : 100%;
+            height  : 100%;
+            margin  : 0;
+            padding : 0;
+        }
+
+        #renderCanvas {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 10%;
+            width   : 880px;
+            height  : 480px;
+            touch-action: auto;
+            /*background: url('desk_beery.png');
+            background-size: cover;*/
+        }
+        .header {width: 100%; height: 769px; margin-left: auto; margin-right: auto; text-align: center;}
+
+        @media (max-width: 992px) {
+            #renderCanvas { margin-top: 15%; width: 100%; }
+        }
+
+        @media (min-width: 321px) {
+            .header {
+                background: url('desk_beery.png') center top no-repeat; background-size: cover;
+            }
+        }
+
+        @media (max-width: 320px) {
+            .header {
+                background: url('mobile.png') center top no-repeat; background-size: cover;
+            }
+        }
+
+    </style>
+    <script src="babylon.2.4.js"></script>
+    <script src="hand.minified-1.3.7.js"></script>
+
+</head>
+<body>
+
+<div class="header">
+    <canvas id="renderCanvas"></canvas>
+</div>
+<script type="text/javascript">
+
+    var canvas = document.querySelector("#renderCanvas");
+    var engine = new BABYLON.Engine(canvas, true);
+
+
+    BABYLON.SceneLoader.Load("", "advent.babylon", engine, function(newScene) {
+        var Scene = newScene;
+        Scene.executeWhenReady(function(){
+            Scene.clearColor = new BABYLON.Color4(0,0,0,0.0000000000000001);
+            var camera = new BABYLON.ArcRotateCamera("ArcRotateCamera", 1, 0.8, 10, new BABYLON.Vector3(0, 0, 0), Scene);
+            camera.angularSensibilityX = 3000;
+            camera.angularSensibilityY = 3000;
+
+            camera.setPosition(new BABYLON.Vector3(0, 0, -20));
+            camera.attachControl(canvas, true);
+            camera.lowerRadiusLimit = camera.upperRadiusLimit = camera.radius = 25;
+
+            var light0 = new BABYLON.HemisphericLight("Hemi0", new BABYLON.Vector3(0, 1, 0), Scene);
+            light0.diffuse = new BABYLON.Color3(7, 7, 7);
+            light0.specular = new BABYLON.Color3(0, 0, 0);
+            light0.groundColor = new BABYLON.Color3(0.9, 0.9, 0.9);
+
+            var sphere = BABYLON.MeshBuilder.CreateSphere("sphere", {diameterX: 1.5, diameterY: 1.5, diameterZ: 1.5 }, Scene);
+            var sphereMaterial = new BABYLON.StandardMaterial("sphere material", Scene);
+            var sphereTexture = new BABYLON.DynamicTexture("dynamic texture", 512, Scene, true);
+            sphereTexture.hasAlpha = true;
+            //sphereMaterial.diffuseColor = new BABYLON.Color3(255, 255, 255);
+            //var plus = new BABYLON.Texture("btn2.png", Scene);
+            //console.log(plus);
+            //var sizearray = plus.getSize();
+            //console.log(sizearray);
+            sphereMaterial.diffuseTexture = new BABYLON.Texture("button2.png", Scene);
+            //sphereMaterial.diffuseTexture.uOffset = 0.1;
+            //sphereMaterial.diffuseTexture.vOffset = 0.1;
+            //sphereMaterial.diffuseTexture.uScale = 1;
+            //sphereMaterial.diffuseTexture.vScale = 1;
+            //sphereMaterial.diffuseTexture.wAng = 0.4;
+            //sphereMaterial = new BABYLON.TextureOptimization(1, 4);
+            //sphere.Mesh.BILLBOARDMODE_ALL = 2;
+            sphere.billboardMode = BABYLON.Mesh.BILLBOARDMODE_ALL = 7;
+            sphere.material = sphereMaterial;
+            sphere.material.alpha = 1;
+            sphere.position = new BABYLON.Vector3(2.8, 3.6, -7.1);
+            sphere.rotate(BABYLON.Axis.Y, -1.6, BABYLON.Space.LOCAL);
+            sphere.rotate(BABYLON.Axis.Z, 0.1, BABYLON.Space.LOCAL);
+            sphere.visibility = 1;
+
+
+            /*var disc = BABYLON.MeshBuilder.CreateDisc("disc", {tessellation: 100}, Scene);
+            var discMaterial = new BABYLON.StandardMaterial("disc material", Scene);
+            var discTexture = new BABYLON.DynamicTexture("dynamic texture", 512, Scene, true);
+            discTexture.hasAlpha = true;
+            discMaterial.diffuseTexture = new BABYLON.Texture("jon.png", Scene);
+            //discMaterial.diffuseTexture.hasAlpha = false;
+            //disc.billboardMode = BABYLON.Mesh.BILLBOARDMODE_ALL = 2;
+            disc.material = discMaterial;
+            disc.material.alpha = 1;
+            //discTexture.drawText("text", null, 200, "50px verdana", "white", "#151B54");
+            disc.position = new BABYLON.Vector3(-4, 5, -2);
+            disc.scaling.x = 3.5;
+            disc.scaling.y = 3.5;
+            disc.alpha = 1;
+            //disc.rotate(BABYLON.Axis.X, 1.5, BABYLON.Space.LOCAL);
+            //disc.rotate(BABYLON.Axis.Y, 0.6, BABYLON.Space.LOCAL);
+            disc.rotate(BABYLON.Axis.Y, 0.6, BABYLON.Space.LOCAL);
+            disc.visibility = 0;
+            //sphere.rotate(BABYLON.Axis.X , -0.5, BABYLON.Space.LOCAL);
+            //BABYLON.Animation.CreateAndStartAnimation('sphere', sphere, 'position', 30, 120, (-4.5, 5, -2.8), (-4, 5, -2), 2);*/
+
+            var plane = BABYLON.MeshBuilder.CreatePlane("plane", {width: 4.8, height: 2}, Scene);
+            var planeMaterial = new BABYLON.StandardMaterial("plane material", Scene);
+            //planeMaterial.backFaceCulling = false;
+            var planeTexture = new BABYLON.DynamicTexture("dynamic texture", 512, Scene, true);
+            planeTexture.hasAlpha = true;
+            //planeTexture.alpha = 1;
+            planeMaterial.alpha = 1;
+            planeMaterial.diffuseTexture = new BABYLON.Texture("jon3.png", Scene);
+            plane.billboardMode = BABYLON.Mesh.BILLBOARDMODE_ALL = 2;
+            planeTexture.alpha = 0.1;
+            plane.material = planeMaterial;
+            //planeTexture.drawText("Brasseries artisanales", null, 200, "55px verdana", "white", "#151B54");
+            //plane.position.x = 0;
+            //plane.position.y = 0;
+            //plane.position.z = -4;
+            //plane.position = new BABYLON.Vector3(2.8, 3.6, -7.1);
+            plane.isPickable = true;
+            plane.visibility = 0;
+            plane.alpha = 0;
+            plane.position = new BABYLON.Vector3(0, -4, -7.2);
+
+            sphere.actionManager = new BABYLON.ActionManager(Scene);
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOverTrigger, sphere, "scaling.x", 1.1, 200));
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOverTrigger, sphere, "scaling.y", 1.1, 200));
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOverTrigger, sphere, "scaling.z", 1.1, 200));
+
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOutTrigger, sphere, "scaling.x", 1, 200));
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOutTrigger, sphere, "scaling.y", 1, 200));
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOutTrigger, sphere, "scaling.z", 1, 200));
+
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPickTrigger, sphere, "visibility", 0, 300));
+            sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPickTrigger, plane, "visibility", 1, 300));
+
+            plane.actionManager = new BABYLON.ActionManager(Scene);
+            plane.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPickTrigger, plane, "visibility", 0, 200));
+            plane.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPickTrigger, sphere, "visibility", 1, 300));
+            /*if(sphere.visibility === 0) {
+                sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOverTrigger, sphere, "visibility", 1, 300));
+                sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPointerOverTrigger, sphere, "visibility", 1, 300));
+            }*/
+
+            //sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPickUpTrigger, sphere, 'visibility', 0, 500));
+            //sphere.actionManager.registerAction(new BABYLON.InterpolateValueAction(BABYLON.ActionManager.OnPickUpTrigger, sphere, "visibility", 1, 500));
+
+            engine.runRenderLoop(function() {
+               Scene.render();
+            });
+        });
+    });
+
+    // Watch for browser/canvas resize events
+    window.addEventListener("resize", function () {
+        engine.resize();
+    });
+</script>
+</body>
+</html>

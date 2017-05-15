@@ -1,0 +1,145 @@
+@media screen and (min-width:767px){
+.beerychristmas_mainblock{ width:100%; padding:0px 0px 0px 0px; margin:0px;clear:both; border:none; outline:none; background:#161a30 url(../images/beery-christmas/desktop_bg.png) top repeat-x;}
+.beerychristmas_mainblock .container{ position:relative; height:670px;}
+
+.beerychristmas_mainblock  .banner_image .round{ display:inline-block; width:108px; height:108px; background:#e8513f; border-radius:100%; border:none; outline:none; text-decoration:none; text-align:center;font-family: 'clearfaceheavy'; font-size:13px;  color:#ffffff; position:absolute; top: 22px;  right: -325px;}
+.beerychristmas_mainblock  .banner_image .round .text{display:table-cell; width:108px; height:108px; vertical-align:middle; padding:0px; margin:0px;
+font-family: 'clearfaceheavy'; font-size:13px;  color:#ffffff; line-height:13px;}
+.beerychristmas_mainblock  .banner_image .round span{ font-size:24px; display:block; padding:0px; margin:0px; clear:both; line-height:20px;}
+
+.beerychristmas_mainblock  .banner_text{ position:absolute; top:188px;right: 129px; z-index:99;}
+.beerychristmas_mainblock  .header{ width:300px;padding:0px; margin:0px; clear:both;  font-family: 'clearfaceheavy'; font-size:38px; line-height:46px; color:#fefefe;}
+
+.beerychristmas_mainblock .offer_pointsblock{ width:auto; padding:20px 0px 0px 0px; margin:0px;clear:both; border:none; outline:none; text-decoration:none; position:relative;background:none;}
+.beerychristmas_mainblock .pointsblock{width:auto; padding:0px 0px 20px 0px; margin:0px;clear:both; border:none; outline:none; text-decoration:none; position:absolute;
+top:0px; left:91px;}
+.beerychristmas_mainblock  .pointsblock .points{width:auto; display:block; padding:0px 10px; margin:0px;clear:both; border:none; outline:none; text-decoration:none; list-style:none;}
+.beerychristmas_mainblock  .pointsblock .points li{ width:100%; padding:8px 0px 0px 0px; margin:0px;clear:both; border:none; outline:none; text-decoration:none;
+background:url(../images/beery-christmas/border2.png) repeat-y;}
+.beerychristmas_mainblock  .pointsblock .points li:first-child{ padding-top:55px;}
+.beerychristmas_mainblock  .pointsblock .points li:last-child {background:url(../images/beery-christmas/border1.png) repeat-y; padding-bottom:0px;}
+.beerychristmas_mainblock  .pointsblock .points .numberimage{ display:inline-block; padding:0px; margin:0px; border:none; outline:none; text-decoration:none;}
+.beerychristmas_mainblock  .pointsblock .points .point_name{ display:inline-block; padding:0px 0px 0px 10px; margin:0px; border:none; outline:none; text-decoration:none;
+font-family: 'clearfaceheavy'; font-size:24px; line-height:45px;  color:#fefefe;}
+
+.beerychristmas_mainblock  .pointsblock .points li:nth-child(2) .numberimage{ margin-left:12px;}
+.beerychristmas_mainblock  .pointsblock .points li:nth-child(4) .numberimage{ margin-left:12px;}
+.beerychristmas_mainblock  .pointsblock .points li:nth-child(6) .numberimage{ margin-left:12px;}
+.beerychristmas_mainblock  .pointsblock .points li:nth-child(8) .numberimage{ margin-left:12px;}
+
+
+.beerychristmas_mainblock  .banner_image{ width:auto; display:inline-block; padding:0px; margin:0px; position:absolute; max-width:100%; top: 4px; left:400px;}
+.beerychristmas_mainblock  .banner_image img{ max-width:100%; height:auto;}
+
+.beerychristmas_mainblock .offerlimited_headerblock{ display:inline-block; background:none; position:absolute;top:310px; right:160px;}
+.beerychristmas_mainblock .offerlimited_headerblock .offer_roundtext{ display:inline-block; width:60px; height:60px; background:#e8513f; border-radius:100%; border:none; outline:none; text-decoration:none; 
+text-align:center;font-family: 'clearfaceheavy'; font-size:11px;  color:#ffffff; margin:0px 0px 0px 0px; float:left;}
+.beerychristmas_mainblock .offerlimited_headerblock .offer_roundtext .text{display:table-cell; width:60px; height:60px; vertical-align:middle; padding:0px; margin:0px;
+font-family: 'clearfaceheavy'; font-size:13px;  color:#ffffff; line-height:15px;}
+
+.beerychristmas_mainblock .offerlimited_headerblock .text_block{ display:inline-block; float:left; width:auto; padding:0px 0px 0px 10px; margin:0px; border:none; 
+outline:none; margin-top:15px; max-width:250px;}
+.beerychristmas_mainblock .offerlimited_headerblock .text_block .header{ display:block; padding:0px; margin:0px; clear:both; border:none; outline:none;
+font-family: 'clearfaceheavy'; font-size:20px; line-height:normal;  color:#fa9100;}
+.beerychristmas_mainblock .offerlimited_headerblock .text_block p{ display:block; padding:0px; margin:0px; clear:both; border:none; outline:none;
+font-family: 'clearfaceheavy'; font-size:14px; line-height:normal;  color:#fefefe;}
+
+
+.designby_block{position: absolute;top: 355px; left: 147px;}
+
+.beery_logo{ display:inline-block; width:298px; height:105px; background:url(../images/beery-christmas/beery_logo.png) no-repeat; border:none; outline:none; text-decoration:none;
+position:absolute; top: 81px;right: -282px;}
+
+.beerychristmas_mainblock  .banner_image img.desktop{ display:block !important;}
+.beerychristmas_mainblock  .banner_image img.mobile{ display:none !important;}
+
+}
+
+
+@media screen and (max-width:1200px) and (min-width:767px) {
+.beerychristmas_mainblock .pointsblock{ left:0px;}
+.designby_block {left: 25px;}
+.beerychristmas_mainblock .banner_image{ left:300px;}
+.beerychristmas_mainblock .banner_text{ right:70px;}
+.beerychristmas_mainblock .offerlimited_headerblock{ right:30px;}
+}
+
+@media screen and (max-width:991px) and (min-width:767px) {
+.beerychristmas_mainblock .banner_image{ top:115px;}
+.beery_logo{ background-size:contain; width:220px; top:-61px; right:-75px;}
+.beerychristmas_mainblock .banner_image .round{ right:-100px; top:40px;}
+.beerychristmas_mainblock .banner_image img{ max-height:325px;}
+.beerychristmas_mainblock .banner_text{top: 368px; right: 150px;}
+.beerychristmas_mainblock .banner_text{ position:static; width:100%; text-align:center; font-size:20px;}
+.beerychristmas_mainblock .banner_text .header{ font-size:20px; text-align:center; width:100%;}
+.beerychristmas_mainblock .offerlimited_headerblock .text_block{ max-width:195px;}
+
+}
+
+
+
+@media screen and (max-width:767px){
+body{background:#ededed !important;}
+header .header{background:#ededed !important;}
+#block_top_menu{background:#ededed !important;}
+.navbar-default{background:#ededed !important;}
+
+.beerychristmas_mainblock .container{ position:relative; text-align:center; background:#ededed;}
+
+.beerychristmas_mainblock{ width:100%; padding:0px 0px 120px 0px; margin:0px;clear:both; border:none; outline:none; background:#161a30 url(../images/beery-christmas/footer_bg.png) bottom repeat-x;}
+.beerychristmas_mainblock .header{ width:100%;padding:0px; margin:0px; clear:both;  font-family: 'clearfaceheavy'; font-size:18px; color:#010101;}
+.banner_text{width:100%; padding:0px; margin:0px;clear:both; border:none; outline:none; text-align:center; background:#ededed;}
+
+.beerychristmas_mainblock .banner_image{width:auto; display:inline-block; padding:0px; margin:0px;clear:both; border:none; outline:none; text-align:center; background:#ededed; position:relative;}
+.beerychristmas_mainblock .banner_image img{ max-width:100%; height:auto;}
+.beerychristmas_mainblock .banner_image .round{ display:inline-block; width:88px; height:88px; background:#e8513f; border-radius:100%; border:none; outline:none; text-decoration:none; text-align:center;font-family: 'clearfaceheavy'; font-size:11px;  color:#ffffff; position:absolute; bottom:0px; right:30px;}
+.beerychristmas_mainblock .banner_image .round .text{display:table-cell; width:88px; height:88px; vertical-align:middle; padding:0px; margin:0px;
+font-family: 'clearfaceheavy'; font-size:11px;  color:#ffffff; line-height:11px;}
+.beerychristmas_mainblock .banner_image .round span{ font-size:20px; display:block; padding:0px; margin:0px; clear:both; line-height:20px;}
+
+.offerlimited_block{ width:100%; padding:0px; margin:0px; clear:both; border:none; outline:none; text-decoration:none; 
+background:#161a30 url(../images/beery-christmas/beery-christmasbg.png) repeat; text-align:left;}
+.beerychristmas_mainblock .offerlimited_headerblock{width:100%; padding:26px 0px 0px 0px; margin:0px; clear:both; border:none; outline:none; text-decoration:none; 
+background:#161a30 url(../images/beery-christmas/header_bg1.png) repeat-x; text-align:left;}
+.beerychristmas_mainblock .offerlimited_headerblock .offer_roundtext{ display:inline-block; width:45px; height:45px; background:#e8513f; border-radius:100%; border:none; outline:none; text-decoration:none; 
+text-align:center;font-family: 'clearfaceheavy'; font-size:11px;  color:#ffffff; margin:0px 0px 0px 10px;}
+.beerychristmas_mainblock .offerlimited_headerblock .offer_roundtext .text{display:table-cell; width:45px; height:45px; vertical-align:middle; padding:0px; margin:0px;
+font-family: 'clearfaceheavy'; font-size:11px;  color:#ffffff; line-height:11px;}
+
+.beerychristmas_mainblock .offerlimited_headerblock .text_block{ display:inline-block; width:auto; padding:0px 0px 0px 15px; margin:0px; border:none; outline:none; position:relative; margin-top:-10px;}
+.beerychristmas_mainblock .offerlimited_headerblock .text_block .header{ display:block; padding:0px; margin:0px; clear:both; border:none; outline:none;
+font-family: 'clearfaceheavy'; font-size:16px; line-height:normal;  color:#fa9100;}
+.beerychristmas_mainblock .offerlimited_headerblock .text_block p{ display:block; padding:0px; margin:0px; clear:both; border:none; outline:none;
+font-family: 'clearfaceheavy'; font-size:11px; line-height:normal;  color:#fefefe;}
+
+
+.beerychristmas_mainblock  .pointsblock{width:100%; padding:0px 0px 120px 0px; margin:0px;clear:both; border:none; outline:none; text-decoration:none; 
+background:#161a30 url(../images/beery-christmas/beery-christmasbg.png) repeat; text-align:left;}
+.beerychristmas_mainblock  .pointsblock .points{width:auto; display:block; padding:0px 10px; margin:0px;clear:both; border:none; outline:none; text-decoration:none; list-style:none;
+background:url(../images/beery-christmas/header_bg2.png) repeat-x;}
+.beerychristmas_mainblock  .pointsblock .points li{ width:100%; padding:15px 0px 0px 0px; margin:0px;clear:both; border:none; outline:none; text-decoration:none;
+background:url(../images/beery-christmas/border2.png) repeat-y;}
+.beerychristmas_mainblock  .pointsblock .points li:first-child{ padding-top:30px;}
+.beerychristmas_mainblock  .pointsblock .points li:last-child {background:url(../images/beery-christmas/border1.png) repeat-y; padding-bottom:0px;}
+.beerychristmas_mainblock  .pointsblock .points .numberimage{ display:inline-block; padding:0px; margin:0px; border:none; outline:none; text-decoration:none;}
+.beerychristmas_mainblock  .pointsblock .points .point_name{ display:inline-block; padding:0px 0px 0px 10px; margin:0px; border:none; outline:none; text-decoration:none;
+font-family: 'clearfaceheavy'; font-size:24px; line-height:45px;  color:#fefefe;}
+
+.beerychristmas_mainblock .offer_pointsblock .pointsblock .points li:nth-child(2) .numberimage{ margin-left:10px;}
+.beerychristmas_mainblock .offer_pointsblock .pointsblock .points li:nth-child(4) .numberimage{ margin-left:10px;}
+.beerychristmas_mainblock .offer_pointsblock .pointsblock .points li:nth-child(6) .numberimage{ margin-left:10px;}
+.beerychristmas_mainblock .offer_pointsblock .pointsblock .points li:nth-child(8) .numberimage{ margin-left:10px;}
+
+.designby_block{ display:inline-block; padding:0px 0px 0px 35px; margin:0px; border:none; outline:none; float:left; position:absolute; bottom:0px; left:0px;}
+
+.christmas_tree{ display:inline-block; padding:0px; margin:0px; border:none; outline:none; text-decoration:none; width:102px; height:166px;
+background:url(../images/beery-christmas/tree.png) no-repeat; float:right; position:absolute; bottom:-40px; right:0px;}
+.beerychristmas_mainblock .container{ padding-left:0px !important; padding-right:0px !important;}
+
+.beery_logo{ display:inline-block; width:163px; height:57; background:url(../images/beery-christmas/beery_logo.png) no-repeat; border:none; outline:none; text-decoration:none;
+position:absolute; top: 81px;right: -282px; background-size:contain;}
+	
+.beerychristmas_mainblock  .banner_image img.desktop{ display:none !important;}
+.beerychristmas_mainblock  .banner_image img.mobile{ display:inline-block !important;}
+	
+	}

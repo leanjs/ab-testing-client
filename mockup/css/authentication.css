@@ -1,0 +1,24 @@
+.std formfield1 p.error sub{background:url(../images/wrong.png) no-repeat}
+.std formfield1 p.error .textbox_2{border-color:#c90016}
+.std formfield1 p.error .select_1{border-color:#c90016}
+.std formfield1 p.check sub{background:url(../images/check.png) no-repeat;}
+
+
+.gray-block .error label{color:#000}
+.gray-block .error .textbox{border-color:#c90016; width:266px !important}
+.gray-block .error sub{background:url(../images/wrong.png) no-repeat 0 -5px; padding:2px 13px 2px 10px;}
+
+
+.gray-block .check sub{background:url(../images/check.png) no-repeat -8px 0; padding:8px 13px 8px 10px;}
+.gray-block .check .textbox{width:266px !important}
+
+
+
+
+
+
+
+
+
+
+

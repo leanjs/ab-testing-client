@@ -1,0 +1,2303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+<link rel="icon" href="images/fab_icon.ico" type="image/x-icon">
+<title>saveur Biere</title>
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,100,700,500' rel='stylesheet' type='text/css'>
+
+<!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+<script src="js/jquery.min.js"></script>
+<script src="js/ie-emulation-modes-warning.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!--<script src="js/docs.min.js"></script>-->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script src="js/menu.js"></script>
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+<!--------slider----->
+<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+
+<!--  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
+
+<!--------slider----->
+
+<!-----slider2----->
+<link rel="stylesheet" type="text/css" href="css/elastislide.css" />
+<script src="js/modernizr.custom.17475.js"></script>
+<!-----slider2-----[end]---->
+
+<link rel="stylesheet" href="css/swiper.min.css">
+<script type="text/javascript" src="js/fading-tabs.js"></script>
+<link href="css/bootstrap.min.css" rel="stylesheet">
+<link href="css/global.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/beery-christmas.css" rel="stylesheet" type="text/css" media="all" />
+
+<link href="css/sbnew_menu.css" rel="stylesheet" type="text/css" media="all" />
+<link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+
+
+
+
+</head>
+<body>
+
+<header>
+  <div class="top_header">
+    <div class="container">
+      <div class="pull-left">
+        <ul class="left_menu">
+          <li><a href="https://www.saveur-biere.com/fr/content/258-qui-sommes-nous"><strong>Le n°1 de la bière en ligne</strong></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/258-qui-sommes-nous">Le plus grand stock d’Europe</a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">Expédition en 24h</a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">Emballage de qualité</a></li>
+          <li><a href="https://www.saveur-biere.com/fr/contact"><strong>À votre service au 03.20.73.47.76</strong></a></li>
+        </ul>
+      </div>
+      <div class="pull-right" id="header-user">
+        <ul class="right_menu">
+          <li><a href="https://www.saveur-biere.com/fr/mon-compte">Mon compte</a></li>
+          <li><a href="https://www.saveur-biere.com/fr/mon-compte">Se connecter</a></li>
+        </ul>
+      </div>
+      <div class="pull-right lang_block">
+        <ul class="right_menu">
+          <li><a href="" title="English (English)"><span>English</span></a></li>
+          <li><span class="selected_lang">Français</span></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+  <!--<div class="topgreen_banner clearfix">
+    <div class="container">
+      <div class="col-sm-4 clearfix">
+        <div class="left_banner clearfix"><img src="images/topgreen_banne.png" alt="banner"/></div>
+      </div>
+      <div class="col-sm-5 clearfix">
+        <div class="topgreen_textblock">
+          <h2 class="header1">Notre selection de 12 bières OFFERTE </h2>
+          <h2 class="header2">pour toute commande supérieure à 55€ </h2>
+        </div>
+      </div>
+      <div class="col-sm-3 clearfix">
+        <div class="stock_limiteblock">
+          <div class="stock_limite">
+            <div class="imageblock"><img src="images/stock_limite.png" alt="stock limite"/></div>
+            <div class="limite_block">
+              <ul>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li class="color_orange"></li>
+                <li></li>
+                <li></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>-->
+  
+  
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-4 clearfix">
+          <div class="search_block">
+            <div class="responsive_searchbox_button"></div>
+            <div class="nav navbar-nav navbar-form dropdown"> 
+              
+              <!-- Search text box --> 
+              <!-- Block search module TOP --> 
+              <script type="text/javascript">
+	// <![CDATA[
+	
+		$('document').ready( function() {
+			$("#search_query_top")
+				.autocomplete(
+					'https://www.saveur-biere.com/fr/recherche', {
+						minChars: 3,
+						max: 10,
+						width: 500,
+						selectFirst: false,
+						scroll: false,
+						dataType: "json",
+						formatItem: function(data, i, max, value, term) {
+							return value;
+						},
+						parse: function(data) {
+							var mytab = new Array();
+							for (var i = 0; i < data.length; i++)
+								mytab[mytab.length] = { data: data[i], value: data[i].cname + ' > ' + data[i].pname };
+							return mytab;
+						},
+						extraParams: {
+							ajaxSearch: 1,
+							id_lang: 4
+						}
+					}
+				)
+				.result(function(event, data, formatted) {
+					$('#search_query_top').val(data.pname);
+					document.location.href = data.product_link;
+				})
+		});
+	
+	// ]]>
+	</script>
+              <form method="get" action="https://www.saveur-biere.com/fr/recherche" id="searchbox">
+                <input type="hidden" name="controller" value="search" />
+                <input type="hidden" name="orderby" value="position" />
+                <input type="hidden" name="orderway" value="desc" />
+                <input class="form-control search_query" type="text" id="search_query_top" name="search_query" value="" placeholder="Brewdog, Chimay, American IPA…" autofocus autocomplete="off" />
+                <input type="submit" name="submit_search" value="Search" class="search_button" />
+                <input type="submit" name="submit_search" value="GO" class="search_button_responsive" />
+              </form>
+              
+              <!-- /Block search module TOP --> 
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 clearfix">
+          <div class="logo"><a href="https://www.saveur-biere.com/fr/"><img src="https://img.saveur-biere.com/themes/sb3/images/logo.png" alt="logo"></a></div>
+        </div>
+        <div class="col-sm-4 clearfix">
+          <div class="shopping_cart">
+            <div id="cart-top" class="anchorclass topcart cart_top htc scrolldown top1" rel="opencart">
+              <div class="cartbody"> <span>Panier : 0 article</span> </div>
+              <div class="clear"></div>
+            </div>
+            <div class="cart_dropdown_block" lang="showopencart" id="opencart" style="display:none"> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-------menu-------------> 
+  <script src="js/jquery-1.10.2.min.js"></script>
+  <div id="block_top_menu" class="fr_menu">
+    <div class="sbnew_menu">
+      <div class="navbar navbar-default navbar-static-top">
+        <div class="container">
+          <div class="navbar-toggle responsive_menuicon" data-toggle="collapse" data-target=".navbar-collapse"> <a class="navbar-brand" href="#">Menu</a> </div>
+          <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+              <li class="dropdown menu-large bouteilles_menudrop"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Bouteilles<b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="desktop_menushow">
+                    <div class="container">
+                      <div class="row">
+                        <div class="col-sm-4 col-lg-3 clearfix bouteillesresponsive">
+                          <ul class="nav nav-tabs">
+                            <li class="active"><a data-toggle="tab" href="#tabs1">
+                              <div class="map"><img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries1.png"></div>
+                              <span><strong>Toutes les bières !</strong>(1329)</span> </a> </li>
+                            <li><a data-toggle="tab" href="#tabs2">
+                              <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/679.png"></div>
+                              <span><strong>Belgique</strong>(417)</span> </a> </li>
+                            <li><a data-toggle="tab" href="#tabs3">
+                              <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/669.png"></div>
+                              <span><strong>Allemagne</strong>(31)</span> </a> </li>
+                            <li><a data-toggle="tab" href="#tabs4">
+                              <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/701.png"></div>
+                              <span><strong>France</strong>(188)</span> </a> </li>
+                            <li><a data-toggle="tab" href="#tabs5">
+                              <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/697.png"></div>
+                              <span><strong>Etats-Unis</strong>(196)</span> </a></li>
+                            <li><a data-toggle="tab" href="#tabs6">
+                              <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/671.png"></div>
+                              <span><strong>Angleterre</strong>(79)</span> </a></li>
+                            <li><a data-toggle="tab" href="#tabs7">
+                              <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/707.png"></div>
+                              <span><strong>Irlande</strong>(11)</span> </a></li>
+                            <li><a data-toggle="tab" href="#tabs8">
+                              <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/693.png"></div>
+                              <span><strong>Ecosse</strong>(35)</span> </a></li>
+                            <li><a data-toggle="tab" href="#tabs9">
+                              <div class="map"><img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries9.png"></div>
+                              <span><strong>Autres pays</strong>(372)</span> </a></li>
+                          </ul>
+                        </div>
+                        <div class="col-sm-8 col-lg-9 clearfix">
+                          <div class="tab-content">
+                            <div id="tabs1" class="tab-pane fade in active">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blanche</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Verte</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><img src="https://img.saveur-biere.com/img/cms/top-tout.png" alt="Top des ventes de bières"></div>
+                                        <div class="discovery_content_block" id="discovery_block-0">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes de tous les pays</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-0"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/volume_de_la_bouteille-75_cl">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières à partager en format 75cL</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/75cl.png" alt="Bieres 75cl à partager entre amis"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-1"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/nouveau_type-alcohol_free_beer_sans_alcool">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières sans alcool</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/sans-alcool.png" alt="image"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-2"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/nouveau_type-india_pale_ale">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières India Pale Ale</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/ipa.png" alt="Bières IPA : India Pale Ale"></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs2" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text">USA, ils ne brassent pas que la Bud !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Ambrée');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blanche');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blanche</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blonde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Brune');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Noire');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Rubis');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Country of beer', 'All');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic/697-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Tout !</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis"><img src="https://img.saveur-biere.com/img/cms/top-vente-usa.png" alt="Top des ventes des bieres américaines"></a></div>
+                                        <div class="discovery_content_block" id="discovery_block-4">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes des bières Américaines</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-0"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/volume_de_la_bouteille-75_cl">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières à partager en format 75cL</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/75cl.png" alt="Bieres 75cl à partager entre amis"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-1"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/nouveau_type-alcohol_free_beer_sans_alcool">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières sans alcool</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/sans-alcool.png" alt="image"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-2"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/nouveau_type-india_pale_ale">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières India Pale Ale</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/ipa.png" alt="Bières IPA : India Pale Ale"></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs3" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text">Prost avec notre gamme allemande !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Ambrée');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-allemagne">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blanche');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-allemagne">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blanche</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blonde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-allemagne">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Brune');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-allemagne">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Noire');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-allemagne">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Country of beer', 'All');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-allemagne">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic/669-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Tout !</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-allemagne"><img src="https://img.saveur-biere.com/img/cms/top-vente-allemagne-2.png" alt="Top des ventes des bières d'Allemagne"></a></div>
+                                        <div class="discovery_content_block" id="discovery_block-2">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des vente des bières allemandes</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-allemagne" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-6"><a href="https://www.saveur-biere.com/fr/17_weihenstephaner">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Weihenstephaner</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-weihenstephaner.png" alt="Weihenstephaner : hefe-weissbier, vitus..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-7"><a href="https://www.saveur-biere.com/fr/246_paulaner">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Paulaner</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-paulaner.png" alt="Paulaner : hefe weissbier, salvator..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-8"><a href="https://www.saveur-biere.com/fr/726_brasserie-schneider-weisse">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Schneider Weisse</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-schneider.png" alt="Schneider vitus..."></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs4" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text __web-inspector-hide-shortcut__">Le paradis de la bière : la Belgique !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blanche</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Verte</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><img src="https://img.saveur-biere.com/img/cms/top-tout.png" alt="Top des ventes de bières"></div>
+                                        <div class="discovery_content_block" id="discovery_block-0">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes de tous les pays</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-9"><a href="https://www.saveur-biere.com/fr/884_brasserie-saint-germain">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Saint Germain</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-page-24.png" alt="Page 24 : hildegarde, blonde..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-10"><a href="https://www.saveur-biere.com/fr/1076_la-boutique-ardwen">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Ardwen</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-ardwen.png" alt="Ardwen : blonde, hop's cure..."></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs5" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text">USA, ils ne brassent pas que la Bud !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Ambrée');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blanche');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blanche</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blonde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Brune');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Noire');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Rubis');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-etats_unis">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Country of beer', 'All');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic/697-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Tout !</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis"><img src="https://img.saveur-biere.com/img/cms/top-vente-usa.png" alt="Top des ventes des bieres américaines"></a></div>
+                                        <div class="discovery_content_block" id="discovery_block-4">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes des bières Américaines</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-11"><a href="https://www.saveur-biere.com/fr/941_brooklyn-brewery">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Brooklyn</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-brooklyn-brewery.png" alt="Brooklyn Brewery : lager, IPA..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-12"><a href="https://www.saveur-biere.com/fr/813_evil-twin-brewing">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Evil Twin</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-evil-twin.png" alt="Evil Twin : Molotov, Falco, Yin, Yan..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-13"><a href="https://www.saveur-biere.com/fr/433_sierra-nevada-brewing-company">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Sierra Nevada</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-sierra-nevada.png" alt="Sierra Nevada : Torpedo, stout..."></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs6" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text">Les anglaises débarquent !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Ambrée');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-angleterre">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blonde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-angleterre">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Brune');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-angleterre">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Noire');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-angleterre">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Country of beer', 'All');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-angleterre">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic/671-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Tout !</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-angleterre"><img src="https://img.saveur-biere.com/img/cms/top-vente-angleterre.png" alt="Top des ventes des bières anglaises"></a></div>
+                                        <div class="discovery_content_block" id="discovery_block-5">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Le top des bières anglaises</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-angleterre" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-14"><a href="https://www.saveur-biere.com/fr/852_brasserie-thornbridge">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Thornbridge</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-thornbridge.png" alt="Thornbridge : Jaipur, Chiron..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-15"><a href="https://www.saveur-biere.com/fr/815_buxton">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Buxton</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-buxton.png" alt="Buxton : Axe Edge, Ace Edge..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-16"><a href="#">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Adnams</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-adnams.png" alt="Adnams"></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs7" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text">Guinness...et autres irlandaises !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Ambrée');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-irlande">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blonde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-irlande">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Brune');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-irlande">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Noire');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-irlande">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Rubis');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-irlande">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Country of beer', 'All');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-irlande">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic/707-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Tout !</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-irlande"><img src="https://img.saveur-biere.com/img/cms/top-vente-irelande.png" alt="Top des ventes des bières d'Irlance"></a></div>
+                                        <div class="discovery_content_block" id="discovery_block-6">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes des bières irlandaises</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-irlande" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-17"><a href="https://www.saveur-biere.com/fr/763_carlow-brewing-compagny">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie O'Haras</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-oharas.png" alt="O'Haras biere"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-18"><a href="https://www.saveur-biere.com/fr/117_guinness">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Guinness</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-guinness.png" alt="Guinness"></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs8" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <h2 class="header_text">L'écosse ne fait pas que du whisky !</h2>
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Ambrée');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-ecosse">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Ambrée</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Blonde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-ecosse">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Blonde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Brune');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-ecosse">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Brune</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Noire');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-ecosse">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Noire</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Type of beer', 'Rubis');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-ecosse">
+                                          <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                          <div class="text_block">Rubis</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Country of beer', 'All');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ecosse">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic/693-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Tout !</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ecosse"><img src="https://img.saveur-biere.com/img/cms/top-vente-ecosse.png" alt="Top des ventes des bières d'Ecosse"></a></div>
+                                        <div class="discovery_content_block" id="discovery_block-7">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes des bières écossaises</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ecosse" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-19"><a href="https://www.saveur-biere.com/fr/611_brewdog-brewery">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Brewdog</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-brewdog.png" alt="Brewdog : Punk IPA, Jack Hammer..."></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-20"><a href="https://www.saveur-biere.com/fr/1005_traquair-house">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Traquair</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-traquair.png" alt="Traquair"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-21"><a href="https://www.saveur-biere.com/fr/984_harviestoun">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">BOUTIQUE</h5>
+                                            <h2 class="titel">Brasserie Harviestoun</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/logo-harviestoun.png" alt="Harviestoun"></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div id="tabs9" class="tab-pane fade">
+                              <div class="row">
+                                <div class="col-sm-12 col-lg-8 clearfix">
+                                  <div class="slider_box">
+                                    <div class="box_main">
+                                      <ul class="list">
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Argentine');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-argentine">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/673-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Argentine</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Australie ');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-australie">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/675-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Australie </div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Autriche');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-autriche">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/677-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Autriche</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Brésil');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-bresil">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/681-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Brésil</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Cameroun');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-cameroun">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/683-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Cameroun</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Canada');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-canada">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/685-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Canada</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Chine');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-chine">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/687-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Chine</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Cuba');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-cuba">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/689-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Cuba</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Danemark');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-danemark">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/691-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Danemark</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Espagne');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-espagne">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/695-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Espagne</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Finlande');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-finlande">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/699-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Finlande</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Hollande');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-hollande">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/703-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Hollande</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Inde');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-inde">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/705-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Inde</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Jamaïque');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-jamaique">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/709-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Jamaïque</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Japon');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-japon">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/711-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Japon</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Madagascar');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-madagascar">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/713-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Madagascar</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Mexique');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-mexique">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/715-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Mexique</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Pologne');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-pologne">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/717-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Pologne</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Polynésie');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-polynesie">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/719-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Polynésie</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Portugal');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-portugal">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/721-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Portugal</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'République tchèque');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-republique_tcheque">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/723-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">République tchèque</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Sénégal');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-senegal">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/725-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Sénégal</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Thaïlande');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-thailande">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/727-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Thaïlande</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Togo');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-togo">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/729-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Togo</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Singapour');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-singapour">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/3705-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Singapour</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Ukraine');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ukraine">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/3766-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Ukraine</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Kenya');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-kenya">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/3785-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Kenya</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Israël');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-israel">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/3794-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Israël</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Luxembourg');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-luxembourg">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/3798-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Luxembourg</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Pérou');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-perou">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/72713-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Pérou</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Népal');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-nepal">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/72732-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Népal</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Russie');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-russie">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/73632-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Russie</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Afrique du sud');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-afrique_du_sud">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/73633-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Afrique du sud</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Maroc');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-maroc">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/76685-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Maroc</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Corée du Sud');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-coree_du_sud">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/76686-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Corée du Sud</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Estonie');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-estonie">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/76703-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Estonie</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Grèce');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-grece">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/76704-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Grèce</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Croatie');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-croatie">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/76705-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Croatie</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Islande');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-islande">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/76707-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Islande</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'île Maurice');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ile_maurice">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/81642-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">île Maurice</div>
+                                          </a> </li>
+                                        <li class="col-sm-3 clearfix"> <a onclick="bnClick.handleOnclick1('lvl1 – click – Bottled beer – Beer country', 'Suède');" href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-suede">
+                                          <div class="image_block"> <span> <img src="https://img.saveur-biere.com/img/features/country_round_pic2/83236-big.png" width="60" height="60"> </span> </div>
+                                          <div class="text_block">Suède</div>
+                                          </a> </li>
+                                      </ul>
+                                      <div class="discovery_selection_block">
+                                        <div class="discovery_image_block"><img src="https://img.saveur-biere.com/img/cms/top-tout.png" alt="Top des ventes de bières"></div>
+                                        <div class="discovery_content_block" id="discovery_block-8">
+                                          <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                          <div class="titel">Top des ventes de tous les pays</div>
+                                          <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="col-sm-12 col-lg-4 clearfix menu_right_block">
+                                  <div class="pushs_block">
+                                    <ul class="pushs_list">
+                                      <li id="push_list-22"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/nouveau_type-gluteen_free_sans_gluten">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières sans gluten</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/sans-gluten.png" alt="Biere sans gluten"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-23"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/saison-vieillie_en_fut">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières vieillies en fût</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/vieillie.png" alt="Biere vieillie en fut"></div>
+                                        </div>
+                                        </a></li>
+                                      <li id="push_list-24"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/saison-trappiste">
+                                        <div class="box">
+                                          <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières Trappistes</h2>
+                                          </div>
+                                          <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/trappistes.png" alt="Bieres Trappistes : Orval, Chimay..."></div>
+                                        </div>
+                                        </a></li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="responsive_menushow">
+                    <ul class="nav nav-tabs countries_list menulist">
+                      <li class="nav"> <a href="#tabs1" data-toggle="tab" id="country_tab_1" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries1.png"> </div>
+                        <span> <strong>Toutes les bières !</strong> (1389) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blanche</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                            <div class="text_block">Rubis</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                            <div class="text_block">Verte</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs2" data-toggle="tab" id="country_tab_2" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/679.png"> </div>
+                        <span> <strong>Belgique</strong> (417) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blanche</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                            <div class="text_block">Rubis</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-belgique">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/679-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs3" data-toggle="tab" id="country_tab_3" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/669.png"> </div>
+                        <span> <strong>Allemagne</strong> (46) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-allemagne">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-allemagne">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blanche</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-allemagne">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-allemagne">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-allemagne">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-allemagne">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/669-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs4" data-toggle="tab" id="country_tab_4" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/701.png"> </div>
+                        <span> <strong>France</strong> (189) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blanche</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                            <div class="text_block">Rubis</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                            <div class="text_block">Verte</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-france">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/701-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs5" data-toggle="tab" id="country_tab_5" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/697.png"> </div>
+                        <span> <strong>Etats-Unis</strong> (201) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blanche</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                            <div class="text_block">Rubis</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/697-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs6" data-toggle="tab" id="country_tab_6" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/671.png"> </div>
+                        <span> <strong>Angleterre</strong> (80) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-angleterre">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-angleterre">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-angleterre">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-angleterre">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-angleterre">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/671-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs7" data-toggle="tab" id="country_tab_7" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/707.png"> </div>
+                        <span> <strong>Irlande</strong> (11) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-irlande">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-irlande">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-irlande">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-irlande">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-irlande">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                            <div class="text_block">Rubis</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-irlande">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/707-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs8" data-toggle="tab" id="country_tab_8" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/693.png"> </div>
+                        <span> <strong>Ecosse</strong> (35) </span> </a>
+                        <ul class="list" style="display:none">
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-ecosse">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                            <div class="text_block">Ambrée</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-ecosse">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                            <div class="text_block">Blonde</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-ecosse">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                            <div class="text_block">Brune</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-ecosse">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                            <div class="text_block">Noire</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-ecosse">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                            <div class="text_block">Rubis</div>
+                            </a> </li>
+                          <li> <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ecosse">
+                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/693-big.png" width="60" height="60"></span></div>
+                            <div class="text_block">Tout !</div>
+                            </a> </li>
+                        </ul>
+                      </li>
+                      <li class="nav"> <a href="#tabs9" data-toggle="tab" id="country_tab_9" class="responsivetablink">
+                        <div class="map"> <img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries9.png"> </div>
+                        <span> <strong>Autres pays</strong> (410) </span> </a>
+                        <ul class="list" style="display:none">
+                        </ul>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown menu-large"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Fûts <b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="desktop_menushow">
+                    <div class="container">
+                      <div class="col-sm-9 clearfix menu_left_block">
+                        <div class="futs_block">
+                          <ul class="futs_list">
+                            <li id="fut-item-0">
+                              <div class="futs_box">
+                                <div class="futs_image_block"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-6l_perfectdraft"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_image1.png" alt="futs_image"></a></div>
+                                <div class="futs_text_block">
+                                  <div class="band_liter_size">Fûts de 6L</div>
+                                  <div class="name">Perfectdraft</div>
+                                  <p>Franziskaner, Leffe, Hoegaarden, Jupiler, Stella Artois…</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-6l_perfectdraft" class="see_drums_button">Voir les fûts</a></div>
+                              </div>
+                            </li>
+                            <li id="fut-item-1">
+                              <div class="futs_box">
+                                <div class="futs_image_block"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_beertender"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_image2.png" alt="futs_image"></a></div>
+                                <div class="futs_text_block">
+                                  <div class="band_liter_size">Fûts de 5L</div>
+                                  <div class="name">Beertender</div>
+                                  <p>Heineken, Affligem, Pelforth, Desperados...</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_beertender" class="see_drums_button">Voir les fûts</a></div>
+                              </div>
+                            </li>
+                            <li id="fut-item-2">
+                              <div class="futs_box">
+                                <div class="futs_image_block"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_standard"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_image3.png" alt="futs_image"></a></div>
+                                <div class="futs_text_block">
+                                  <div class="band_liter_size">Fûts DE 5L</div>
+                                  <div class="name">Standards</div>
+                                  <p>Bitburger, Franziskaner, Page 24, Krombacher, Bracine, Weed...</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_standard" class="see_drums_button">Voir les fûts</a></div>
+                              </div>
+                            </li>
+                            <li id="fut-item-3">
+                              <div class="futs_box">
+                                <div class="futs_image_block"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_fontaine_avec_pression_integree"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_image4.png" alt="futs_image"></a></div>
+                                <div class="futs_text_block">
+                                  <div class="band_liter_size">Fûts de 5L</div>
+                                  <div class="name">Pression Intégrée</div>
+                                  <p>Cuvée des Trolls, Délirium, Page 24, Goudale...</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_fontaine_avec_pression_integree" class="see_drums_button">Voir les fûts</a></div>
+                              </div>
+                            </li>
+                            <li id="fut-item-4">
+                              <div class="list_block">
+                                <div class="header_text">Selon votre pompe à bière :</div>
+                                <ul class="links">
+                                  <li></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_beertender" id="fut-item-list-a-0">Beertender</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-6l_perfectdraft" id="fut-item-list-a-1">Perfectdraft</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/futs-tireuse/multi-beer/" id="fut-item-list-a-2">Multi Beer</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/futs-tireuse/bierbox/" id="fut-item-list-a-3">Bierbox</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_beertender" id="fut-item-list-a-4">Naelia</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/futs-tireuse/yoo-digital-beer-draft/" id="fut-item-list-a-5">Yoo Digital Beerdraft</a></li>
+                                </ul>
+                                <div style="margin-top: -10px;" class="dropfield">
+                                  <label>Autres tireuses</label>
+                                  <select onchange="redirecturl2();" id="secondsubmenu" class="select_field">
+                                    <option value="">--Choisir--</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/yoo-digital-beer-draft/">Beerdraft Rouge</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/beertender-b70/">Beertender B70</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/beertender-b80/">Beertender B80</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/beertender-b90-vb-5020-fr/">Beertender B90</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/beertender-b95-vb-5120-fr/">Beertender B95</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/bierbox/">Bierbox</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-a-biere-biermaxx-argent/">BierMaxx Argent</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-a-biere-biermaxx-chromee/">BierMaxx Chromée</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/biermaxx-cool-fresh/">BierMaxx Cool Fresh</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-a-biere-biermaxx-rouge/">BierMaxx Rouge</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/bomann/">Bomann</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-a-biere-fagor-pres-05/">Brandt Fagor PRES-05</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/clatronic/">Clatronic</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/domoclip/">Domoclip</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/ezetil/">Ezetil</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/harper-d53/">Harper D53</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/inoxchrom-pi-5176f/">Inoxchrom PI 5176F</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/minea-minipub-66/">Minea MiniPub 66</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/mobicool/">Mobicool</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/multi-beer/">Multi Beer Evolution</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/multidraft/">Multidraft</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-top-cooler-dsi/">Pack Top Cooler DSI + Fût Anosteke 5L + Lot 10 cartouches</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-top-cooler-dsi/">Pack Top Cooler DSI + Fût Bitburger 5L + Lot 10 cartouches</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-top-cooler-dsi/">Pack Top Cooler DSI + Fût Meteor Pils 5L + Lot 10 cartouches</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/perfectdraft-hd-3610/">Perfectdraft HD 3610</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/perfectdraft-hd-3620/">Perfectdraft HD 3620</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/pompe-manuelle-pour-keykeg/">Pompe manuelle Keykeg</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/princess-beer-tap-cooler/">Princess Beer Tap &amp; Cooler</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/russell-ho-pro-3-futs-blonde-co2/">Russell Ho. PRO + 3 fûts Blonde + CO2</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/russell-ho-thermo-3-futs-or-co2/">Russell Ho. THERMO + 3 fûts Or + CO2</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/russell-hobbs-pro/">Russell Hobbs PRO</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/russell-hobbs-thermo/">Russell Hobbs THERMO</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/simeo-pf-182/">Siméo PF 182</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/simeo-pf-187/">Siméo PF 187</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/sophalys/">Sophalys</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/taurus-top-beer/">Taurus Top Beer</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tirage-pression-de-poche/">Tirage Pression de poche</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-morphy-richards-zapf-profi/">Tireuse Morphy Richards - Zapf Profi</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/top-cooler-dsi/">Top Cooler DSI</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/tireuse-top-cooler-dsi/">Top Cooler DSI</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/vaova/">Vaova</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/waeco/">Waeco</option>
+                                    <option value="https://www.saveur-biere.com/fr/futs-tireuse/wunderbar/">Wunderbar</option>
+                                  </select>
+                                </div>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 clearfix menu_right_block">
+                        <div class="pushs_block">
+                          <ul class="pushs_list">
+                            <li id="push_list-25"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">OFFRE SPÉCIALE</h5>
+                                  <h2 class="titel">3 fûts livrés chez vous pour 4,90€</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_1.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-26"><a href="https://www.saveur-biere.com/fr/content/141-retour-des-consignes">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">CONSIGNE</h5>
+                                  <h2 class="titel">Consigne gratuite + 5€ par fût !</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_2.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-27"><a href="https://www.saveur-biere.com/fr/43-cartouches-de-co2">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">PENSEZ-Y !</h5>
+                                  <h2 class="titel">Cartouches de CO2 &amp; accessoires</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_3.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="responsive_menushow">
+                    <ul class="menulist">
+                      <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-6l_perfectdraft">Fûts de 6L Perfectdraft</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_beertender">Fûts de 5L Beertender</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_standard">Fûts de 5L standards</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-5l_systeme_pression_integree_spi">Fûts de 5L pression Intégrée</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/content/141-retour-des-consignes">Renvoi des fûts 6L Perfectdraft</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/43-cartouches-de-co2">Cartouche C02</a></li>
+                    </ul>
+                  </li>
+                  
+                   
+                </ul>
+              </li>
+              <li class="dropdown menu-large"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Tireuses <b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="desktop_menushow">
+                    <div class="container">
+                      <div class="col-sm-9 clearfix menu_left_block">
+                        <div class="tireuses_block">
+                          <ul class="tireuses_list">
+                            <li>
+                              <div class="tireuses_box">
+                                <div class="tireuses_image_block"><a href="https://www.saveur-biere.com/fr/tireuse-a-biere/678-perfectdraft-hd-3620.html"><img src="https://img.saveur-biere.com/themes/sb3/images/tireuses_image1.png" alt="futs_image"></a></div>
+                                <div class="tireuses_text_block">
+                                  <div class="band_liter_size">La tireuse <br>
+                                    de référence !</div>
+                                  <div class="name">Perfectdraft</div>
+                                  <p>Accepte les fûts de 6L : Leffe, Hoegaarden, Jupiler, Stella Artois...<a href="https://www.saveur-biere.com/fr/4-fut-de-biere/type_de_fut-6l_perfectdraft">et plus de 15 fûts compatibles</a></p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/tireuse-a-biere/678-perfectdraft-hd-3620.html" class="see_drums_button">Voir la tireuse</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="tireuses_box">
+                                <div class="tireuses_image_block"><a href="https://www.saveur-biere.com/fr/tireuse-a-biere/731-tirage-pression-de-poche.html"><img src="https://img.saveur-biere.com/themes/sb3/images/tireuses_image3.png" alt="futs_image"></a></div>
+                                <div class="tireuses_text_block">
+                                  <div class="band_liter_size">La tireuse pression <br>
+                                    à emporter partout !</div>
+                                  <div class="name">Tirage de poche</div>
+                                  <p>Accepte les fûts de 5L Standards &amp; SPI : Bitburger, Franziskaner, Page24... <a href="https://www.saveur-biere.com/fr/futs-tireuse/tirage-pression-de-poche/"> et plus de 25 fûts compatibles</a></p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/tireuse-a-biere/731-tirage-pression-de-poche.html" class="see_drums_button">Voir lA TIREUSE</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="tireuses_box">
+                                <div class="tireuses_image_block"><a href="https://www.saveur-biere.com/fr/508-tireuse-a-biere-professionnelle"><img src="https://img.saveur-biere.com/img/cms/tireuse-pro.png" alt="tireuse pro" style="margin-left:-30px; margin-top:25px; margin-bottom:-20px; width:190px; margin-right:0px;;"></a></div>
+                                <div class="tireuses_text_block">
+                                  <div class="band_liter_size">Equipez-vous comme<br>
+                                    un professionnel !</div>
+                                  <div class="name">Tireuse pro</div>
+                                  <p>Tirage compact avec refroidissement à sec ou <br>
+                                    à eau</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/508-tireuse-a-biere-professionnelle" class="see_drums_button">Voir la gamme</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="tireuses_box menulist">
+                                <div class="header_text">Et aussi :</div>
+                                <ul class="links" style="clear: both;display: block; list-style: outside none none;margin: 0;padding: 0;">
+                                  <li> <a href="https://www.saveur-biere.com/fr/517-tete-de-soutirage">Tête de soutirage</a></li>
+                                  <li> <a href="https://www.saveur-biere.com/fr/516-nettoyage-tirage-pression">Nettoyage et entretien</a></li>
+                                  <li> <a href="https://www.saveur-biere.com/fr/520-detendeurs-et-bouteilles-de-gaz">Détendeurs et bouteilles de gaz</a></li>
+                                  <li> <a href="https://www.saveur-biere.com/fr/522-tuyaux-et-raccords">Tuyaux et raccords</a></li>
+                                  <li> <a href="https://www.saveur-biere.com/fr/519-robinets-et-colonnes">Robinets et colonnes</a></li>
+                                  <li> <a href="https://www.saveur-biere.com/fr/521-egouttoirs-et-accessoires-de-bar">Egouttoirs et rinces-verres</a></li>
+                                  <li> <a href="https://www.saveur-biere.com/fr/523-pieces-detachees">Pièces détachées</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 clearfix menu_right_block">
+                        <div class="pushs_block">
+                          <ul class="pushs_list">
+                            <li id="push_list-28"><a href="https://www.saveur-biere.com/fr/4-fut-de-biere">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">OFFRE SPÉCIALE</h5>
+                                  <h2 class="titel">3 fûts livrés chez vous pour 4,90€</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_1.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-29"><a href="https://www.saveur-biere.com/fr/content/141-retour-des-consignes">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">CONSIGNE</h5>
+                                  <h2 class="titel">Consigne gratuite + 5€ par fût !</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_2.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-30"><a href="https://www.saveur-biere.com/fr/43-cartouches-de-co2">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">PENSEZ-Y !</h5>
+                                  <h2 class="titel">Cartouches de CO2 &amp; accessoires</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/futs_3.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="responsive_menushow">
+                    <ul class="menulist">
+                      <li><a href="https://www.saveur-biere.com/fr/tireuse-a-biere/678-perfectdraft-hd-3620.html">Perfect Draft</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/recherche-beertender">Beertender</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/tireuse-a-biere/731-tirage-pression-de-poche.html">Tirage de poche</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/508-tireuse-a-biere-professionnelle">Tireuses professionnelles</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/5-tireuse-a-biere">Toutes les tireuses</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown menu-large"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Verres<b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="desktop_menushow">
+                    <div class="container">
+                      <div class="col-sm-9 clearfix menu_left_block">
+                        <div class="row">
+                          <div class="verres_block">
+                            <div class="col-sm-3 clearfix">
+                              <div class="list_block">
+                                <div class="header_text">Plus de 300 verres de marques !</div>
+                                <ul class="links">
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/fabricant-abbaye_d_affligem">Affligem</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/fabricant-abbaye_de_chimay">Chimay</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/fabricant-brasserie_d_achouffe">Chouffe</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/recherche-verre-heineken">Heineken</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/fabricant-duvel">Duvel</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/fabricant-guinness">Guinness</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/fabricant-abbaye_de_grimbergen">Grimbergen</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/recherche-verre-leffe">Leffe</a></li>
+                                </ul>
+                                <div class="all_list_block"><a href="https://www.saveur-biere.com/fr/6-verres-a-biere" class="all_button"><span>TOUS !</span></a></div>
+                              </div>
+                            </div>
+                            <div class="col-sm-9 clearfix">
+                              <ul class="verres_prodact_list">
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_geant">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/img/cms/geant.png" alt="Verre format géant"></div>
+                                    <div class="verres_titel_block">Géant <span>(jusqu’à 3L)</span></div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_original">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/img/cms/original.png" alt="Verre format original"></div>
+                                    <div class="verres_titel_block">Original</div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_chope">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_forms/chope.png" alt="Verre de type chope à bière"></div>
+                                    <div class="verres_titel_block">Chope</div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_calice">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_forms/calice.png" alt="Verre format Calice"></div>
+                                    <div class="verres_titel_block">Calice</div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_ballon">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_forms/ballon.png" alt="Verre à bière de type ballon"></div>
+                                    <div class="verres_titel_block">Ballon</div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_tulipe">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_forms/tulipe.png" alt="Verre à bière de type tulipe"></div>
+                                    <div class="verres_titel_block">Tulipe</div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_pied_plat">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_forms/pied_plat.png" alt="Verre à pied plat"></div>
+                                    <div class="verres_titel_block">Pied Plat</div>
+                                  </div>
+                                  </a></li>
+                                <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_flute">
+                                  <div class="box">
+                                    <div class="verres_image_block"><img src="https://img.saveur-biere.com/img/cms/flute-2.png" alt="Verre format flûte"></div>
+                                    <div class="verres_titel_block">Flûte</div>
+                                  </div>
+                                  </a></li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 clearfix menu_right_block">
+                        <div class="pushs_block">
+                          <ul class="pushs_list">
+                            <li id="push_list-0"><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/operation-meilleures_ventes">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">IDÉES CADEAUX</h5>
+                                  <h2 class="titel">Une sélection de verres à offrir</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_right1.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-1"><a href="https://www.saveur-biere.com/fr/982_verre-a-biere-neutre">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">SÉLECTION</h5>
+                                  <h2 class="titel">Un choix de verres sans logo</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_right2.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-2"><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/price-1-5">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">PREMIERS PRIX</h5>
+                                  <h2 class="titel">Des verres à moins de 5€</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/glass_right3.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="responsive_menushow">
+                    <ul class="menulist">
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere">Voir toute la gamme</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/982_verre-a-biere-neutre">Verres neutres</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_geant">Grand format</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_original">Original</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_chope">Chope</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_calice">Calice</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_ballon">Ballon</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_tulipe">Tulipe</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_pied_plat">Pied plat</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-format_flute">Flûte</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown menu-large"> <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Coffrets & cadeaux<b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="desktop_menushow">
+                    <div class="container">
+                      <div class="col-sm-9 clearfix menu_left_block">
+                        <div class="coffrets_block">
+                          <ul class="coffrets_list">
+                            <li>
+                              <div class="coffrets_box">
+                                <div class="coffrets_image_block"><a href="https://www.saveur-biere.com/fr/70-assortiments-de-bieres"><img src="https://img.saveur-biere.com/themes/sb3/images/coffrets_image1.png" alt="futs_image"></a></div>
+                                <div class="coffrets_text_block">
+                                  <div class="name">Assortiments découverte</div>
+                                  <p>Des sélections de 12 bouteilles prêtes-à-offrir et confectionnées pour toutes les envies et budgets !</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/70-assortiments-de-bieres" class="see_drums_button">VOIR TOUS</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="coffrets_box">
+                                <div class="coffrets_image_block"><a href="https://www.saveur-biere.com/fr/33-coffret-en-bois-verres-et-bieres"><img src="https://img.saveur-biere.com/themes/sb3/images/coffrets_image2.png" alt="futs_image"></a></div>
+                                <div class="coffrets_text_block">
+                                  <div class="name">Coffrets Saveur Bière</div>
+                                  <p>Dans des jolis boîtes en bois, offrez le plaisir de déguster l'une de nos sélections incluant bières et bouteilles !</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/33-coffret-en-bois-verres-et-bieres" class="see_drums_button">VOIR TOUS</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="coffrets_box">
+                                <div class="coffrets_image_block"><a href="https://www.saveur-biere.com/fr/71-coffrets-cadeaux-verre-et-biere"><img src="https://img.saveur-biere.com/themes/sb3/images/coffrets_image3.png" alt="coffrets_image"></a></div>
+                                <div class="coffrets_text_block">
+                                  <div class="name">Coffrets de marque</div>
+                                  <p>Kwak, Karmeliet, Cuvée des Trolls, Duvel, Chimay...plus de 30 jolis coffrets comprenant verres et bouteilles !</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/71-coffrets-cadeaux-verre-et-biere" class="see_drums_button">VOIR TOUS</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="coffrets_box">
+                                <div class="coffrets_image_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/volume_de_la_bouteille-15_l-3_l"><img src="https://img.saveur-biere.com/themes/sb3/images/coffrets_image4.png" alt="coffrets_image"></a></div>
+                                <div class="coffrets_text_block">
+                                  <div class="name">Bouteilles exceptionnelles</div>
+                                  <p>Chimay, Triple Karmeliet, St Feuillien, Duvel... Offrez un magnum (1,5L) ou jéroboam (3L) à partager ! </p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/volume_de_la_bouteille-15_l-3_l" class="see_drums_button">VOIR TOUS</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="list_block">
+                                <div class="header_text">Et aussi :</div>
+                                <ul class="links">
+                                  <li><a href="https://www.saveur-biere.com/fr/494-beer-kit">Beer kit </a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/accessoires-et-cadeaux/7320-xii-pack-selection-rugby.html">XII Pack Rugby </a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/coffrets-cadeaux-verre-et-biere/3650-beery-christmas-le-calendrier-de-l-avent-de-la-biere.html">Beery Christmas </a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/75-cheque-cadeaux">Chèques cadeaux</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/6-verres-a-biere/forme_du_verre_a_biere-forme_original">Verres originaux</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/biere-magazine/193-abonnement-biere-magazine-1-an.html">Bière Magazine</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/60-serviettes-tapis-de-bar">Tapis de bar</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/461-plateaux-de-bar">Plateaux de bar</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/28-plaques-publicitaires">Plaques pub</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 clearfix menu_right_block">
+                        <div class="pushs_block">
+                          <ul class="pushs_list">
+                            <li id="push_list-9"><a href="https://www.saveur-biere.com/fr/abonnement-biere" target="_blank">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">SAVEUR BOX</h5>
+                                  <h2 class="titel">Abonnez-vous et recevez vos bières chez vous !</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/coffrets_right1.png" alt="Abonnement Biere"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-10"><a href="https://www.saveur-biere.com/fr/biere-magazine/193-abonnement-biere-magazine-1-an.html#">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">ABONNEMENT</h5>
+                                  <h2 class="titel">Bière magazine, la référence des amateurs !</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/coffrets_right2.png" alt="Bieres Magazine"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-11"><a href="https://www.saveur-biere.com/fr/75-cheque-cadeaux">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">IDÉE CADEAU</h5>
+                                  <h2 class="titel">Les chèques cadeaux : 10€, 50€ ou 100€</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/cartes-cadeaux.png" alt="Cheques cadeaux"></div>
+                              </div>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="responsive_menushow">
+                    <ul class="menulist">
+                      <li><a href="https://www.saveur-biere.com/fr/70-assortiments-de-bieres">Assortiments découverte</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/33-coffret-en-bois-verres-et-bieres">Coffrets Saveur Bière</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/71-coffrets-cadeaux-verre-et-biere">Coffrets de marque</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/volume_de_la_bouteille-15_l-3_l">Bouteilles exceptionnelles</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="dropdown menu-large"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">Brassage<b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu row">
+                  <li class="desktop_menushow">
+                    <div class="container">
+                      <div class="col-sm-9 clearfix menu_left_block">
+                        <div class="brewing_block">
+                          <ul class="brewing_list">
+                            <li>
+                              <div class="brewing_box">
+                                <div class="brewing_image_block"><a style="margin-left:-25px;" href="https://www.saveur-biere.com/fr/497-kit-de-brassage"><img src="https://media.saveur-biere.com/3955-17492-thickbox/kit-de-brassage-confirme.jpg" alt="futs_image" height="200px" width="200px"></a></div>
+                                <div class="brewing_text_block">
+                                  <div class="name">Sets de démarrage</div>
+                                  <p>Tout le matériel pour votre 1er brassage. A compléter avec les kits des matières premières</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/497-kit-de-brassage" class="see_drums_button">Tous les sets</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="brewing_box">
+                                <div class="brewing_image_block"><a href="https://www.saveur-biere.com/fr/495-kit-de-biere"><img src="https://img.saveur-biere.com/themes/sb3/images/brewing2.png" alt="futs_image"></a></div>
+                                <div class="brewing_text_block">
+                                  <div class="name">Kits à bière</div>
+                                  <p>Brassez votre 1ère bière facilement avec plus de 80 recettes à tester.</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/495-kit-de-biere" class="see_drums_button">Tous les kits</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="brewing_box">
+                                <div class="brewing_image_block"><a href="https://www.saveur-biere.com/fr/503-fermentation-de-la-biere"><img src="https://img.saveur-biere.com/themes/sb3/images/6453-17857-product_img_sb32.png" alt="futs_image" style="width: 100%;"></a></div>
+                                <div class="brewing_text_block">
+                                  <div class="name">Fermentation</div>
+                                  <p>A partir de 12L, droit au conique, tout pour fermenter votre bière.</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/503-fermentation-de-la-biere" class="see_drums_button">Tout le matériel</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="brewing_box">
+                                <div class="brewing_image_block"><a href="https://www.saveur-biere.com/fr/498-embouteiller-sa-biere"><img src="https://img.saveur-biere.com/themes/sb3/images/brewing3.png" alt="brewing_image"></a></div>
+                                <div class="brewing_text_block">
+                                  <div class="name">Embouteillage</div>
+                                  <p>Mettez votre bière en bouteilles : capsules, bouchons mécaniques, dames-jeannes etc.</p>
+                                </div>
+                                <div class="see_drums"><a href="https://www.saveur-biere.com/fr/498-embouteiller-sa-biere" class="see_drums_button">Tout le matériel</a></div>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="list_block">
+                                <div class="header_text">Et aussi :</div>
+                                <ul class="links">
+                                  <li><a href="https://www.saveur-biere.com/fr/524-malts">Malts</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/518-houblons">Houblons</a> </li>
+                                  <li><a href="https://www.saveur-biere.com/fr/526-levures-pour-fermentation">Levures</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/532-additifs-brassage">Additifs de brassage</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/500-kits-tout-grain">Kits recette tous grains</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/505-produits-de-nettoyage">Produits de nettoyage</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/504-outils-de-mesure">Outils de mesures</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/510-accessoires-du-brasseur">Equipement de brassage</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/501-livres-de-brassage">Livres de brassage</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/499-dames-jeannes">Dames-jeannes</a></li>
+                                  <li><a href="https://www.saveur-biere.com/fr/content/394-decouvrons-comment-brasser-votre-biere">Brasseurs
+                                    débutants, consultez notre FAQ !</a></li>
+                                </ul>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-sm-3 clearfix menu_right_block">
+                        <div class="pushs_block">
+                          <ul class="pushs_list">
+                            <li id="push_list-12"><a href="https://www.saveur-biere.com/fr/494-beer-kit" target="_blank">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">IDÉE CADEAU</h5>
+                                  <h2 class="titel">Découvrez le Beer Kit</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/brewing_right1.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li id="push_list-13"><a href="https://www.saveur-biere.com/fr/495-kit-de-biere">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">BRAUMEISTER</h5>
+                                  <h2 class="titel">Cuves de brassage automatisées</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/brewing_right2.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                            <li ><a target="_blank" href="https://www.bieresdumonde.fr/">
+                              <div class="box">
+                                <div class="text_block">
+                                  <h5 class="sub_block">A VISITER</h5>
+                                  <h2 class="titel">Notre site spécial brassage</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/themes/sb3/images/brewing_right3.png" alt="image"></div>
+                              </div>
+                              </a></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="responsive_menushow">
+                    <ul class="menulist">
+                      <li><a href="https://www.saveur-biere.com/fr/497-kit-de-brassage">Sets
+                        de démarrage</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/495-kit-de-biere">Kits
+                        à bière</a></li>
+                      <li><a href="https://www.saveur-biere.com/fr/498-embouteiller-sa-biere">Embouteillage</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu-large"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Abonnement</a></li>
+              <li class="menu-large color_red"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Nouveautés</a></li>
+              
+              <!------responsiv_only------->
+              <li class="menu-large add_mobile_menu"> <a href="https://www.saveur-biere.com/fr/mon-compte">Mon compte</a> </li>
+              
+              <li class="dropdown menu-large add_mobile_menu"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Informations et aide<b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu">
+                	 <li><a href="https://www.saveur-biere.com/fr/contact">Contact us</a></li>
+                     <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">Shipping conditions</a></li>
+                     <li><a href="https://www.saveur-biere.com/fr/content/3-conditions-generales-de-vente">Sales conditions</a></li>
+                     <li><a href="https://www.saveur-biere.com/fr/content/21-foire-aux-questions">Frequent questions</a></li>
+                </ul>
+             </li>
+             <li class="dropdown menu-large add_mobile_menu"> <a href="javascript:void(0)" class="dropdown-toggle" data-toggle="dropdown">Interdrinks<b class="caret"></b> </a>
+                <ul class="dropdown-menu megamenu">
+                	 <li><a href="https://www.saveur-biere.com/fr/content/258-qui-sommes-nous">About us</a></li>
+                     <li><a href="https://www.saveur-biere.com/fr/content/257-equipe-saveur-bierecom-au-service-du-client-">The team</a></li>
+                     <li><a href="https://www.saveur-biere.com/fr/content/16-recrutement-stage-et-offre-d-emploi">Recruitment</a></li>
+                     <li><a href="https://www.saveur-biere.com/fr/content/15-saveur-bierecom-edite-par-interdrinks">Legal mentions</a></li>
+                </ul>
+             </li>
+			 <li class="dropdown menu-large add_mobile_menu"><a href="tel:+33320734776">Service client <span>03.20.73.47.76</span></a></li>
+             <li class="dropdown menu-large add_mobile_menu"><a title="English (English)" href="http://www.saveur-biere.com/en/"> <span> English</span></a></li>
+             <li class="dropdown menu-large add_mobile_menu"><span class="selected_lang"> Français</span> </li>
+              
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script type="text/javascript">
+jQuery(document).ready(function(){
+    $(".dropdown").hover(
+        function() { $('.dropdown-menu', this).stop().fadeIn("fast");
+        },
+        function() { $('.dropdown-menu', this).stop().fadeOut("fast");
+    });
+});
+	</script> 
+  <!---------menu-----------> 
+</header>
+
+
+
+
+
+
+
+<div class="beerychristmas_mainblock clearfix">
+	<div class="container">
+            <div class="banner_text"><h1 class="header">Le Calendrier de l’Avent de la Bière</h1></div>
+            <div class="banner_image">
+            <img src="images/beery-christmas/mobile_banner.png" class="desktop" alt=""/>
+            <img src="images/beery-christmas/mapping_mobile.png" class="mobile" alt=""/>
+            
+            	<div class="beery_logo"></div>
+            	 <div class="round">
+                 	<div class="text">
+                        <span>68,90€</span>
+                        Livraison offerte <br>en point relais
+                    </div>
+                </div>
+            </div>
+    
+    		<div class="offerlimited_headerblock clearfix">
+                <div class="offer_roundtext"><span class="text">Offre Limitée</span></div>
+                <div class="text_block">
+                    <h2 class="header">Inclus le Tasting Pack</h2>
+                    <p>2 verres de dégustation, décapsuleur, tapis de bar, sous-bock !</p>
+                </div>
+        </div>
+            
+            <div class="pointsblock">
+                	<ul class="points">
+                    	<li><span class="numberimage"><img src="images/beery-christmas/24.png" alt=""/></span>
+                          <h1 class="point_name">Brasseries artisanales</h1>
+                        </li>
+                        <li><span class="numberimage"><img src="images/beery-christmas/18.png" alt=""/></span>
+                          <h1 class="point_name">Styles différents</h1>
+                        </li>
+                        <li><span class="numberimage"><img src="images/beery-christmas/17.png" alt=""/></span>
+                          <h1 class="point_name">Pays, 3 continents</h1>
+                        </li>
+                        <li><span class="numberimage"><img src="images/beery-christmas/12.png" alt=""/></span>
+                          <h1 class="point_name">Bières exclusives</h1>
+                        </li>
+                        
+                    </ul>
+                </div>
+                
+            <div class="designby_block">
+                	<div class="designby_logo"><img src="images/beery-christmas/design_by.png" alt=""/></div>
+              </div>
+              
+            <div class="christmas_tree"></div>
+    
+   </div> 
+    
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------footer----------->
+
+<div class="reassurance_block">
+  <div class="container">
+    <ul class="reassurance_list">
+      <li class="col-xs-6 col-sm-3 col-lg-3 clearfix"> <a href="#">
+        <div class="reassurance_box">
+          <div class="images_block"><img src="https://img.saveur-biere.com/themes/sb3/images/reassurance1.png"></div>
+          <p>Le plus grand choix sur Internet</p>
+        </div>
+        </a> </li>
+      <li class="col-xs-6 col-sm-3 col-lg-3 clearfix"> <a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">
+        <div class="reassurance_box">
+          <div class="images_block"><img src="https://img.saveur-biere.com/themes/sb3/images/reassurance2-4.png"></div>
+          <p>Expédition rapide &amp; anti-casse</p>
+        </div>
+        </a> </li>
+      <li class="col-xs-6 col-sm-3 col-lg-3 clearfix"> <a href="https://www.ekomi.fr/avis-clients-wwwsaveur-bierecom.html" target="_blank">
+        <div class="reassurance_box">
+          <div class="images_block"><img src="https://img.saveur-biere.com/themes/sb3/images/reassurance3.png"></div>
+          <p>Nos clients nous adorent</p>
+        </div>
+        </a> </li>
+      <li class="col-xs-6 col-sm-3 col-lg-3 clearfix"> <a href="https://www.saveur-biere.com/fr/club-saveur-biere?catid=17">
+        <div class="reassurance_box">
+          <div class="images_block"><img src="https://img.saveur-biere.com/themes/sb3/images/reassurance4.png"></div>
+          <p>Votre fidélité récompensée</p>
+        </div>
+        </a> </li>
+    </ul>
+  </div>
+</div>
+<footer>
+  <div class="container">
+    <div class="followus_block">
+      <div class="col-sm-3 clearfix">
+        <div class="box customer_service"> <span class="header">Service client</span>
+          <p>On est là pour vous aider ! 
+            Par téléphone au<a href="tel:+33320734776"><strong> +33 (0)3.20.73.47.76</strong></a> du lundi au vendredi de 9h30 à 18h00</p>
+          <a href="https://www.saveur-biere.com/fr/contact">
+          <div class="enail_template">Contactez-nous par e-mail</div>
+          </a> </div>
+      </div>
+      <div class="col-sm-6 clearfix">
+        <div class="box newsletter"> <span class="header">NEWSLETTER</span>
+          <p>Distrayante, alléchante, recevez la newsletter la plus houblonnée du web toutes les semaines !</p>
+          <span id="msg_text_success"></span> <span id="msg_text"></span>
+          <div class="newsletter_form">
+            <input type="text" class="newsletter_field" placeholder="Votre adresse e-mail" name="newsletterfooter" id="newsletterfooter">
+            <input type="hidden" value="1" name="site_shop_id_for_newsletter" id="site_shop_id_for_newsletter">
+            <input type="hidden" value="4" name="site_id_lang_for_newsletter" id="site_id_lang_for_newsletter">
+            <input type="button" value="M'INSCRIRE !" class="newsletter_submit_button" name="submitNewsletter" id="newsletterfooterok">
+            <input type="button" value="Ok" class="newsletter_submit_button responsive_fixed">
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 clearfix">
+        <div class="box findus"> <span class="header">Suivez nous</span>
+          <ul class="findus_list">
+            <li class="findus_facebook"><a href="https://www.facebook.com/SaveurBiere" target="_blank"><i class="icon"></i><span>Facebook</span></a></li>
+            <li class="findus_instagram"><a href="https://instagram.com/saveurbiere/" target="_blank"><i class="icon"></i><span>Instagram</span></a></li>
+            <li class="findus_twitter"><a href="https://twitter.com/SaveurBiere" target="_blank"><i class="icon"></i><span>Twitter</span></a></li>
+            <li class="findus_ratebeer"><a href="http://www.ratebeer.com/p/saveur-bierecom/25062/" target="_blank"><i class="icon"></i><span>Ratebeer</span></a></li>
+            <li class="findus_ratebeer"><a href="https://www.saveur-biere.com/fr/content/186-les-notes-ratebeer"><i class="icon"></i><span>Qu'est ce que RateBeer ?</span></a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="home_checkout_block"> <span class="header">DÉCOUVREZ AUSSI</span>
+      <ul class="home_checkout">
+        <li class="col-xs-12 col-sm-4 col-lg-12 clearfix"> <a href="https://www.bieresdumonde.fr/">
+          <div class="homecheckout_box">
+            <div class="logo_block"><img src="https://img.saveur-biere.com/themes/sb3/images/homecheckout_logo1.png" alt="checkout_logo"></div>
+            <p>Tout pour brasser<br>
+              et servir la bière</p>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="clear"></div>
+    <div class="connections_block">
+      <div class="col-sm-4 clearfix">
+        <div class="box info"> <span class="header">A propos</span>
+          <ul class="connections_list">
+            <li><a href="https://www.saveur-biere.com/fr/content/258-qui-sommes-nous">Qui sommes-nous ?</a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/257-equipe-saveur-bierecom-au-service-du-client-">L'équipe</a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/16-recrutement-stage-et-offre-d-emploi">Recrutement</a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/15-saveur-bierecom-edite-par-interdrinks">Mentions légales</a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/334-saveur-biere-le-drive">Saveur Bière, le Drive</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-sm-4 clearfix"> <a href="http://www.interdrinks.fr/fr/" target="_blank">
+        <div class="box interdrinks">
+          <div class="interdrinks_box">
+            <div class="logo_block"><img src="https://img.saveur-biere.com/themes/sb3/images/interdrinks_logo.png" alt="checkout_logo"></div>
+            <p>Notre offre destinée aux <br>
+              professionnels et revendeurs (Cave à bière, GMS...)</p>
+          </div>
+        </div>
+        </a> </div>
+      <div class="col-sm-4 clearfix">
+        <div class="box interdrinks_group"> <span class="header">Service client</span>
+          <ul class="connections_list">
+            <li><a href="https://www.saveur-biere.com/fr/contact">Nous contacter</a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">Conditions de livraison </a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/3-conditions-generales-de-vente">Conditions générales de vente</a></li>
+            <li><a href="https://www.saveur-biere.com/fr/content/21-foire-aux-questions">Questions fréquentes</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="clear"></div>
+    <div class="payment_delivery_logos">
+      <div class="payment_logos">
+        <p>Modes de paiement :</p>
+        <ul class="logo_list">
+          <li><a href="https://www.saveur-biere.com/fr/content/5-paiement-securise"><img src="https://img.saveur-biere.com/themes/sb3/images/payment_logos1.jpg" alt="payment_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/5-paiement-securise"><img src="https://img.saveur-biere.com/themes/sb3/images/payment_logos2.jpg" alt="payment_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/5-paiement-securise"><img src="https://img.saveur-biere.com/themes/sb3/images/payment_logos3.jpg" alt="payment_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/5-paiement-securise"><img src="https://img.saveur-biere.com/themes/sb3/images/payment_logos4.jpg" alt="payment_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/5-paiement-securise"><img src="https://img.saveur-biere.com/themes/sb3/images/payment_logos5.jpg" alt="payment_logo"></a></li>
+        </ul>
+      </div>
+      <div class="delivery_logos">
+        <p>Modes de livraison :</p>
+        <ul class="logo_list">
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison"><img src="https://img.saveur-biere.com/themes/sb3/images/delivery_logos1.png" alt="delivery_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison"><img src="https://img.saveur-biere.com/themes/sb3/images/delivery_logos2.png" alt="delivery_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison"><img src="https://img.saveur-biere.com/themes/sb3/images/delivery_logos3.png" alt="delivery_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison"><img src="https://img.saveur-biere.com/themes/sb3/images/delivery_logos4.png" alt="delivery_logo"></a></li>
+          <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison"><img src="https://img.saveur-biere.com/themes/sb3/images/delivery_logos5b.png" alt="delivery_logo"></a></li>
+        </ul>
+      </div>
+      <div class="clear"></div>
+    </div>
+    <div class="footer_flagsblock">
+      <ul class="footer_flaglink">
+        <li><a href="https://www.saveur-biere.co.uk/">
+          <div class="footer_flag">
+            <div class="icon"><img src="https://img.saveur-biere.com/themes/sb3/images/icon/flags_icon1.png" alt="checkout_logo"></div>
+            <div class="text">Saveur Bière United Kingdom </div>
+          </div>
+          </a> </li>
+        <li><a href="https://www.saveur-biere.de/">
+          <div class="footer_flag">
+            <div class="icon"><img src="https://img.saveur-biere.com/themes/sb3/images/icon/flags_icon2.png" alt="checkout_logo"></div>
+            <div class="text">Saveur Bière Germany</div>
+          </div>
+          </a> </li>
+        <li><a href="https://www.saveur-biere.nl/">
+          <div class="footer_flag">
+            <div class="icon"><img src="https://img.saveur-biere.com/themes/sb3/images/icon/flags_icon3.png" alt="checkout_logo"></div>
+            <div class="text">Saveur Bière Netherlands</div>
+          </div>
+          </a> </li>
+        <li><a href="https://www.saveur-biere.be/">
+          <div class="footer_flag">
+            <div class="icon"><img src="https://img.saveur-biere.com/themes/sb3/images/icon/flags_icon4.png" alt="checkout_logo"></div>
+            <div class="text">Saveur Bière Belgium </div>
+          </div>
+          </a> </li>
+        <li><a href="https://www.saveur-biere.com/fr/">
+          <div class="footer_flag">
+            <div class="icon"><img src="https://img.saveur-biere.com/themes/sb3/images/icon/flags_icon5.png" alt="checkout_logo"></div>
+            <div class="text">Saveur Bière France </div>
+          </div>
+          </a> </li>
+        <li><a href="https://www.saveur-biere.com/en/">
+          <div class="footer_flag">
+            <div class="icon"><img src="https://img.saveur-biere.com/themes/sb3/images/icon/flags_icon6.png" alt="checkout_logo"></div>
+            <div class="text">Saveur Bière Europe</div>
+          </div>
+          </a> </li>
+      </ul>
+    </div>
+    <div class="imprint_block">
+      <p><span id="docs-internal-guid-9a91d8d2-4da8-de29-06ea-d3206622b4bc">Saveur Bière, leader français sur le marché de la bière en ligne, proposant des bières bouteilles, des tireuses à bière, des verres à bière, des fûts et des coffrets de bières, est composé d’une équipe jeune et dynamique avec une seule priorité : la satisfaction des clients. Pour y parvenir, nous nous efforçons de vous offrir un service de qualité, d’être toujours à votre écoute et de vous dénicher de nouvelles bières introuvables en France et plus excellentes les unes que les autres. Véritables spécialistes en bières, en brasseries et dans leurs domaines de compétences, nos membres se démènent chaque jour en logistique, achat/vente, service client et informatique pour faciliter et transformer votre expérience d’achat en réel plaisir.</span></p>
+    </div>
+    <div class="clear"></div>
+    <div class="copyright_block">
+      <div class="copyright_header_text">L’abus d’alcool est dangereux pour la santé, à consommer avec modération. <br>
+        <br>
+        <p>La consommation d’alcool est vivement déconseillée aux femmes enceintes. La vente d'alcool à des mineurs de moins de 18 ans est interdite<br>
+          En accédant à nos offres, vous déclarez avoir 18 ans révolus.</p>
+      </div>
+      <div class="copyright_text">InterDrinks, Lille, France • <a href="http://www.toucouleur.fr/" target="_blank">Un site Toucouleur</a></div>
+    </div>
+  </div>
+</footer>
+
+
+
+</body>
+</html>

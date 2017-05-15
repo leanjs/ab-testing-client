@@ -1,0 +1,39 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*.headersection .searchbody form{margin:-15px 0 0 0;}*/
+.bottomfields .links h4 img{margin:0; padding:0; float:left}
+.blackcart .leftcorner span{filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.7071067811865483, M12=0.7071067811865467, M21=-0.7071067811865467, M22=0.7071067811865483,SizingMethod='auto expand');}
+.invitation .invitation-fields p .redbutton{width:135px; padding:0; text-align:center;}
+.product-unavailable p.field .textbox_1{margin-bottom:0}
+.product-unavailable p.field .black-button{width:150px;}
+
+.product-lists{min-height:413px !important}
+.brandslist{min-height:124px; !important}
+
+
+.bannerbody .bannersection .slider{float:none;overflow:hidden;}
+
+.whitebody .boxcontainer .tabs{float:none;}
+.whitebody .boxcontainer .tabs li, .whitebody .boxcontainer .tabs li a{width:250px;}
+
+#new_account_form{
+clear:both;
+float:left;
+}
+
+#new_account_form input, #new_account_form select{
+	float:left;
+}
+
+#opc_account_form{
+clear:both;
+}
+
+.order-payment-name div form{
+	float:left !important;
+}
+
+.right5 .productlist_1 ul li{
+	float:left;
+}

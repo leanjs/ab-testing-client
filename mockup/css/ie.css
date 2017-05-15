@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+.htc, .navigation table tr td.last a, .graybtn_1, .graphicsimg a.bubble, .be2bil_fields, .order_info_be2bil .textfield, .orange-button, #referralprogram, .graybtn1, .graybox_2, .blackgdblock, .more, .cmslisting ul li .block, .select_1, .textbox_2, .voucherbody ul li, .select_field, .largebtn, .textarea1, .textbox, .searchbox, .navigation table tr td.homeicon a, .select, .graybtn, .addtocart, .red-button, .commentsblock ul li .block, .textarea{
+behavior: url(./themes/default/js/PIE.htc); height:auto
+}
+
+.addtocart1{font-size:13px;}
+.slider .pagination li a{font-weight:bold}
+.bottomfield .red-button{width:100px; font-size:12px}
+.submenuright .right p span{}
+.iconlinks ul li a{}
+.blackcart .leftcorner span{top:0}

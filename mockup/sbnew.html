@@ -1,0 +1,1757 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/fab_icon.ico" type="image/x-icon">
+    <title>saveur Biere</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,700,500' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/docs.min.js"></script>-->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/myscript.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--------slider----->
+    	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
+<!--  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
+ 
+    <!--------slider----->
+
+    
+    <script type="text/javascript" src="js/fading-tabs.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/saveurboxnew.css" rel="stylesheet" type="text/css" media="all" />
+     
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css" rel="stylesheet" type="text/css" media="all" />
+    
+     <link rel="stylesheet" href="css/jquery-ui.css">
+	 <script src="js/jquery-ui.js"></script>
+     
+     <script type="text/javascript" src="js/accordion.js"></script>
+    
+  </head>
+  <body>
+  
+
+<header>
+	<div class="top_header">
+    	<div class="container">
+        	<div class="pull-left">
+                <ul class="left_menu">
+                    <li><a href="javascript:void(0)">Le n°1 de la bière en ligne</a></li>
+                    <li><a href="javascript:void(0)">Le plus grand stock d’Europe</a></li>
+                    <li><a href="javascript:void(0)">Expédition en 24h</a></li>
+                    <li><a href="javascript:void(0)">Emballage de qualité</a></li>
+                    <li><a href="javascript:void(0)">À votre service au 03 20 73 47 76 </a></li>
+                </ul>
+            </div>
+            <div class="pull-right">
+                <ul class="right_menu">
+                    <li><a href="javascript:void(0)">In english</a></li>
+                    <li><a href="javascript:void(0)">Mon compte</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="header">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-sm-4 clearfix">
+                	<div class="search_block">
+                    	<div class="nav navbar-nav navbar-form dropdown">
+                            <!-- Search text box -->
+                            <input id="search_input" data-toggle="dropdown" type="text" class="form-control" placeholder="Brewdog, Chimay, American IPA…" 
+                            autofocus="autofocus" autocomplete="off" onkeyup="checkTextField();" />
+                            <!-- Search results styled as a dropdown menu -->
+                            <ul class="dropdown-menu" role="menu">
+                            	<li><a href="javascript:void(0)">Bouteilles / <strong>Chimay</strong> Rouge</a></li>
+                                <li><a href="javascript:void(0)">Bouteilles / <strong>Chimay</strong> Triple</a></li>
+                                <li><a href="javascript:void(0)">Bouteilles / <strong>Chimay</strong> Bleue</a></li>
+                                <li><a href="javascript:void(0)">Bouteilles / <strong>Chimay</strong> Grande Réserve 2…</a></li>
+                                <li><a href="javascript:void(0)">Bouteilles / <strong>Chimay</strong> Cinq Cents 75cl</a></li>
+                                <li><a href="javascript:void(0)">Bouteilles / Magnum <strong>Chimay</strong> Grande R…</a></li>
+                                <li><a href="javascript:void(0)">Bouteilles / <strong>Chimay</strong> Rouge Première 7…</a></li>
+                                <li><a href="javascript:void(0)">Coffrets & cadeaux / Coffret <strong>Chimay</strong> G…</a></li>
+                                <li><a href="javascript:void(0)">Coffrets & cadeaux / Coffret Trilogie <strong>C…</strong></a></li>
+                            </ul>
+                            <input type="submit" class="search_button">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 clearfix">
+                	<div class="logo"><a href="index.html"><img src="images/logo.png" alt="logo"></a></div>
+                </div>
+                <div class="col-sm-4 clearfix">
+                	<div class="shopping_cart">
+                                <a href="" title="View my shopping cart" rel="nofollow">
+                                    <b>Mon panier :</b>
+                                    <div class="panier_responsive_text">PANIER </div>
+                                    <span class="ajax_cart_quantity">(99)</span>
+                                    <span class="ajax_cart_product_txt">Product</span>
+                                    <span class="ajax_cart_product_txt_s unvisible" style="display: none;">Products</span>
+                                    <span class="ajax_cart_total" style="display: inline;">999,99€</span>
+                                    <span class="ajax_cart_no_product unvisible" style="display: none;">(empty)</span>
+                                </a>
+                                <div class="cart_block block exclusive" style="display: none;">
+                                            
+                                        <div class="block_content">
+                                            <!-- block list of products -->
+                                            <div class="cart_block_list">
+                                                <dl class="products">
+                                                        <dt  class="first_item last_item">
+                                                        
+                                                              <a class="cart-images" href="#" title="Blouse">
+                                                              <img src="http://fo.demo.prestashop.com/7-cart_default/blouse.jpg" alt="Blouse"></a>
+                                                              <div class="cart-info">
+                                                                   <div class="product-name">
+                                                                        <span class="quantity-formated">
+                                                                            <span class="quantity">1</span>
+                                                                            &nbsp;x&nbsp;
+                                                                        </span>
+                                                                        <a class="cart_block_product_name" href="#" title="Blouse">Blouse</a>
+                                                                  </div>
+                                                                   <div class="product-atributes">
+                                                                      <a href="#" title="Product detail">S, Black</a>
+                                                                   </div>
+                                                                   <span class="price" > $27.00</span>
+                                                                   
+                                                             </div>
+                                                              <span class="remove_link">
+                                                                    <a class="ajax_cart_block_remove_link" href="#" rel="nofollow" title="remove this product from my cart">&nbsp;</a>
+                                                              </span>
+                                                         </dt>
+                                                         
+                                                        <dd class="first_item"></dd>
+                                                  </dl>
+                                                <p class="cart_block_no_products unvisible">No products</p>
+                                                <div class="cart-prices">
+                                                    <div class="cart-prices-line first-line">
+                                                        <span class="price cart_block_shipping_cost ajax_cart_shipping_cost">$7.00</span>
+                                                        <span>Shipping</span>
+                                                    </div>
+                                                    <div class="cart-prices-line last-line">
+                                                        <span class="price cart_block_total ajax_block_cart_total">$34.00</span>
+                                                        <span>Total</span>
+                                                    </div>
+                                                </div>
+                                                <p class="cart-buttons">
+                                                    <a id="button_order_cart" class="btn btn-default button button-small" href="#" title="Check out" rel="nofollow">
+                                                        <span>Check out<i class="icon-chevron-right right"></i></span>
+                                                    </a>
+                                                </p>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                    </div>
+                                <!-- .cart_block -->
+					</div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div id="block_top_menu">
+    		<div class="container">
+            	<div class="responsive_menu_icon"><span>MENU</span></div>
+                    <ul class="menumain">
+                        <li class="menudroparow bouteilles_menudrop"><a href="javascript:void(0)" title="Dresses">Bouteilles</a>
+                        	<div class="submenu bouteilles_submenu">
+                            	<div class="container">
+                                	<div class="col-sm-9 clearfix menu_left_block" >
+                                        <div class="row">
+                                        <div class="col-sm-4 clearfix">
+                                            <div class="nav_countries">
+                                                <ul class="countries_list">
+                                                    <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries1.png"></div>
+                                                        <span><strong>Toutes les bières !</strong> (1271)</span></a>
+                                                     </li>
+                                                        
+                                                    <li class="active"><a href="#">
+                                                        <div class="map"><img src="images/nav_countries2.png"></div>
+                                                        <span><strong>Belgique</strong> (496)</span></a>
+                                                   </li>
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries3.png"></div>
+                                                        <span><strong>Allemagne</strong> (58)</span></a>
+                                                   </li>
+                                                   
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries4.png"></div>
+                                                        <span><strong>France</strong> (174)</span></a>
+                                                   </li>
+                                                   
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries5.png"></div>
+                                                        <span><strong>États-unis</strong> (87)</span></a>
+                                                   </li>
+                                                   
+                                                  
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries6.png"></div>
+                                                        <span><strong>Angleterre</strong> (82)</span></a>
+                                                   </li>
+                                                   
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries7.png"></div>
+                                                        <span><strong>Irelande</strong> (22)</span></a>
+                                                   </li>
+                                                   
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries8.png"></div>
+                                                        <span><strong>Écosse</strong> (52)</span></a>
+                                                   </li>
+                                                   
+                                                   <li><a href="#">
+                                                        <div class="map"><img src="images/nav_countries9.png"></div>
+                                                        <span><strong>Autres pays</strong> (224)</span></a>
+                                                   </li>
+                                                   
+                                                   
+                                                   
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-sm-8 clearfix">
+                                            <div class="slider_box">
+                                                <div class="box_main">
+                                                    <h2 class="header_text">Vive la Belgique !</h2>
+                                                    <ul class="list">
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box1.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Blanches</div>
+                                                        </a></li>
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box2.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Blondes</div>
+                                                        </a></li>
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box3.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Ambrées</div>
+                                                        </a></li>
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box4.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Brunes</div>
+                                                        </a></li>
+                                                        
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box5.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Noires</div>
+                                                        </a></li>
+                                                        
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box6.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Rouges</div>
+                                                        </a></li>
+                                                        
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box7.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Vertes</div>
+                                                        </a></li>
+                                                        
+                                                        <li><a href="#">
+                                                            <div class="image_block"><span><img src="images/slider_box8.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Toutes !</div>
+                                                        </a></li>
+                                                        
+                                                    </ul>
+                                                    
+                                                    
+                                                  <div class="discovery_selection_block">
+                                                        <div class="discovery_image_block"><img src="images/discovery_image1.png" alt="discovery_image"></div>
+                                                        <div class="discovery_content_block">
+                                                            <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                                            <h1 class="titel">Le top des bières belges</h1>
+                                                            <div class="link_block">
+                                                                <a href="#" class="link_button">DÉCOUVRIR LA SÉLECTION</a>
+                                                            </div>
+                                                        </div>
+                                                  </div>
+                                                    
+                                                </div>
+                                            </div>
+                                        </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-3 clearfix menu_right_block">
+            						<div class="pushs_block">
+                                    	<ul class="pushs_list">
+                                        	<li><a href="javascript:void(0)">
+                                            	<div class="box">
+                                                	<div class="text_block">
+                                                    	<h5 class="sub_block">BOUTIQUE</h5>
+                                                        <h2 class="titel">Chimay</h2>
+                                                    </div>
+                                                    <div class="image_block"><img src="images/pushs1.png" alt="image"></div>
+                                                </div>
+                                             	</a>
+                                            </li>
+                                            
+                                            <li><a href="javascript:void(0)">
+                                            	<div class="box">
+                                                	<div class="text_block">
+                                                    	<h5 class="sub_block">BOUTIQUE</h5>
+                                                        <h2 class="titel">Brasserie Dupont</h2>
+                                                    </div>
+                                                    <div class="image_block"><img src="images/pushs2.png" alt="image"></div>
+                                                </div>
+                                             	</a>
+                                            </li>
+                                            
+                                            <li><a href="javascript:void(0)">
+                                            	<div class="box">
+                                                	<div class="text_block">
+                                                    	<h5 class="sub_block">BOUTIQUE</h5>
+                                                        <h2 class="titel">Brasserie Emelisse</h2>
+                                                    </div>
+                                                    <div class="image_block"><img src="images/pushs3.png" alt="image"></div>
+                                                </div>
+                                             	</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    </div>
+                                    
+                                    
+                                    
+                               </div>
+                			</div>
+                        </li>
+                        <li class="menudroparow futs_menudrop"><a href="javascript:void(0)" title="Dresses">Fûts</a>
+                          <div class="submenu futs_submenu">
+                            	<div class="container">
+                                   <div class="col-sm-9 clearfix menu_left_block">
+                                    	<div class="futs_block">
+                                        	<ul class="futs_list">
+                                            	<li>
+                                                	<div class="futs_box">
+                                                    	<div class="futs_image_block"><img src="images/futs_image1.png" alt="futs_image"></div>
+                                                        <div class="futs_text_block">
+                                                            <div class="band_liter_size">Fûts DE 6L</div>
+                                                            <div class="name">Perfectdraft</div>
+                                                            <p>Franziskaner, Leffe,
+                                                            Hoegaarden, Jupiler,
+                                                            Stella Artois…</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir les fûts</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="futs_box">
+                                                    	<div class="futs_image_block"><img src="images/futs_image2.png" alt="futs_image"></div>
+                                                        <div class="futs_text_block">
+                                                            <div class="band_liter_size">Fûts DE 5L</div>
+                                                            <div class="name">Beertender</div>
+                                                            <p>Heineken, Affligem,
+                                                            Pelforth, Desperados, Sagres...</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir les fûts</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="futs_box">
+                                                    	<div class="futs_image_block"><img src="images/futs_image3.png" alt="futs_image"></div>
+                                                        <div class="futs_text_block">
+                                                            <div class="band_liter_size">Fûts DE 5L</div>
+                                                            <div class="name">Standards</div>
+                                                            <p>Bitburger, Franziskaner,
+                                                            Page24, Krombacher,
+                                                            Bracine, Weed...</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir les fûts</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="futs_box">
+                                                    	<div class="futs_image_block"><img src="images/futs_image4.png" alt="futs_image"></div>
+                                                            <div class="futs_text_block">
+                                                            <div class="band_liter_size">Fûts DE 5L</div>
+                                                            <div class="name">Pression Intégrée</div>
+                                                            <p>Bitburger, Franziskaner,
+                                                            Page24, Krombacher…</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir les fûts</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="list_block">
+                                                        <div class="header_text">Selon votre pompe à bière :</div>
+                                                        <ul class="links">
+                                                        	<li><a href="javascript:void(0)">Beerdraft</a></li>
+                                                            <li><a href="javascript:void(0)">Bierbox</a></li>
+                                                            <li><a href="javascript:void(0)">Biermaxx</a></li>
+                                                            <li><a href="javascript:void(0)">Siméo</a></li>
+                                                            <li><a href="javascript:void(0)">Top Cooler DSI</a></li>
+                                                            <li><a href="javascript:void(0)">Beer Supreme</a></li>
+                                                            <li><a href="javascript:void(0)">Morphy Richards</a></li>
+                                                            <li><a href="javascript:void(0)">Sophalys</a></li>
+                                                        </ul> 
+                                                    </div>
+                                                </li>
+                                                
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="col-sm-3 clearfix menu_right_block">
+                                        <div class="pushs_block">
+                                            <ul class="pushs_list">
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">OFFRE SPÉCIALE</h5>
+                                                            <h2 class="titel">3 fûts livrés chez vous pour 4,90€</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/futs_1.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">CONSIGNE</h5>
+                                                            <h2 class="titel">Consigne gratuite + 5€ par fût !</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/futs_2.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">PENSEZ-Y !</h5>
+                                                            <h2 class="titel">Cartouches de CO2 & accessoires</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/futs_3.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                               </div>
+                			</div>
+                        </li>
+                        <li class="menudroparow tireuses_menudrop"><a href="javascript:void(0)" title="Tireuses">Tireuses</a>
+                        	<div class="submenu tireuses_submenu">
+                            	<div class="container">
+                                    <div class="col-sm-9 clearfix menu_left_block">
+                                    	<div class="tireuses_block">
+                                        	<ul class="tireuses_list">
+                                            	<li>
+                                                	<div class="tireuses_box">
+                                                    	<div class="tireuses_image_block"><img src="images/tireuses_image1.png" alt="futs_image"></div>
+                                                        <div class="tireuses_text_block">
+                                                            <div class="band_liter_size">La tireuse <br>de référence !</div>
+                                                            <div class="name">Perfect Draft</div>
+                                                           <p> Accepte les fûts de 6L :
+                                                            Franziskaner, Leffe,
+                                                            Hoegaarden, Jupiler,
+                                                            Stella Artois… <a href="#">et plus de 20 fûts compatibles</a></p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir lA TIREUSE</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="tireuses_box">
+                                                    	<div class="tireuses_image_block"><img src="images/tireuses_image2.png" alt="futs_image"></div>
+                                                        <div class="tireuses_text_block">
+                                                            <div class="band_liter_size">La tireuse qui accepte <br>tous les fûts !</div>
+                                                            <div class="name">Multi-beer</div>
+                                                           <p> Accepte tous les fûts :
+                                                            Heineken, Affligem,
+                                                            Pelforth, Desperados,
+                                                            Krombacher...  <a href="#">et plus de 50 fûts compatibles</a></p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir lA TIREUSE</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="tireuses_box">
+                                                    	<div class="tireuses_image_block"><img src="images/tireuses_image3.png" alt="futs_image"></div>
+                                                        <div class="tireuses_text_block">
+                                                            <div class="band_liter_size">La tireuse pression <br>à emporter partout !</div>
+                                                            <div class="name">Transportable</div>
+                                                           <p> Accepte les fûts de 5L Standards & SPI : Bitburger, Franziskaner, Page24... <a href="#"> et plus de 20 fûts compatibles</a></p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir lA TIREUSE</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="tireuses_box">
+                                                    	<div class="tireuses_image_block"><img src="images/tireuses_image4.png" alt="futs_image"></div>
+                                                        <div class="tireuses_text_block">
+                                                            <div class="band_liter_size">10 AUTRES MODÈLES <br>À TOUS LES PRIX !</div>
+                                                            <div class="name">Et aussi…</div>
+                                                           <p> Beertender, Princess Beer, Naelia, Simeo, Yoo Digital, Top Cooler DSI…</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">Voir lA TIREUSE</a></div>
+                                                    </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 clearfix menu_right_block">
+                                        <div class="pushs_block">
+                                            <ul class="pushs_list">
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">OFFRE SPÉCIALE</h5>
+                                                            <h2 class="titel">3 fûts livrés chez vous pour 4,90€</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/futs_1.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">CONSIGNE</h5>
+                                                            <h2 class="titel">Consigne gratuite + 5€ par fût !</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/futs_2.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">PENSEZ-Y !</h5>
+                                                            <h2 class="titel">Cartouches de CO2 & accessoires</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/futs_3.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                               </div>
+                			</div>
+                        </li>
+                        <li class="menudroparow verres_menudrop"><a href="javascript:void(0)" title="Verres">Verres</a>
+                          <div class="submenu verres_submenu">
+                            	<div class="container">
+                                    <div class="col-sm-9 clearfix menu_left_block">
+                                    	<div class="row">
+                                        	<div class="verres_block">
+                                        	   <div class="col-sm-3 clearfix">
+                                             		<div class="list_block">
+                                                        <div class="header_text">Plus de 300 verres de marques !</div>
+                                                        <ul class="links">
+                                                        	<li><a href="javascript:void(0)">Affligem</a></li>
+                                                            <li><a href="javascript:void(0)">Chimay</a></li>
+                                                            <li><a href="javascript:void(0)">Chouffe</a></li>
+                                                            <li><a href="javascript:void(0)">De Molen</a></li>
+                                                            <li><a href="javascript:void(0)">Duvel</a></li>
+                                                            <li><a href="javascript:void(0)">Guinness</a></li>
+                                                            <li><a href="javascript:void(0)">Grimbergen</a></li>
+                                                            <li><a href="javascript:void(0)">Heineken</a></li>
+                                                        </ul> 
+                                                        
+                                                        <div class="all_list_block"><a href="#" class="all_button"><span>TOUS !</span></a></div>
+                                                        
+                                                    </div>
+                                             </div>
+                                               <div class="col-sm-9 clearfix">
+                                             	<ul class="verres_prodact_list">
+                                                	<li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Géant <span>(jusqu’à 3L)</span></div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Original</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Chope</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Calice</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Ballon</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Tulipe</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Pied Plat</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                    
+                                                    <li><a href="javascript:void(0)">
+                                                    	<div class="box">
+                                                        	<div class="verres_image_block"><img src="images/gless_1.png" alt="glass"></div>
+                                                            <div class="verres_titel_block">Coupe & Flûte</div>
+                                                        </div>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                             </div>
+                                            </div>	
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 clearfix menu_right_block">
+                                        <div class="pushs_block">
+                                            <ul class="pushs_list">
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">IDÉES CADEAUX</h5>
+                                                            <h2 class="titel">Une sélection de verres à offrir</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/glass_right1.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">SÉLECTION</h5>
+                                                            <h2 class="titel">Un choix de verres sans logo</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/glass_right2.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">PREMIERS PRIX</h5>
+                                                            <h2 class="titel">Des verres à moins de 5€</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/glass_right3.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                               </div>
+                			</div>
+                        </li>
+                        <li class="menudroparow coffrets_menudrop"><a href="javascript:void(0)" title="Coffrets & cadeaux">Coffrets & cadeaux</a>
+                        	<div class="submenu coffrets_submenu">
+                            	<div class="container">
+                                    <div class="col-sm-9 clearfix menu_left_block">
+                                    	<div class="coffrets_block">
+                                        	<ul class="coffrets_list">
+                                            	<li>
+                                                	<div class="coffrets_box">
+                                                    	<div class="coffrets_image_block"><img src="images/coffrets_image1.png" alt="futs_image"></div>
+                                                        <div class="coffrets_text_block">
+                                                            <div class="name">Assortiments découverte</div>
+                                                            <p>Des sélections
+                                                            prêtes-à-offrir
+                                                            confectionnées pour toutes les envies et budgets</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">VOIR TOUS</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="coffrets_box">
+                                                    	<div class="coffrets_image_block"><img src="images/coffrets_image2.png" alt="futs_image"></div>
+                                                        <div class="coffrets_text_block">
+                                                            <div class="name">Coffrets Saveur Bière</div>
+                                                            <p>Dans des paniers
+                                                            ou de jolies boites en bois, offrez le plaisir
+                                                            de déguster</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">VOIR TOUS</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="coffrets_box">
+                                                    	<div class="coffrets_image_block"><img src="images/coffrets_image3.png" alt="coffrets_image"></div>
+                                                        <div class="coffrets_text_block">
+                                                            <div class="name">Coffrets de marque</div>
+                                                            <p>Bitburger, Franziskaner,
+                                                            Page24, Krombacher,
+                                                            Bracine, Weed...</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">VOIR TOUS</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="coffrets_box">
+                                                    	<div class="coffrets_image_block"><img src="images/coffrets_image4.png" alt="coffrets_image"></div>
+                                                            <div class="coffrets_text_block">
+                                                            <div class="name">Bouteilles exceptionnelles</div>
+                                                            <p>Bitburger, Franziskaner,
+															Page24, Krombacher…</p>
+                                                        </div>
+                                                        <div class="see_drums"><a href="javascript:void(0)" class="see_drums_button">VOIR TOUS</a></div>
+                                                    </div>
+                                                </li>
+                                                
+                                                <li>
+                                                	<div class="list_block">
+                                                        <div class="header_text">Et aussi :</div>
+                                                        <ul class="links">
+                                                        	<li><a href="javascript:void(0)">Chèques cadeaux</a></li>
+                                                            <li><a href="javascript:void(0)">Verres originaux</a></li>
+                                                            <li><a href="javascript:void(0)">Bière Magazine</a></li>
+                                                            <li><a href="javascript:void(0)">Tapis de bar</a></li>
+                                                            <li><a href="javascript:void(0)">Plateaux de bar</a></li>
+                                                            <li><a href="javascript:void(0)">Plaques</a></li>
+                                                        </ul> 
+                                                    </div>
+                                                </li>
+                                                
+                                                
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-3 clearfix menu_right_block">
+                                        <div class="pushs_block">
+                                            <ul class="pushs_list">
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">SAVEUR BOX</h5>
+                                                            <h2 class="titel">Abonnez-vous
+                                                            et recevez
+                                                            vos bières
+                                                            chez vous !</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/coffrets_right1.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">ABONNEMENT</h5>
+                                                            <h2 class="titel">Bière magazine, la référence des amateurs !</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/coffrets_right2.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                                
+                                                <li><a href="javascript:void(0)">
+                                                    <div class="box">
+                                                        <div class="text_block">
+                                                            <h5 class="sub_block">IDÉE CADEAU</h5>
+                                                            <h2 class="titel">Les chèques cadeaux : 10€, 50€ ou 100€</h2>
+                                                        </div>
+                                                        <div class="image_block"><img src="images/coffrets_right3.png" alt="image"></div>
+                                                    </div>
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                               </div>
+                			</div>
+                        </li>
+                        <li class="color_red"><a href="javascript:void(0)" title="Tireuses" class="rad">Soldes</a></li>
+                        
+                        <li class="add_mobile_menu"><a href="javascript:void(0)">MON COMPTE</a></li>
+                        <li class="menudroparow add_mobile_menu"><a href="javascript:void(0)">INFORMATIOS & AIDE</a></li>
+                        <li class="menudroparow add_mobile_menu"><a href="javascript:void(0)">INTERDRINKS</a></li>
+                        <li class="add_mobile_menu"><a href="javascript:void(0)">SERVICE CLIENT : <span>03 20 73 47 76</span></a></li>
+                </ul>
+             </div>
+       </div>
+
+    
+</header>
+
+
+<div class="flavour_banner clearfix">
+	<div class="banner_image"><img src="images/flavour/banner_new1.jpg" alt=""/></div>
+    <div class="responsive_banner_image"><img src="images/flavour/responsive_banner.jpg" alt=""/></div>
+    
+    <div class="flavour_banner_content clearfix">
+        <div class="container">
+            <!--<div class="toptext_box clearfix">
+                <div class="banner_texticon"><img src="images/flavour/flavour_banner_icon.png" alt=""/></div>
+                <h1 class="header">La Saveur Box</h1>
+                <p>Abonnez-vous aux meilleures bières du monde à partir de <span class="price"><strong>26,</strong>90€</span> par mois</p>
+            </div>
+            <div class="start_boxflavor_block clearfix">
+                <div class="start_boxflavor clearfix">
+                    <div class="left_daysbox"><span class="number">05</span></div>
+                    <p>jours avant le départ de la Saveur Box de Novembre !</p>
+                    <div class="right_subscribebox">
+                        <button class="subscribe_button">Je m’abonne</button>
+                        <a href="#" class="offer_button"><span class="offer_icon">Je l’offre !</span></a>
+                    </div>
+                </div>
+            </div>---->
+            
+            <div class="banner_roundblock clearfix">
+            	<div class="european_beerbox">
+                	<h1 class="test1">Votre</h1>
+                    <h2  class="test2">«European Beer Box»</h2>
+                    <h3  class="test3">enlevée sous<br> <strong>30 minutes*</strong></h3>
+                    <p>*Paris et région parisienne</p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+<div class="sowing_mobilescreen">
+    <h1 class="header">EUROPEAN BEER BOX</h1>
+    <p>12 nations 12 bières Européenes</p>
+    <div class="price">39,90 €</div>
+</div>
+
+<div class="flavour_contentblock clearfix">
+	<div class="container">
+    
+    	<div class="summarybox_contents clearfix">
+        	<!--<h1 class="header">Tous les 1<sup>er</sup> du mois, recevez une box remplie de passion du houblon !</h1>-->
+            <div class="summary_contents clearfix">
+            
+            	<div class="col-sm-4 clearfix">
+                	<div class="summarybox clearfix">
+                    	<div class="left_number"><span>1</span></div>
+                        <div class="right_text">
+                            <p>Passer commande sur cette page, <strong>choisissez un point relai</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4 clearfix">
+                	<div class="summarybox clearfix">
+                    	<div class="left_number"><span>2</span></div>
+                        <div class="right_text">
+                            <p>Recevez un <strong>code secret</strong> par <strong>email</strong></p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-sm-4 clearfix">
+                	<div class="summarybox clearfix">
+                    	<div class="left_number"><span>3</span></div>
+                        <div class="right_text">
+                            <p>Enlevez <strong>votre Box</strong><br>European Beer Selection <br>Sous<strong> 30 minutes</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+      <div class="pickbeers_banner clearfix">
+        	<div class="pickbeers_images"><img src="images/flavour/beer_new_banner_.png" alt=""/></div>
+            <div class="pickbeers_text">Venez chercher ces bières dans <strong>30 MINUTES</strong></div>
+      </div>
+      
+      <div class="beer_discover">
+   		<div class="col-sm-3"><div class="left_images"><img src="images/flavour/box_images.png" alt=""/></div></div>
+        <div class="col-sm-9">
+            <div class="right_text">
+            	<p>Découvrez <strong>douze bières de nations européennes différentes</strong>, dans la <br>
+                <strong>European Beer Selection</strong>. Cette année, accompagnez votre sélection nationale d'une <br>
+                nouvelle façon, en étant le plus fair-play possible, avec de nombreuses <br>
+                découvertes à se faire seul ou avec des amis.</p>
+            </div>
+        </div>
+      </div>
+        
+        
+    </div>
+</div>
+
+<div class="checkout_beer clearfix">
+	<div class="container">
+    	<h1 class="header">Commander ma<strong> european Beer Box</strong> et aller chercher <strong>mes bières dans 30 minutes !</strong></h1>
+        <div class="iwant_her clearfix"><a href="#" class="button">Je la veux</a></div>
+    </div>
+</div>
+
+
+<div class="daysbefore_startmainblock clearfix">
+	<div class="container">
+        <!--<div class="header_block clearfix">
+        	<div class="left_daysbox"><span class="number">05</span></div>
+            <h1 class="header">jours avant le départ de la Saveur Box de Novembre !</h1>
+        </div>--->
+        
+        <div class="daysbefore_start clearfix">
+        	<script>
+			  $(function() {
+				$( "#daystabs" ).tabs();
+			  });
+		   </script>
+           
+        	<div id="daystabs" class="subscribe_mainbox">
+              <div class="tabnav_startcontent">
+  				 <ul class="month_buttonblock">
+                <li><a href="#daystabs-1">
+                	<div class="tabbutton_block">
+                    	<div class="icon"><img src="images/flavour/daysbefore_icon1.png" alt=""/></div>
+                        <h2 class="text">Je m’abonne à la Saveur BOx</h2>
+                    </div>
+                 </a></li>
+                <li><a href="#daystabs-2">
+                	<div class="tabbutton_block">
+                    	<div class="icon"><img src="images/flavour/daysbefore_icon2.png" alt=""/></div>
+                        <h2 class="text">J’offre la Saveur Box</h2>
+                    </div>
+                </a></li>
+              </ul>
+              </div>
+              <div class="tabcontent">
+                  <div id="daystabs-1">
+                    	
+                        <div class="daysbefore_startcontent clearfix">
+                        	<h1 class="header">Offrez comme vous aimez...</h1>
+                            <div class="startcontent_box clearfix">
+                            
+                            	<div class=" col-lg-3 col-xs-6 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">1 box</div>
+                                        <p>7 bières à découvrir 1 verre collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">26,00€</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-lg-3 col-xs-6 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">3 box</div>
+                                        <p>21 bières à découvrir 3 verres collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">73,00€</span>
+                                            <span class="old_price">78,00€  </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-lg-3 col-xs-6 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">6 box</div>
+                                        <p>42 bières à découvrir 6 verres collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">140,00€</span>
+                                            <span class="old_price">156,00€ </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-lg-3 col-xs-6 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">12 box</div>
+                                        <div class="free">2 MOIS OFFERTS </div>
+                                        <p>84 bières à découvrir 12 verres collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">260,00€</span>
+                                            <span class="old_price">312,00€ </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        
+        
+        
+                        
+                        <div class="otherchoices_block clearfix">
+                        	<div class="accordion">
+                            
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#delivery_address">
+                                	<div class="listbox">
+                                    	<div class="icon"><img src="images/flavour/listbox1.png" alt=""/></div>
+                                        <div class="text_block">
+                                            <h1 class="sub_header">Choisissez votre quantité</h1>
+                                            <div class="quantity_block">
+                                            	<div class="quantity">
+                                                    <input type="text" name="" value="1" class="cart_quantity_input q-field">
+                                                    <a title="Add" class="cart_quantity_up up"></a>
+                                                    <a class="cart_quantity_down down"></a>
+                                                </div>
+                                            </div>
+                                            
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                <div id="delivery_address" class="accordion-section-content">
+                                    
+                                    <div class="whowill_receivegift clearfix">
+                                     
+                                     <div class="top_subscription_box clearfix">
+                                     	<div class="left_icon clearfix"><img src="images/flavour/right_icon.png" alt=""/></div>
+                                        <div class="subscriptionbox_header clearfix">
+                                        	<h2 class="subheader clearfix">Abonnement Saveur Box</h2>
+                                            <h1 class="header clearfix">3 box - 76,00€</h1>
+                                        </div>
+                                        <div class="edit_block clearfix"><a href="#">Modifier</a></div>
+                                     </div>
+                                    
+                                   	  <div class="top_header">
+                                        	<div class="topheader_icon clearfix"><img src="images/flavour/address1.png" alt=""/></div>
+                                            <h1 class="header">Qui recevera le cadeau ?</h1>
+                                      </div>
+                                      
+                                      <div class="form_message clearfix">
+                                      	<form>
+                                        	<div class="col-sm-2 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<select class="custom-select">
+                                                      <option value="">M.</option>
+                                                      <option value="">Mr.</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 clearfix">
+                                            	<div class="formbox clearfix error">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="Jean-Pierre" class="input">
+                                                    <label>Prénom</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox success clearfix ">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="Demonchy" class="input">
+                                                    <label>Prénom</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox error clearfix">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="jpdemonchy@gmail.com" class="input">
+                                                    <label>Email </label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="" class="input">
+                                                    <label>Téléphone</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="" class="input">
+                                                    <label>Adresse</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="Complément d'adresse" class="input">
+                                                    <label></label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="" class="input">
+                                                    <label>Code postal</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<span class="error_text">Oups, il y a une erreur...</span>
+                                                	<input type="text" placeholder="" class="input">
+                                                    <label>ville</label>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<select class="custom-select">
+                                                      <option value="">France</option>
+                                                      <option value="">France1</option>
+                                                      <option value="">France2</option>
+                                                      <option value="">France3</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-12 clearfix">
+                                            	<div class="add_custom_message clearfix">
+                                                	<input type="file" class="add_message">
+                                                    <p>J’ajoute un message personnalisé à mon cadeau</p>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-12 clearfix">
+                                            	<div class="message_block">
+                                                	<textarea class="message" placeholder="Votre message (200 caractères max)"></textarea>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-12 clearfix">
+                                            	<div class="submit_block clearfix">
+                                                	<button class="carryon_button clearfix">Continuer</button>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            
+                                        </form>
+                                      </div>
+                                      
+                                    </div>
+                                    
+                                    
+                                </div>
+                            </div>
+                            
+                            
+                
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#delivery_method">
+                                	<div class="listbox">
+                                    	<div class="icon"><img src="images/flavour/listbox2.png" alt=""/></div>
+                                        <div class="text_block">
+                                            <h1 class="sub_header">Mode de livraison</h1>
+                                            <p>A la maison ou en point relais, Vous avez le choix !</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div id="delivery_method" class="accordion-section-content">
+                                	
+                                    <div class="willreceive_mainblock clearfix">
+                                    
+                                      <div class="top_subscription_box clearfix">
+                                     	<div class="left_icon clearfix"><img src="images/flavour/right_icon.png" alt=""/></div>
+                                        <div class="subscriptionbox_header clearfix">
+                                        	<h2 class="subheader clearfix">Pour</h2>
+                                            <h1 class="header clearfix">Jean-Pierre Demonchy</h1>
+                                        </div>
+                                        <div class="edit_block clearfix"><a href="#">Modifier</a></div>
+                                     </div>
+                                     
+                                   	  <div class="top_header">
+                                        	<div class="topheader_icon clearfix"><img src="images/flavour/address1.png" alt=""/></div>
+                                            <h1 class="header">Qui recevera le cadeau ?</h1>
+                                      </div>
+                                      
+                                      <div class="willreceive_block clearfix">
+                                      	<div class="col-sm-6 clearfix">
+                                            <div class="willreceive_box clearfix">
+                                            	<div class="top_part clearfix">
+                                                     <div class="boxheader">
+                                                        <h1 class="header">En Point Relais</h1>
+                                                        <span class="logo"><img src="images/flavour/logo1.png" alt=""/></span>
+                                                    </div>
+                                                    <p>Livraison en 48 à 72h. Suivi du colis par email et SMS.</p>
+                                                </div>
+                                                 <div class="boxprice_block clearfix">
+                                                	<p><strong>3,90€/livraison</strong> (Soit pour 3 box : 11,70€)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        <div class="col-sm-6 clearfix">
+                                            <div class="willreceive_box clearfix">
+                                            	<div class="top_part clearfix">
+                                                     <div class="boxheader">
+                                                        <h1 class="header">À son domicile</h1>
+                                                        <span class="logo"><img src="images/flavour/logo2.png" alt=""/></span>
+                                                    </div>
+                                                    <p>Livraison en 48 à 72h.
+                                                    Suivi du colis par email et SMS.
+                                                    En cas d’absence, colis déposé en Point Relais</p>
+                                                </div>
+                                                <div class="boxprice_block clearfix">
+                                                	<p><strong>5,90€/livraison</strong> (Soit pour 3 box : 17,70€)</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                         
+                                        <!--<div class="select_mapblock clearfix">
+                                        	<h1 class="subheader">Les points relais les plus proches de chez Jean-Pierre :</h1>
+                                            <div class="select_map"><img src="images/flavour/map.jpg" alt=""/></div>
+                                            <form>
+                                            <div class="map_listselect_block clearfix">
+                                            	
+                                                <div class="radio">
+                                                    <input id="map1" type="radio" name="map">
+                                                    <label for="map1"><strong>BOUCHERIE HANON </strong>- 109 RUE GABRIEL PERI 59700 MARCQ EN BAROEUL</label>
+                                                </div>
+                                                
+                                                <div class="radio">
+                                                    <input id="map2" type="radio" name="map">
+                                                    <label for="map2"><strong>ARUM ET SENS </strong>- 5 RUE SAINT ROCH 59700 MARCQ EN BAROEUL</label>
+                                                </div>
+                                                
+                                                <div class="radio">
+                                                    <input id="map3" type="radio" name="map">
+                                                    <label for="map3"><strong>PROCHE EGLISE DU CENTRE </strong>- LA MINAUDERIE FOLIFLOR - 16 RUE H PETERS 59520 MARQUETTE</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="map4" type="radio" name="map">
+                                                    <label for="map4"><strong>LES BEBES DE SABINE</strong> - 7 RUE DES CHAMPS 59290 WASQUEHAL</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="map5" type="radio" name="map">
+                                                    <label for="map5"><strong>HAUT DE MONS PRES EGLISE ST PI</strong> - DIAPH 16 - 161 RUE DU GENERAL DE GAULLE 59370 MONS EN BAROEUL</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="map6" type="radio" name="map">
+                                                    <label for="map6"><strong>SARTISS </strong>- 156 RUE JEAN JAURES 59491 VILLENEUVE D ASCQ</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="map7" type="radio" name="map">
+                                                    <label for="map7"><strong>CARREFOUR EXPRESS</strong> - 82 RUE DU GENERAL LECLERC 59350 SAINT ANDRE</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="map8" type="radio" name="map">
+                                                    <label for="map8"><strong>LA BOUTIQUE DU LUNETIER</strong> - 60 RUE DU PROFESSEUR PERRIN 59170 CROIX</label>
+                                                </div>
+                                                <div class="radio">
+                                                    <input id="map9" type="radio" name="map">
+                                                    <label for="map9"><strong>SPAR EXPRESS </strong>- 60 RUE FAUBOURG DE ROUBAIX 59000 LILLE</label>
+                                                </div>
+                                                
+                                                <div class="col-sm-12 clearfix">
+                                                    <div class="submit_block clearfix">
+                                                        <button class="carryon_button clearfix">Continuer</button>
+                                                    </div>
+                                                </div>
+                                            
+                                            </div>
+                                            </form>
+                                        </div>-->
+                                        
+                                        <div class="select_mapblock clearfix">
+                                        	<h1 class="subheader">Les points relais les plus proches de chez Jean-Pierre :</h1>
+                                            <div class="mapblock clearfix">
+                                            	<div class="col-sm-5 clearfix">
+                                                	<div class="map_leftblock clearfix">
+                                                    	
+                                                        <div class="map_addressbox active">
+                                                        	<div class="icon"><i></i></div>
+                                                            <div class="text_block">
+                                                            	<h4 class="map_header">Boucherie Hanon</h4>
+                                                                <p>109 rue Gabriel Péri 59700 MARCQ EN BAROEUL</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="map_addressbox">
+                                                        	<div class="icon"><i></i></div>
+                                                            <div class="text_block">
+                                                            	<h4 class="map_header">Arum & Sens</h4>
+                                                                <p>5 avenue Saint Roch 59700 MARCQ EN BAROEUL</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="map_addressbox">
+                                                        	<div class="icon"><i></i></div>
+                                                            <div class="text_block">
+                                                            	<h4 class="map_header">La minauderie Foliflor</h4>
+                                                                <p>16 rue H Peters 59220 MARQUETTE</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="map_addressbox">
+                                                        	<div class="icon"><i></i></div>
+                                                            <div class="text_block">
+                                                            	<h4 class="map_header">Les bébés de Sabine</h4>
+                                                                <p>7 rue des champs 59290 Wasquehal</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="map_addressbox">
+                                                        	<div class="icon"><i></i></div>
+                                                            <div class="text_block">
+                                                            	<h4 class="map_header">Carrefour Market</h4>
+                                                                <p>118 avenue du Général de Gaulle 59190 LA MADELEINE</p>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                        <div class="showmorepoint_block">
+                                                        	<a href="" class="showmorepoint">Afficher plus de point relais</a>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                <div class="col-sm-7 clearfix">
+                                                	<div class="select_map">
+                                                    <img src="images/flavour/map.jpg" alt=""/>
+                                                    
+                                                    	<div class="selection_point_mainbox clearfix">
+                                                        	<div class="selection_point clearfix">
+                                                            	<a class="close" href="#"></a>
+                                                            	<div class="selection_box clearfix">
+                                                                
+                                                                	<div class="box_header">
+                                                                    	<h2 class="header">Boucherie Hanon</h2>
+                                                                        <p>109 rue Gabriel Péri</p>
+                                                                        <h3 class="sub_header">59700 MARCQ EN BAROEUL</h3>
+                                                                    </div>
+                                                                    <div class="box_body clearfix">
+                                                                    	<h4 class="sub_header2">Horaires</h4>
+                                                                        
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Lundi</div>
+                                                                            <div class="right_text">Fermé</div>
+                                                                        </div>
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Mardi</div>
+                                                                            <div class="right_text">9h - 19h</div>
+                                                                        </div>
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Mercredi</div>
+                                                                            <div class="right_text">9h - 19h</div>
+                                                                        </div>
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Jeudi</div>
+                                                                            <div class="right_text">9h - 19h</div>
+                                                                        </div>
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Vendredi</div>
+                                                                            <div class="right_text">9h - 19h</div>
+                                                                        </div>
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Samedi</div>
+                                                                            <div class="right_text">9h - 13h / 15h - 19h</div>
+                                                                        </div>
+                                                                        <div class="content_box clearfix">
+                                                                        	<div class="left_text">Dimanche</div>
+                                                                            <div class="right_text">Fermé</div>
+                                                                        </div>	
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        
+                                                    </div>
+                                                </div>
+                                                 <div class="col-sm-12 clearfix">
+                                                    <div class="submit_block clearfix">
+                                                        <button class="carryon_button inactive clearfix">Continuer</button>
+                                                    </div>
+                                                </div>
+                                                
+                                            </div>
+                                        </div>
+                                        
+                                        
+                                        
+                                        
+                                      </div>
+                                      
+                                      </div>
+                                      
+                                      
+                                      
+                                      
+                                </div>
+                            </div>
+                
+                            <div class="accordion-section">
+                                <a class="accordion-section-title" href="#your_details">
+                                	<div class="listbox">
+                                    	<div class="icon"><img src="images/flavour/listbox3.png" alt=""/></div>
+                                        <div class="text_block">
+                                            <h1 class="sub_header">Vos coordonnées</h1>
+                                            <p>Déjà un compte Saveur-Bière ? Connectez-vous</p>
+                                        </div>
+                                    </div>
+                                </a>
+                                
+                                <div id="your_details" class="accordion-section-content">
+                                  
+                                  <div class="whowill_receivegift contact_information clearfix">
+                                  
+                                  	 <div class="top_subscription_box clearfix">
+                                     	<div class="left_icon clearfix"><img src="images/flavour/right_icon.png" alt=""/></div>
+                                        <div class="subscriptionbox_header clearfix">
+                                        	<h2 class="subheader clearfix">Livraison</h2>
+                                            <h1 class="header clearfix">Mondial Relais (3,90€) - Soit 11,70€ pour 3 box</h1>
+                                        </div>
+                                        <div class="edit_block clearfix"><a href="#">Modifier</a></div>
+                                     </div>
+                                     
+                                   	  <div class="top_header">
+                                        	<div class="topheader_icon clearfix"><img src="images/flavour/contac_information.png" alt=""/></div>
+                                            <h1 class="header">Vos coordonnées (c’est vous qui recevrez la facture)</h1>
+                                            <p>Déjà un compte Saveur-Bière ? Connectez-vous</p>
+                                      </div>
+                                      <div class="form_message login_block clearfix">
+                                      	<form>
+                                        	<div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Email*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-5 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Mot de passe*" class="input">
+                                                </div>
+                                            </div>
+                                            <div class="col-sm-1 clearfix"><a href="#" class="forgetit ">Oublié ?</a></div>
+                                            
+                                            <div class="col-sm-12 clearfix">
+                                            	<div class="submit_block clearfix">
+                                                	<button class="carryon_button clearfix">Se connecter</button>
+                                                </div>
+                                            </div>
+                                            
+                                        </form>
+                                      </div>
+                                      
+                                      <div class="form_message clearfix">
+                                      	<form>
+                                        	<div class="col-sm-2 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<select class="custom-select">
+                                                      <option value="">M.</option>
+                                                      <option value="">Mr.</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-4 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Prénom*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Nom*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Email*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Téléphone*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Adresse*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Complément d'adresse" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Code postal*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<input type="text" placeholder="Ville*" class="input">
+                                                </div>
+                                            </div>
+                                            
+                                            <div class="col-sm-6 clearfix">
+                                            	<div class="formbox clearfix">
+                                                	<select class="custom-select">
+                                                      <option value="">FRANCE</option>
+                                                      <option value="">France1</option>
+                                                      <option value="">France2</option>
+                                                      <option value="">France3</option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            <div class="col-sm-12 clearfix">
+                                            	<div class="submit_block clearfix">
+                                                	<button class="carryon_button clearfix inactive">Valider</button>
+                                                </div>
+                                            </div>
+                                            
+                                            
+                                            
+                                        </form>
+                                      </div>
+                                      
+                                    </div>
+                                  
+                                  
+                                </div>
+                            </div>
+                            
+                            
+                        </div>
+                        </div>
+                        
+                        
+                        <div class="recapendcopy_block clearfix">
+                        
+                        	 <div class="recapendcopy_box clearfix">
+                             	<div class="recapendcopy_header_block clearfix">
+                                	<h1 class="number">26,00€</h1>
+                                    <p>Inclus 1,80€ de T.V.A</p>
+                                </div>
+                                <div class="list_block clearfix">
+                                	<ul class="list">
+                                    	<li><strong>Box envoyée le 02 mai 2016.</strong> </li>
+                                        <li><strong>Surprise garantie !</strong> Vous serez le seul à recevoir la facture par email :)</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="confirmandpay clearfix">
+                                	<button class="confirmandpay_button"><div class="inside_button"><span>Valider et payer</span></div></button>
+                                </div>                                
+                             </div>
+                             
+                             <p class="confirmingmy_order">En validant ma commande, je certifie être majeur et accepter les conditions générales de vente.</p>
+                             
+                        </div>
+                        
+                        
+                  </div>
+                  <div id="daystabs-2">
+                    	
+                        <div class="daysbefore_startcontent clearfix">
+                        	<h1 class="header">Offrez comme vous aimez...</h1>
+                            <div class="startcontent_box clearfix">
+                            
+                            	<div class=" col-lg-3 col-xs-2 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">1 box</div>
+                                        <p>7 bières à découvrir 1 verre collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">26,00€</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-lg-3 col-xs-2 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">3 box</div>
+                                        <p>21 bières à découvrir 3 verres collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">73,00€</span>
+                                            <span class="old_price">78,00€  </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-lg-3 col-xs-2 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">6 box</div>
+                                        <p>42 bières à découvrir 6 verres collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">140,00€</span>
+                                            <span class="old_price">156,00€ </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                <div class=" col-lg-3 col-xs-2 clearfix">
+                                	<div class="box">
+                                    	<div class="boxnumber">12 box</div>
+                                        <div class="free">2 MOIS OFFERTS </div>
+                                        <p>84 bières à découvrir 12 verres collector</p>
+                                        <div class="startprice_block">
+                                        	<span class="price">260,00€</span>
+                                            <span class="old_price">312,00€ </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                       
+                        
+                        
+                  </div>
+              </div>
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+    </div>
+</div>
+
+<div class="asked_questions_mainblock clearfix">
+	<div class="container">
+    	<div class="asked_questions clearfix">
+        	<h1 class="header">Questions fréquentes</h1>
+        	<div class="accordion">
+            
+			<div class="accordion-section">
+				<a class="accordion-section-title" href="#asked_questions-1">Quand recevrais-je ma 1ère box et les suivantes ?</a>
+				<div id="asked_questions-1" class="accordion-section-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nisi. Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna. Nulla rhoncus velit maximus libero faucibus, eu placerat felis pulvinar. Etiam interdum, tellus id mattis varius, metus nibh tristique. 
+Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna !</p>
+				</div>
+			</div>
+            
+            <div class="accordion-section">
+				<a class="accordion-section-title" href="#asked_questions-2">Est-ce que paye par mois ou par an ?</a>
+				<div id="asked_questions-2" class="accordion-section-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nisi. Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna. Nulla rhoncus velit maximus libero faucibus, eu placerat felis pulvinar. Etiam interdum, tellus id mattis varius, metus nibh tristique. 
+Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna !</p>
+				</div>
+			</div>
+            
+            <div class="accordion-section">
+				<a class="accordion-section-title" href="#asked_questions-3">Est-ce que je peux changer mon adresse pendant l'abonnement ?</a>
+				<div id="asked_questions-3" class="accordion-section-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nisi. Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna. Nulla rhoncus velit maximus libero faucibus, eu placerat felis pulvinar. Etiam interdum, tellus id mattis varius, metus nibh tristique. 
+Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna !</p>
+				</div>
+			</div>
+            
+            <div class="accordion-section">
+				<a class="accordion-section-title" href="#asked_questions-4">Est-ce que je peux changer ma carte bancaire pendant l'abonnement ?</a>
+				<div id="asked_questions-4" class="accordion-section-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nisi. Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna. Nulla rhoncus velit maximus libero faucibus, eu placerat felis pulvinar. Etiam interdum, tellus id mattis varius, metus nibh tristique. 
+Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna !</p>
+				</div>
+			</div>
+            
+             <div class="accordion-section">
+				<a class="accordion-section-title" href="#asked_questions-5">C'est quoi la mini-box ?</a>
+				<div id="asked_questions-5" class="accordion-section-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nisi. Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna. Nulla rhoncus velit maximus libero faucibus, eu placerat felis pulvinar. Etiam interdum, tellus id mattis varius, metus nibh tristique. 
+Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna !</p>
+				</div>
+			</div>
+            
+            <div class="accordion-section">
+				<a class="accordion-section-title" href="#asked_questions-6">Comment résilier mon abonnement ?</a>
+				<div id="asked_questions-6" class="accordion-section-content">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac turpis nisi. Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna. Nulla rhoncus velit maximus libero faucibus, eu placerat felis pulvinar. Etiam interdum, tellus id mattis varius, metus nibh tristique. 
+Curabitur eget odio tincidunt, pharetra lectus feugiat, vehicula magna !</p>
+				</div>
+			</div>
+
+
+
+		</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<footer>
+  <div class="footer_main">
+        	<div class="container">
+        		<img src="images/footer_logo.png" alt="footer_logo">
+            </div>
+  </div>
+</footer>
+
+
+    <a href="#" class="gototop scrollToTop">Go to Top</a>
+    
+     <script type="text/javascript" src="slick/jquery-migrate-1.2.1.min.js"></script>
+  <script type="text/javascript" src="slick/slick.min.js"></script>
+ 
+</body>
+</html>
+
+            

@@ -1,0 +1,1421 @@
+@font-face {
+	font-family: 'Akhand';
+	src: url('../fonts/Akhand.eot');
+	src: local('☺'), url('../fonts/Akhand.woff') format('woff'), url('../fonts/Akhand.ttf') format('truetype'), url('../fonts/Akhand.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+.allbrewer_link_block a.allbrewer_link_button{border: 1px solid #FABD0F; color:#fabd0f;}
+.allbrewer_link_block a.allbrewer_link_button span{color:#fabd0f;}
+.home_content_block .text_block .header{color:#fabd0f;}
+#more_info_block ul a.selected {color: #fabd0f;}
+.social_media_block .saveurbiere_text2{color:#fabd0f;}
+.social_media_block .see_notes_block a{color:#fabd0f;}
+.product_list .cart_quantity .cart_quantity_button a.btn{background:#fabd0f;}
+.product_list .cart_quantity{border: 1px solid #fabd0f;}
+.color_orange {color: #fabd0f!important;}
+.home_titel_block{color: #fabd0f;}
+.buy_block_quantity p{color:#fabd0f;}
+.product_list li:hover .cart_block a span{background:#fabd0f;}
+
+.menumain li a:hover {color: #fabd0f;}
+
+
+header .header .search_block .dropdown-menu li a strong {
+	color: #fabd0f
+}
+header .header .search_block .open {
+	border-color: #fabd0f !important;
+	color: #fabd0f !important
+}
+header .header .search_block .open .form-control {
+	color: #fabd0f !important
+}
+header .header .shopping_cart a .ajax_cart_total {
+	color: #fabd0f;
+}
+.menumain li a:hover {
+	color: #fabd0f
+}
+.sfHoverForce a.sf-with-ul {
+	color: #fabd0f !important
+}
+.menumain li .active {
+	color: #fabd0f !important
+}
+.submenu .nav_countries .countries_list li.active a {
+	background: url('../images/countries_list_arrow.png') no-repeat right center #fabd0f !important
+}
+
+.submenu .slider_box .box_main .header_text {color: #fabd0f}
+
+.submenu .slider_box .box_main .list li:hover .image_block {background: #fabd0f}
+.submenu .slider_box .box_main .list li:hover .text_block {
+	color: #fabd0f
+}
+
+.submenu .slider_box .discovery_selection_block .discovery_content_block .subtitel {color: #fabd0f;}
+.submenu .slider_box .discovery_selection_block .discovery_content_block .link_block .link_button {color: #fabd0f;}
+.submenu .slider_box .discovery_selection_block .discovery_content_block .link_block .link_button:hover {border: 1px solid #fabd0f;background: #fabd0f;}
+
+.submenu .pushs_block .pushs_list li a .box .text_block .sub_block {color: #fabd0f;}
+.submenu .futs_block .futs_list li .futs_box .band_liter_size {color: #fabd0f;}
+.submenu .futs_block .futs_list li .futs_box .name {color: #fabd0f}
+.submenu .futs_block .futs_list li .futs_box .see_drums_button {border: 1px solid #fabd0f;}
+.submenu .futs_block .futs_list li .futs_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .futs_block .list_block .header_text {color: #fabd0f;}
+.submenu .futs_block .list_block .links li a:hover {color: #fabd0f;}
+.submenu .tireuses_block .tireuses_list li .tireuses_box .band_liter_size {color: #fabd0f;}
+.submenu .tireuses_block .tireuses_list li .tireuses_box p a {color: #fabd0f;}
+.submenu .tireuses_block .tireuses_list li .tireuses_box .see_drums_button {color: #fabd0f;}
+.submenu .tireuses_block .tireuses_list li .tireuses_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .verres_block .list_block .header_text {color: #fabd0f}
+
+.submenu .verres_block .list_block .links li a:hover {color: #fabd0f;}
+.all_list_block a.all_button {border: 1px solid #fabd0f;color: #fabd0f;}
+.all_list_block a.all_button span {	color: #fabd0f;}
+.all_list_block a.all_button:hover span {background: #fabd0f;}
+.submenu .verres_block .verres_prodact_list li .box .verres_titel_block {color: #fabd0f}
+.submenu .verres_block .verres_prodact_list li .box .verres_titel_block span {color: #fabd0f;}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .band_liter_size {color: #fabd0f;}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .name {color: #fabd0f}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .see_drums_button {color: #fabd0f;}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .coffrets_block .list_block .header_text {color: #fabd0f}
+.submenu .coffrets_block .list_block .links li a:hover {color: #fabd0f;}
+.submenu .brewing_block .brewing_list li .brewing_box .band_liter_size {color: #fabd0f;}
+.submenu .brewing_block .brewing_list li .brewing_box .name {color: #fabd0f}
+.submenu .brewing_block .brewing_list li .brewing_box .see_drums_button {	border: 1px solid #fabd0f;color: #fabd0f;}
+.submenu .brewing_block .brewing_list li .brewing_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .brewing_block .list_block .header_text {color: #fabd0f}
+.submenu .brewing_block .list_block .links li:last-child {color: #fabd0f}
+.submenu .brewing_block .list_block .links li a:hover {color: #fabd0f;}
+.submenu .brewing_block .list_block .links li:last-child a {color: #fabd0f}
+.tips_blondes_block .select_dropdown.active span {color: #fabd0f !important}
+.tips_blondes_block .select_dropdown .dropdown li a:hover {color: #fabd0f !important;}
+.tips_titel_block .custom_select span {color: #fabd0f;}
+.ratebeerblock strong {color: #fabd0f}
+.ratebeerblock a.more {color: #fabd0f;}
+.pr_snippet_category .pr-snippet-wrapper {	color: #fabd0f;}
+.product_list .price_block .price {color: #fabd0f;}
+.product_list li:hover .cart_block a span {background: #fabd0f;}
+.gray_block .list_content_block .top_subtitel {color: #fabd0f;}
+.gray_block .list_content_block .titel {color: #fabd0f}
+.buy_block_quantity p {color: #fabd0f;}
+.selection_block .selection_text {color:#fabd0f;}
+.selection_block .find_out_block a {border: 1px solid #fabd0f;color: #fabd0f;}
+.selection_block .find_out_block a span {color: #fabd0f;}
+
+/*//////*/
+
+.selection_block .find_out_block a span {font-family: 'Akhand';color: #fabd0f;}
+.selection_block:hover .find_out_block a {font-family: 'Akhand';}
+.submenu .nav_countries .countries_list li a span {font-family: 'Akhand';}
+.submenu .nav_countries .countries_list li a span strong {font-family: 'Akhand';}
+.submenu .slider_box .box_main .header_text {font-family: 'Akhand';color: #fabd0f}
+.submenu .slider_box .box_main .text_block {font-family: 'Akhand';}
+.submenu .slider_box .discovery_selection_block .discovery_content_block .subtitel {font-family: 'Akhand';color: #fabd0f;}
+.submenu .slider_box .discovery_selection_block .discovery_content_block .titel {font-family: 'Akhand';}
+.submenu .slider_box .discovery_selection_block .discovery_content_block .link_block .link_button {	font-family: 'Akhand';color: #fabd0f;}
+.submenu .pushs_block .pushs_list li a .box .text_block .sub_block {font-family: 'Akhand';color: #fabd0f;}
+.submenu .pushs_block .pushs_list li a .box .text_block .titel {font-family: 'Akhand';}
+.submenu .futs_block .futs_list li .futs_box .band_liter_size {font-family: 'Akhand';color: #fabd0f;}
+.submenu .futs_block .futs_list li .futs_box .name {font-family: 'Akhand';color: #fabd0f}
+.submenu .futs_block .futs_list li .futs_box p {font-family: 'Akhand';}
+.submenu .futs_block .futs_list li .futs_box .see_drums_button {font-family: 'Akhand';color: #fabd0f;}
+.submenu .futs_block .list_block .header_text {	font-family: 'Akhand';color: #fabd0f}
+.submenu .futs_block .list_block .links li a {font-family: 'Akhand';}
+.submenu .tireuses_block .tireuses_list li .tireuses_box .band_liter_size {font-family: 'Akhand';}
+.submenu .tireuses_block .tireuses_list li .tireuses_box .name {font-family: 'Akhand';}
+.submenu .tireuses_block .tireuses_list li .tireuses_box p {font-family: 'Akhand';}
+.submenu .tireuses_block .tireuses_list li .tireuses_box p a {color: #fabd0f;}
+
+
+.submenu .tireuses_block .tireuses_list li .tireuses_box .see_drums_button {font-family: 'Akhand';color: #fabd0f;}
+.submenu .tireuses_block .tireuses_list li .tireuses_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .verres_block .list_block .header_text {font-family: 'Akhand';color: #fabd0f}
+.submenu .verres_block .list_block .links li a {font-family: 'Akhand';}
+.submenu .verres_block .list_block .links li a:hover {color: #fabd0f;}
+.all_list_block a.all_button {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+.all_list_block a.all_button span {	font-family: 'Akhand';color: #fabd0f;}
+.all_list_block a.all_button:hover span {background: #fabd0f;}
+
+.submenu .verres_block .verres_prodact_list li .box .verres_titel_block {font-family: 'Akhand';color: #fabd0f}
+.submenu .verres_block .verres_prodact_list li .box .verres_titel_block span {	font-family: 'Akhand';color: #fabd0f;}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .band_liter_size {font-family: 'Akhand';color: #fabd0f;}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .name {font-family: 'Akhand';color: #fabd0f}
+.submenu .coffrets_block .coffrets_list li .coffrets_box p {font-family: 'Akhand';}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .see_drums_button {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+.submenu .coffrets_block .coffrets_list li .coffrets_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .coffrets_block .list_block .header_text {font-family: 'Akhand';color: #fabd0f}
+.submenu .coffrets_block .list_block .links li a {font-family: 'Akhand';}
+.submenu .coffrets_block .list_block .links li a:hover {color: #fabd0f;}
+.submenu .brewing_block .brewing_list li .brewing_box .band_liter_size {font-family: 'Akhand';color: #fabd0f;}
+.submenu .brewing_block .brewing_list li .brewing_box .name {font-family: 'Akhand';color: #fabd0f}
+.submenu .brewing_block .brewing_list li .brewing_box p {font-family: 'Akhand';}
+.submenu .brewing_block .brewing_list li .brewing_box .see_drums_button {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+.submenu .brewing_block .brewing_list li .brewing_box .see_drums_button:hover {background: #fabd0f;}
+.submenu .brewing_block .list_block .header_text {font-family: 'Akhand';color: #fabd0f}
+.submenu .brewing_block .list_block .links li:last-child {color: #fabd0f}
+.submenu .brewing_block .list_block .links li a {font-family: 'Akhand';}
+.submenu .brewing_block .list_block .links li a:hover {color: #fabd0f;}
+.submenu .brewing_block .list_block .links li:last-child a {color: #fabd0f}
+.color_red a {color: #c80014 !important}
+.tips_blondes_block .select_dropdown span {font-family: 'Akhand';}
+.tips_blondes_block .select_dropdown.active span {color: #fabd0f !important}
+.tips_blondes_block .select_dropdown .dropdown li a {font-family: 'Akhand';}
+.tips_blondes_block .select_dropdown .dropdown li a:hover {color: #fabd0f !important;}
+.tips_titel_block span {font-family: 'Akhand';}
+.tips_titel_block .custom_select span {font-family: 'Akhand';color: #fabd0f;}
+.ratebeerblock strong {font-family: 'Akhand';color: #fabd0f}
+.ratebeerblock a.more {color: #fabd0f;font-family: 'Akhand';}
+.new span {font-family: 'Akhand';}
+.pr_snippet_category .pr-snippet-review-count {font-family: 'Akhand';}
+.pr_snippet_category a {color: #C90016;}
+.aboutproduct h4 {font-family: 'Akhand';}
+.aboutproduct h4 a {font-family: 'Akhand';color: #000000;}
+.aboutproduct p {font-family: 'Akhand';}
+.product_list .country {font-family: 'Akhand';color: #000000;}
+.product_list .country a {font-family: 'Akhand';}
+
+.product_list .extra {font-family: 'Akhand';}
+.product_list .extra span {font-family: 'Akhand';}
+.product_list .squareboxes p {font-family: 'Akhand';}
+.product_list .squareboxes p span {font-family: 'Akhand';}
+.product_list .price_block .price {font-family: 'Akhand';color: #fabd0f;}
+.product_list .price_block .old_price {font-family: 'Akhand';}
+.product_list .price_block .discount {font-family: 'Akhand';}
+.product_list .cart_block a {font-family: 'Akhand';}
+.product_list .cart_block a span {font-family: 'Akhand';}
+.product_list .attribute_price_block {font-family: "clearfaceheavy"}
+.product_list li:hover .cart_block a {font-family: 'Akhand';}
+
+.product_list li:hover .cart_block a span {background: #fabd0f;font-family: 'Akhand';}
+.product_list .productimage .product_size {font-family: 'Akhand';}
+.product_list .productimage .product_size span {font-family: 'Akhand';}
+.gray_block .list_content_block .top_subtitel {font-family: 'Akhand';color: #fabd0f;}
+.gray_block .list_content_block .titel {font-family: 'Akhand';color: #fabd0f}
+.gray_block .list_content_block p {font-family: 'Akhand';}
+.buy_block_quantity p {color: #fabd0f;}
+.selection_block .selection_text {font-family: 'Akhand';color: #fabd0f;}
+.selection_block .product_name {font-family: 'Akhand';}
+.selection_block .find_out_block a {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+.selection_block .find_out_block a span {font-family: 'Akhand';color: #fabd0f;}
+.selection_block:hover .find_out_block a {font-family: 'Akhand';}
+.selection_block:hover .find_out_block a span {background: #fabd0f;font-family: 'Akhand';}
+.round_block .top_subtitel {font-family: 'Akhand';}
+.round_block .titel {font-family: 'Akhand';}
+.round_block p {font-family: 'Akhand';}
+.pagination li a {font-family: 'Akhand';}
+.pagination li a:hover {border: 1px solid #fabd0f;color: #fabd0f}
+.pagination li a:hover span {color: #fabd0f}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {border: 1px solid #fabd0f}
+.pagination li.current a span {background: #fabd0f !important;}
+.pagination li span.active {font-family: 'Akhand';color: #fabd0f;border: 1px solid #fabd0f;}
+.footer_block .slider_block .slider_box .box_main .header {font-family: 'Akhand';color: #fabd0f}
+.footer_block .slider_block .slider_box .box_main .list li:hover .image_block {background: #fabd0f;}
+.footer_block .slider_block .slider_box .box_main .list li:hover .text_block {color: #fabd0f}
+.color_selected .image_block {background: #fabd0f !important}
+.discovery_selection_block .discovery_content_block .subtitel {font-family: 'Akhand';color: #fabd0f;}
+.discovery_selection_block .discovery_content_block .titel {font-family: 'Akhand';}
+.discovery_selection_block .discovery_content_block .link_block .link_button {font-family: 'Akhand';color: #fabd0f;}
+.product_type_2 .new span {font-family: 'Akhand';}
+.product_type_2 .cart_quantity {border: 1px solid #fabd0f;}
+
+.product_type_2 .cart_quantity .cart_quantity_input {font-family: 'Akhand';}
+.product_type_2 .cart_quantity .cart_quantity_button a.btn {background: #fabd0f;}
+.product_list .cart_quantity {border: 1px solid #fabd0f;}
+.product_list .cart_quantity .cart_quantity_input {font-family: 'Akhand';}
+.product_list .cart_quantity .cart_quantity_button a.btn {background: #fabd0f;}
+.addcart .cart_quantity {border: 1px solid #fabd0f;}
+.addcart .cart_quantity .cart_quantity_input {font-family: 'Akhand';}
+.addcart .cart_quantity .cart_quantity_button a.btn {background: #fabd0f;}
+.color_orange {color: #fabd0f !important}
+.color_red {color: #c1022c !important}
+.product_type_2 .product_info_text {font-family: 'Akhand';}
+.product_type_2 .cart_block a {font-family: 'Akhand';}
+.product_type_2 .cart_block a span {font-family: 'Akhand';}
+li:hover .product_type_2 .cart_block a span {background: #fabd0f;}
+.product_type_2 .pr_snippet_category a {color: #fabd0f;}
+
+#cms .rte .product_type_2 .cart_quantity p, .product_type_2 .cart_quantity p {font-family: 'Akhand';color: #fabd0f;}
+.left_text_block .header {font-family: 'Akhand';color: #fabd0f;}
+.left_text_block p {font-family:"Arial"; color: #000000;}
+.left_text_block p strong {font-family: 'Akhand';}
+.product_top_block .back_link span {font-family: 'Akhand'; font-size: 103%; padding-top: 14px;}
+.product_top_block .titel_block .titel_text {font-family: 'Akhand'; font-weight: bold;}
+.product_top_block .titel_block .price_text {font-family: 'Akhand';color: #fabd0f;}
+.product_top_block .titel_block .wrong {	font-family: 'Akhand';color: #ffffff;}
+.product_top_block .titel_block .discount_percentage {font-family: 'Akhand';color: #ffffff;}
+.product_top_block .titel_block .offer_valid_date {font-family: 'Akhand';color: #ffffff}
+.product_top_block .addcart {border: 1px solid #fabd0f;}
+.product_top_block .addcart .addform .quantity_text {font-family: 'Akhand'; font-size: 103%;}
+.product_top_block .addcart .addform .textbox {	font-family: 'Akhand'; font-size: 103%;}
+.product_top_block .addcart .addform .ajax_add_to_cart_button {background: #fabd0f;font-family: 'Akhand'; font-size: 103%;}
+.product_top_block .addcart .multibuy {color: #fabd0f;margin-top: 7px}
+.product_top_block .addcart .multibuy a {color: #fabd0f;}
+.product_top_block .addcart .multibuy {font-family: 'Akhand'; font-size: 103%;}
+.shopping_detels_block .shopping_detels li {font-family: 'Akhand';color: #000000; font-size: 103%;}
+.shopping_detels_block .shopping_detels li a {font-family: 'Akhand';color: #000000; font-size: 103%;}
+.product_details_block .left_image_block .productscroll #thumbs_list_frame li a.shown {border: 1px solid #fabd0f;}
+.product_details_block .left_image_block .productscroll #thumbs_list_frame li a:hover {border: 1px solid #fabd0f;}
+.product_details_block .left_image_block .zoomlink {color: #000000}
+.product_details_block .left_image_block .zoomlink span {font-family: 'Akhand';}
+.product_right_block .pr_snippet_category .new span {font-family: 'Akhand';}
+.product_right_block .description_block {font-family: 'Akhand'; padding-top: 20px;}
+.product_right_block .product_delites_block .product_delites_list li {font-family: 'Akhand';}
+.product_right_block .product_delites_block .product_delites_list li strong {font-family: 'Akhand';}
+.product_content_block .text_block .sub_header {font-family: 'Akhand';}
+.product_content_block .text_block .header {font-family: 'Akhand';color: #fabd0f;}
+.product_content_block .text_block p {font-family: 'Akhand';}
+.product_content_block .text_block p a {color: #fabd0f;}
+.breadcrumb {font-family: 'Akhand';}
+.breadcrumb a {font-family: 'Akhand';}
+.opinion_details_block .left_text_block {font-family: 'Akhand';}
+
+
+.opinion_details_block .left_text_block a {color: #fabd0f;}
+
+.opinion_details_block .center_image_block .text_block .sub_header {font-family: 'Akhand';}
+.opinion_details_block .center_image_block .text_block p {font-family: 'Akhand';color: #000000; font-size: 103%;}
+
+.opinion_details_block .center_image_block .link_block a.link_button {font-family: 'Akhand';color: #000000;}
+.opinion_details_block .center_image_block .link_block a.link_button span {font-family: 'Akhand';color: #000000; font-size: 103%;}
+.opinion_details_block .center_image_block .link_block a.link_button:hover {font-family: 'Akhand';}
+.opinion_details_block .center_image_block .link_block a.link_button:hover span {font-family: 'Akhand';}
+
+.opinion_details_block .right_block .list li {font-family: 'Akhand';}
+.opinion_details_block .right_block .list li strong {font-family: 'Akhand';}
+.kickback_zone .kickback_zone_list .list_box .text1 {font-family: 'Akhand';color: #fabd0f;}
+.kickback_zone .kickback_zone_list .list_box .product_name {font-family: 'Akhand';}
+
+.kickback_zone .kickback_zone_list .list_box .product_add_block a {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+.kickback_zone .kickback_zone_list .list_box .product_add_block a span {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+.cross_selling_tab_block .nav-tabs li a {font-family: 'Akhand';color: #000000; font-size: 103%;}
+.cross_selling_tab_block .nav-tabs li a:hover {color: #fabd0f;}
+.cross_selling_tab_block .nav-tabs a.selected {color: #fabd0f;}
+
+.characteristics_block .characteristics_box p {font-family: 'Akhand';color: #000000;}
+
+.characteristics_block .characteristics_box p strong {font-family: 'Akhand';}
+
+.hellobar_block .hellobar_box p {font-family: 'Akhand';}
+.hellobar_block .hellobar_box p strong {font-family: 'robotobold'}
+.hellobar_block .hellobar_box p a {font-family: 'Akhand';color: #fabd0f}
+
+.home_top_banner .home_top_left_banner .banner_left_block .content_block .new_text {font-family: 'Akhand';color: #fabd0f;}
+.home_top_banner .home_top_left_banner .banner_left_block .content_block .banner_titel {font-family: 'Akhand';}
+.home_top_banner .home_top_left_banner .banner_left_block .content_block p {font-family: 'Akhand';}
+
+.home_top_banner .home_top_left_banner .banner_left_block .product_block .right_product_details .product_name {font-family: 'Akhand';}
+.home_top_banner .home_top_left_banner .banner_left_block .product_block .right_product_details p {font-family: 'Akhand';}
+.home_top_banner .home_top_left_banner .banner_left_block .product_block .right_product_details .price {font-family: 'Akhand';color: #fabd0f;}
+
+.home_top_banner .home_top_left_banner .banner_left_block .discover_botton_block .discover_link {font-family: 'Akhand';}
+.home_top_banner .home_top_left_banner .banner_left_block .discover_botton_block .discover_link:hover {color: #fabd0f}
+
+.home_selection_block .selection_text {font-family: 'Akhand';color: #fabd0f;}
+.home_selection_block .product_name {font-family: 'Akhand';}
+.home_selection_block .find_out_block a {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+.home_selection_block .find_out_block a span {font-family: 'Akhand';color: #fabd0f;}
+.home_selection_block:hover .find_out_block a {font-family: 'Akhand';}
+.home_selection_block:hover .find_out_block a span {font-family: 'Akhand';}
+
+.home_round_block .text_block .top_subtitel {font-family: 'Akhand';color: #000000;}
+.home_round_block .text_block .titel {font-family: 'Akhand';}
+.home_titel_block {font-family: 'Akhand';color: #fabd0f}
+
+.home_slider_block .film_roll_child.active .slider_box:hover {border: 5px solid #fabd0f}
+.allbrewer_link_block a.allbrewer_link_button {
+	border: 1px solid #fabd0f;
+	font-family: 'Akhand';
+	color: #fabd0f;
+}
+.allbrewer_link_block a.allbrewer_link_button span {
+	font-family: 'Akhand';
+	color: #fabd0f;
+
+}
+
+.social_media_block .saveurbiere_text1 {
+	font-family: 'Akhand';
+	color: #000000;
+}
+.social_media_block .saveurbiere_text2 {
+	font-family: 'Akhand';
+	color: #fabd0f;
+
+}
+
+.social_media_block .socialmedia_imagegallery_block .socialmedia_box .socialmedia_hover .social_titel {font-family: 'Akhand';}
+.social_media_block .socialmedia_imagegallery_block .socialmedia_box .socialmedia_hover p {font-family: 'Akhand';}
+.social_media_block .socialmedia_imagegallery_block .socialmedia_box .socialmedia_hover p strong {font-family: 'Akhand';}
+
+
+.social_media_block .see_notes_block p {
+	font-family: 'Akhand';
+	color: #000000
+}
+.social_media_block .see_notes_block a {
+	font-family: 'Akhand';
+	color: #fabd0f;
+
+}
+
+.home_checkout_block .header {
+
+	font-family: 'Akhand';
+	color: #fabd0f;
+}
+
+.home_checkout_block .homecheckout_box p {font-family: 'Akhand';}
+
+footer .connections_block .box .header {
+	font-family: 'Akhand';
+	color: #fabd0f;
+}
+footer .connections_block .box .connections_list li a {
+
+	font-family: 'Akhand';
+
+}
+
+.connections_block .interdrinks_box p {
+
+	font-family: 'Akhand';
+
+}
+.payment_delivery_logos p {
+
+	font-family: 'Akhand';
+
+}
+.imprint_block p {
+
+	font-family: 'Akhand';
+
+}
+.copyright_block .copyright_header_text {
+
+	font-family: 'Akhand';
+
+}
+.copyright_block .copyright_text {
+
+	font-family: 'Akhand';
+
+}
+.copyright_block .copyright_header_text p {
+	color: #fabd0f
+}
+.home_content_block .text_block .header {
+	font-family: 'Akhand';
+	color: #fabd0f
+}
+
+.checkout_topheader_block .product_price_details {
+	font-family: 'Akhand';
+
+}
+.checkout_topheader_block .product_price_details span {
+
+	color: #fabd0f
+}
+
+.checkout_topheader_block .checkout_toprightlink a {
+
+	font-family: 'Akhand';
+
+}
+.checkout_topheader_block .checkout_toprightlink a span {
+
+	font-family: 'Akhand';
+
+}
+
+.checkout_topheader_block .checkout_toprightlink p {
+
+	font-family: 'Akhand';
+
+}
+
+
+
+.shoppingcart_rightside .ourcomments .header-text {
+
+	font-family: 'Akhand';
+
+}
+
+
+
+.shoppingcart_rightside .box .icon_box .span {font-family: 'Akhand';color: #000000;}
+.shoppingcart_rightside .callblock .box .icon_box strong {font-family: 'Akhand';color: #fabd0f;}
+.shoppingcart_rightside .box p {font-family: 'Akhand';}
+.reviews_block .reviews_note .reviewsnote_rightblock .number {font-family: 'Akhand';color: #fabd0f;}
+.reviews_block .reviews_note .reviewsnote_rightblock p {font-family: 'Akhand';}
+
+
+
+
+
+.reviews_block .reviews_noticeblock .notice_box .name {font-family: 'Akhand';color: #000000;}
+.reviews_block .reviews_noticeblock .notice_box .date {font-family: 'Akhand';color: #000000;}
+.reviews_block .reviews_noticeblock .notice_box p {font-family: 'Akhand';}
+
+.reviews_block .readall_reviews .link {font-family: 'Akhand'; color: #fabd0f;}
+.shoppingcart_leftside .text_block .header {font-family: 'Akhand';color: #fabd0f}
+
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .aboutproduct_ strong {font-family: 'Akhand';}
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .aboutproduct_ strong a {font-family: 'Akhand';color: #000000;}
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .aboutproduct_ .produc_size {font-family: 'Akhand';color: #000000;}
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .aboutproduct_ .produc_price {font-family: 'Akhand';color: #fabd0f;}
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .cart_unit.price {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .cart_unit.price span.price {font-family: 'Akhand';color: #fabd0f;}
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .cart_unit.price span.oldprice {font-family: 'Akhand';}
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .cart_unit.price span.discount {font-family: 'Akhand';}
+
+.shoppingcart_leftside .order_detail_content table tbody .cart_item .cart_quantity.quantity .cart_quantity_input {font-family: 'Akhand';color: #000000;}
+
+.voucherbody .membership .voucher-text p {font-family: 'Akhand';color: #fabd0f;}
+.voucherbody .membership .voucher-text p a {font-family: 'Akhand';color: #fabd0f;}
+.voucherbody .membership .voucher-text p.bold {font-family: 'Akhand';}
+.voucherbody .membership .voucher-ammount {font-family: 'Akhand';color: #fabd0f;}
+.voucherbody .membership .delete_block .delete span {font-family: 'Akhand';color: #000000;}
+
+
+.voucherbody .pointer p {font-family: 'Akhand';}
+.voucherbody .pointer .add_code {
+	font-family: 'Akhand';
+	color: #fabd0f;}
+
+
+.shoppingcart_leftside .total_1 .text {
+	font-family: 'Akhand';
+	color: #fabd0f
+}
+
+.shoppingcart_leftside .total_1 .text span {
+	font-family: 'Akhand';
+}
+
+.shoppingcart_leftside .total_1 .total_price_cart {
+	font-family: 'Akhand';
+	color: #fabd0f;
+
+}
+
+.shoppingcart_leftside .total_1 .buttonfield .button2 {
+	font-family: 'Akhand';
+
+}
+.shoppingcart_leftside .total_1 .buttonfield .button2:hover {
+	color: #fabd0f;
+}
+
+
+
+
+
+.cart_dropdown_block .productlist .productlist-1 ul li .product-title {
+	font-family: 'Akhand';
+	color: #000000;
+}
+
+.cart_dropdown_block .productlist .productlist-1 ul li .product-price {
+
+	font-family: 'Akhand';
+	color: #000000;
+
+}
+
+.cart_dropdown_block .productlist .productlist-1 ul li .product_quantity .cart_quantity_input {
+
+	font-family: 'Akhand';
+
+}
+.cart_dropdown_block .productlist .totalblock .left_text .total_price {
+
+	font-family: 'Akhand';
+
+	color: #fabd0f;
+
+}
+
+.cart_dropdown_block .productlist .totalblock .left_text .total_price span {
+	font-family: 'Akhand';
+}
+.cart_dropdown_block .productlist .totalblock .left_text p {
+	font-family: 'Akhand';
+	color: #000000;
+
+}
+
+
+.cart_dropdown_block .productlist .totalblock .cartbtn_block .cartbtn {
+
+	border: 1px solid #fabd0f;
+	background: #fabd0f;
+
+	font-family: 'Akhand';
+
+}
+
+
+.cart_dropdown_block .productlist .totalblock .cartbtn_block .cartbtn:hover {
+	color: #fabd0f;
+}
+
+
+.checkout_topheader_block .inside_header {
+
+	font-family: 'Akhand';
+
+}
+
+.orderopc .leftblock .header_block h3 {
+	font-family: 'Akhand';
+	color: #000000;
+}
+.orderopc .leftblock .header_block a {
+	font-family: 'Akhand';
+	color: #fabd0f;
+
+}
+
+
+.orderopc .leftblock .cartblock table tr {
+	font-family: 'Akhand';
+	color: #000000
+}
+
+.orderopc .leftblock .cartblock table .right_content .p-contents {
+
+	font-family: 'Akhand';
+	color: #000000;
+
+}
+
+.orderopc .leftblock .cartblock table .right_content .quantity_price .total {
+
+	font-family: 'robotobold'
+}
+
+.orderopc .leftblock .cartblock table tr .price {
+	font-family: 'Akhand';
+}
+
+.orderopc .leftblock .cartblock table tr .textblock a {
+	color: #fabd0f;
+}
+
+.orderopc .leftblock .cartblock table tr.totalblock {
+	font-family: 'Akhand';
+
+}
+.orderopc .leftblock .cartblock table tr.totalblock .textblock {
+	color: #fabd0f;
+	font-family: 'Akhand';
+
+}
+.orderopc .leftblock .cartblock table tr.totalblock .price {
+	color: #fabd0f;
+	font-family: 'Akhand';
+	font-weight: normal
+}
+
+
+.orderopc .rightblock .opc-main-block .headerblock .loginFormTitle {
+	font-family: 'Akhand';
+	color: #000000;
+
+}
+
+.orderopc .rightblock .opc-main-block .headerblock .login {
+
+	font-family: 'Akhand';
+
+}
+
+
+.orderopc .rightblock .opc-main-block .headerblock .login:hover {
+	color: #fabd0f;
+	border: 1px solid #fabd0f;
+}
+
+
+
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 h3 {
+
+	font-family: 'Akhand';
+	color: #000000;
+
+}
+
+
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 .required label {
+	font-family: 'Akhand';
+}
+
+
+
+
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 .text label {
+
+	font-family: 'Akhand';
+
+}
+
+
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 .textbox_2 {
+
+	font-family: 'Akhand';
+
+}
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 a {
+	color: #fabd0f;
+}
+
+
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 p.submit .button {
+	background: #fabd0f;
+	border: 1px solid #fabd0f;
+	float: none;
+	font-family: 'Akhand';
+
+}
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 p.submit .button:hover {
+	color: #fabd0f
+}
+
+
+
+
+
+
+
+
+.orderopc .rightblock .opc-main-block .formfield1 .select-wrapper, .select-wrapper select {
+	font-family: 'Akhand';
+
+}
+
+
+.opc-main-block .addresses .add-block .title {
+	font-family: 'Akhand';
+
+}
+
+.opc-main-block .addresses .add-block .select-wrapper .holder {
+
+	font-family: 'Akhand';
+}
+
+
+
+.opc-main-block .addresses .add-block .addressesAreEquals label {
+	font-family: 'Akhand';
+	color: #fabd0f;
+
+}
+
+
+
+
+.opc-main-block .addresses .showaddress h3 {font-family: 'Akhand';}
+
+.opc-main-block .addresses .showaddress .address li {font-family: 'Akhand';}
+.opc-main-block .addresses .showaddress .address li.address_title {font-family: 'Akhand';}
+.opc-main-block .addresses .showaddress .address li.address_update {color: #fabd0f}
+.opc-main-block .addresses .showaddress .address li.address_update a {color: #fabd0f}
+
+.opc-main-block .addresses .address_add.submit a.htc, #changeCustCP {font-family: 'Akhand';}
+.opc-main-block .addresses .address_add.submit a.htc:hover, #changeCustCP:hover {border: 1px solid #fabd0f;color: #fabd0f;}
+.orderopc .rightblock .opc-main-block .formfield1 .formcss1 .textbox_2:hover {border-color: #fabd0f}
+.select-wrapper:hover {border-color: #fabd0f}
+input[type="submit"]:hover {border-color: #fabd0f;background-color: #ffffff}
+
+.selectfield1 .select {font-family: 'Akhand';}
+.opc-main-block .delivery_options_address .headerblock h3 {font-family: 'Akhand';}
+.opc-main-block .delivery_options_address .headerblock a {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+
+.opc-main-block .delivery_options_address .delivery_option .tableblock .priceblock .delivery_option_price {font-family: 'Akhand';}
+
+.opc-main-block .delivery_options_address .delivery_option .tableblock .title {font-family: 'Akhand';}
+
+
+#opc_payment_methods-overlay .headerblock h3 {font-family: 'Akhand';}
+
+#opc_payment_methods-overlay .payment-block li .paymentcontents {font-family: 'Akhand';}
+
+.orderopc .rightblock .view_summary_block #main_checkout_button {font-family: 'Akhand';border: 1px solid #fabd0f;}
+
+.orderopc .rightblock .view_summary_block #main_checkout_button:hover {border: 1px solid #fabd0f;color: #fabd0f;}
+
+.selectfield1 .select option {font-family: 'Akhand';}
+
+.highlight {color: #fabd0f !important;}
+
+#layered_form .bootstrap-select > .btn {font-family: 'Akhand';}
+
+#layered_form .open > .dropdown-toggle.btn-default {color: #fabd0f !important}
+#layered_form .selected > .dropdown-toggle.btn-default {color: #fabd0f !important}
+
+#layered_form .dropdown-menu ul li a {font-family: 'Akhand';}
+
+#layered_form .dropdown-menu ul li a:hover {color: #fabd0f !important;}
+
+
+.passion_delivery .delivery_box span {font-family: 'Akhand';}
+
+.passion_delivery .delivery_box:hover {color: #fabd0f}
+.passion_delivery .delivery_box:hover span {color: #fabd0f !important}
+.passion_delivery .delivery_box.selected span {color: #fabd0f !important}
+
+
+.packages_content_block .titel {font-family: 'Akhand';color: #fabd0f;}
+
+.packages_content_block p {font-family: 'Akhand';}
+
+#cms .rte .packages_content_block .titel, #cms .rte .h1 {font-family: 'Akhand';}
+
+.packages_content_block .argument_block .argument_box .subtitel {font-family: 'Akhand';color: #fabd0f;}
+.packages_content_block .argument_block .argument_box p {font-family: 'Akhand';}
+
+
+.packages_content_block .shipping_france .shipping_box .shipping_france_subtitel {font-family: 'Akhand';color: #fabd0f;}
+
+.packages_content_block .shipping_france .shipping_box .shipping_list li .subtitel {font-family: 'Akhand';}
+
+.packages_content_block .shipping_france .shipping_box .shipping_list li p {font-family: 'Akhand';}
+
+
+.packages_content_block .delivery_europe_block .zone_block .zone_box .zone_titel {font-family: 'Akhand';color: #fabd0f;}
+.packages_content_block .delivery_europe_block .zone_block .zone_box p {font-family: 'Akhand';}
+
+.ac_results ul li {font-family: 'Akhand';color: #000000 !important;}
+.ac_results ul li.ac_over {background: #f0f0eb !important;}
+.ac_results ul li strong {color: #fabd0f !important}
+
+
+.msgtext .success {font-family: 'Akhand';}
+
+
+.msgtext .error {font-family: 'Akhand';}
+
+header .header .shopping_cart .cartbody span {font-family: 'Akhand';}
+.t-open1 fieldset h2 {font-family: 'Akhand';}
+
+.t-open1 fieldset .fieldbox .discount_name {font-family: 'Akhand';}
+
+
+.t-open1 fieldset .submit .button {background: #fabd0f;border: 1px solid #fabd0f;font-family: 'Akhand';}
+
+.t-open2 .fieldblock .textarea1 {font-family: 'Akhand';}
+.t-open2 .fieldblock .redbutton {background: #fabd0f;border: 1px solid #fabd0f;font-family: 'Akhand';}
+
+.t-open2 .fieldblock .redbutton:hover {color: #fabd0f}
+#order-opc {background: #f0f0eb}
+
+
+#authentication .authentication h1 {font-family: 'Akhand';}
+
+#authentication .authentication .formfield .std h3 {font-family: 'Akhand';}
+
+#authentication .authentication .formfield .std h4 {color: #fabd0f;}
+
+#authentication .authentication .formfield .form_field p.text label {font-family: 'Akhand';}
+#authentication .authentication .formfield .form_field p.text .textbox {font-family: 'Akhand';}
+
+
+#authentication .authentication .submit .uc {background: #fabd0f; border: 1px solid #fabd0f;font-family: 'Akhand';}
+#authentication .authentication .submit .uc:hover {color: #fabd0f}
+#password .whitebody h3 {font-family: 'Akhand';}
+#password .whitebody .formfield1 .formcss1 p.text label {font-family: 'Akhand';}
+#password .whitebody .formfield1 .formcss1 p.text .textbox_2 {font-family: 'Akhand';}
+
+#password .whitebody .submit .button {background: #fabd0f;border: 1px solid #fabd0f;font-family: 'Akhand';}
+#password .whitebody .submit .button:hover {color: #fabd0f}
+
+#password .whitebody .login .red-button {color: #fabd0f;}
+
+.contactpage {font-family: 'Akhand';}
+
+.contactpage .leftbody p {font-family: 'Akhand';}
+
+.contactpage .leftbody h3 {font-family: 'Akhand';}
+
+.contactpage .leftbody a {color: #fabd0f !important;font: 15px 'Roboto-Regular';}
+
+#contact #contact-form h3 {font-family: 'Akhand';}
+
+#contact #contact-form .formcss1 p label {font-family: 'Akhand';}
+#contact #contact-form .formcss1 p .textbox {font-family: 'Akhand';}
+
+#contact #contact-form .formcss1 p.submit .largebtn {font-family: 'Akhand';}
+
+#contact #contact-form .formcss1 p .textarea1 {font-family: 'Akhand';}
+
+.contactpage .rightbody .leftgraybox h4 {font-family: 'Akhand';}
+
+.containerbody .leftside .accountlinks h4 {font-family: 'Akhand';}
+
+.containerbody .myaccount_lnk_list li {font-family: 'Akhand';}
+.containerbody .myaccount_lnk_list li a {font-family: 'Akhand';}
+
+
+.containerbody .rightside .topcontents h2 {font-family: 'Akhand';}
+.containerbody .rightside .topcontents p {font-family: 'Akhand';}
+
+
+.containerbody .rightside .topcontents ul li {font-family: 'Akhand';}
+
+.containerbody .rightside .topcontents ul li a {font-family: 'Akhand';}
+
+
+
+#my-account .product_list1 h3 {font-family: 'Akhand';}
+
+#my-account .product_list1 ul li {font-family: 'Akhand';}
+#my-account .product_list1 ul li a {font-family: 'Akhand';}
+
+
+#my-account .blackbox ul li {font-family: 'Akhand';}
+#my-account .product_list1 h3 a {color: #fabd0f;}
+
+
+.black_topheader_block .product_price_details {font-family: 'Akhand';}
+.black_topheader_block .product_price_details span {color: #fabd0f}
+.black_topheader_block .inside_header, body#manufacturer .image_block h1 {font-family: 'Akhand';}
+
+
+#history .history h1 {font-family: 'Akhand';}
+#history .history p {font-family: 'Akhand';}
+
+
+#history #order-list th, #discount #discount_list th {font-family: 'Akhand';}
+
+#history #order-list td, #discount #discount_list td {font-family: 'Akhand';}
+
+#history #order-list td .color-myaccount {color: #fabd0f}
+
+
+#history .orderdetails h3 {font-family: 'Akhand';}
+
+#history .orderdetails .showaddress ul {font-family: 'Akhand';}
+
+
+#history .orderdetails .showaddress ul li.address_title {font-family: 'Akhand';}
+#history .orderdetails .table_block {font-family: 'Akhand';}
+#history .orderdetails .table_block table {	font-family: 'Akhand';}
+
+#history .orderdetails .select_field {font-family: 'Akhand';}
+
+#history .orderdetails .textareafield .textarea1 {font-family: 'Akhand';}
+
+#history .orderdetails .show_id_order {color: #fabd0f}
+
+
+
+.product_details_block .left_image_block .zoomlink span {font-family: 'Akhand';}
+
+
+#club .clubcontainer p {font-family: 'Akhand';}
+
+#club #more_info_block h1, #clubvalidation h1, #loyaltyconfirmation h1 {font-family: 'Akhand';}
+
+
+#club a.redbutton, #clubvalidation a.redbutton {border: 1px solid #fabd0f;background: #fabd0f;font-family: 'Akhand';}
+
+#club a.redbutton:hover, #clubvalidation a.redbutton:hover {color: #fabd0f;}
+
+
+
+.order-payment-execution .orderopc .leftblock h3 {font-family: 'Akhand';}
+
+.order-payment-execution .order-payment-name h1 {font-family: 'Akhand';color: #fabd0f}
+
+.order-payment-execution .order-payment-name .order-payment-name_sub h2 {font-family: 'Akhand';}
+
+.order-payment-execution .order-payment-name .order-payment-name_sub .red-button {font-family: 'Akhand';color: #fabd0f;}
+.order-payment-execution .order-payment-name .order-payment-name_sub .red-button:hover {background: #fabd0f;}
+.order-payment-execution .order-payment-name h1 {font-family: 'Akhand';}
+
+
+.order-payment-execution .order-payment-name .order-payment-name_sub h2 {font-family: 'Akhand';}
+
+.order-payment-execution .order-payment-name .order-payment-name_sub form .largebtn {font-family: 'Akhand';}
+.order-payment-execution .order-payment-name .order-payment-name_sub form .largebtn:hover {color: #fabd0f}
+.order-payment-execution .order-payment-name p {font-family: 'Akhand';}
+.order-payment-execution .order-payment-name p a {color: #fabd0f}
+#order-confirmation .confirmationblock {font-family: 'Akhand';}
+
+
+#order-confirmation .imagesblock {font-family: 'Akhand';}
+
+#order-confirmation .imagesblock span {font-family: 'Akhand';}
+#order-confirmation .confirmationblock .rightcontents h2 {font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation h3 {font-family: 'Akhand';}
+
+
+#authentication #opc_account_form .account_creation p.text label {font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation p.text .textbox_2 {font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation p.password label {font-family: 'Akhand';}
+#authentication #opc_account_form .account_creation p.password .textbox_2 {font-family: 'Akhand';}
+#authentication #opc_account_form .account_creation .form_info_ {font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation p.selectfield label {font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation p.selectfield .select-wrapper {font-family: 'Akhand';}
+
+#order-opc #opc_account_form p.selectfield .select-wrapper {font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation a {color: #fabd0f;}
+
+#authentication .authentication .submit .largebtn {background: #fabd0f;border: 1px solid #fabd0f;font-family: 'Akhand';}
+
+#authentication #opc_account_form .account_creation .inline-infos {font-family: 'Akhand';}
+#order-opc .orderopc .leftblock h3 {font-family: 'Akhand';}
+#order-opc .orderopc .leftblock h3 a {color: #fabd0f;}
+
+.orderopc .rightblock .opc-main-block .headerblock h3 {font-family: 'Akhand';}
+
+
+
+#order-opc #opc_new_account-overlay #login_form .left1 label {font-family: 'Akhand';}
+
+#order-opc #opc_new_account-overlay #login_form span .textbox {font-family: 'Akhand';}
+
+#order-opc #opc_new_account-overlay #login_form .right1 label {font-family: 'Akhand';}
+
+
+
+#order-opc #opc_new_account-overlay #login_form .right1 span .textbox {font-family: 'Akhand';}
+
+
+#order-opc #opc_new_account-overlay #login_form p.submit .button {font-family: 'Akhand';}
+
+
+#order-opc #opc_new_account-overlay #login_form p.submit .button:hover {color: #fabd0f}
+#order-opc #opc_new_account-overlay #login_form .lost_password {font-family: 'Akhand';color: #fabd0f;}
+
+
+#product #oos_customer_email {font-family: 'Akhand';}
+
+#product #mailalert_link {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+.cms_3#cms .whitebody .rightbody .layered_subtitle {font-family: 'Akhand';}
+
+
+
+.cms_3#cms .whitebody p {font-family: 'Akhand';}
+
+.cms_3#cms .whitebody a {color: #fabd0f !important}
+
+.cms_3#cms .whitebody h3 {font-family: 'Akhand';color: #fabd0f}
+
+.cms_13#cms .whitebody #page_large h1 {font-family: 'Akhand';}
+.cms_13#cms .whitebody #page_large p {font-family: 'Akhand';}
+
+.cms_13#cms .whitebody #page_large h3 {font-family: 'Akhand';color: #fabd0f;}
+#cms .whitebody a {color: #fabd0f}
+
+.cms_20#cms .whitebody .space_1 h1 {font-family:'clearfaceheavy';}
+.cms_20#cms .whitebody .space_1 p {font-family: 'Akhand';}
+
+
+.cms_5#cms .whitebody .space_1 h1 {font-family: 'Akhand';}
+
+.cms_5#cms .whitebody h3 {font-family: 'Akhand';color: #fabd0f;}
+
+.cms_5#cms .whitebody a {color: #fabd0f !important}
+
+
+footer .followus_block .box .header {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+
+footer .followus_block .box p {font-family: 'Akhand';}
+footer .followus_block .box p strong {color: #fabd0f;font-family: 'Akhand';}
+footer .followus_block .box .enail_template {font-family: 'Akhand';color: #fabd0f;}
+
+footer .followus_block .box.newsletter .newsletter_form .newsletter_field {font-family: 'Akhand';}
+footer .followus_block .box.newsletter .newsletter_form .newsletter_submit_button {font-family: 'Akhand';color: #fabd0f;border: 1px solid #fabd0f;}
+footer .followus_block .box.newsletter .newsletter_form .newsletter_submit_button:hover {background: #fabd0f;}
+
+
+footer .followus_block .box.findus .findus_list li a {font-family: 'Akhand';}
+
+
+
+footer .followus_block .box.findus .findus_list li a span {font-family: 'Akhand';}
+
+footer .followus_block .box.findus .findus_list li:hover a span {color: #fabd0f;}
+
+
+#fichebiere .clubbody h3 {font-family: 'Akhand';color: #fabd0f !important;}
+#fichebiere .clubbody p {font-family: 'Akhand';}
+#fichebiere .clubbody ul li {font-family: 'Akhand';}
+#fichebiere .clubbody ul li a {color: #fabd0f !important}
+
+
+.ilightbox-wrapper .formcss1 h1 {font-family: 'Akhand';}
+.ilightbox-wrapper .formcss1 .formcss1 h3 {font-family: 'Akhand';}
+.ilightbox-wrapper .formcss1 .formcss1 .required label {font-family: 'Akhand';}
+.ilightbox-wrapper .formcss1 .text label {font-family: 'Akhand';}
+.ilightbox-wrapper .formcss1 .textbox_2 {font-family: 'Akhand';}
+.ilightbox-wrapper .formcss1 .required label {font-family: 'Akhand';}
+
+.ilightbox-wrapper .formcss1 .select_1 {font-family: 'Akhand';}
+.ilightbox-wrapper .formcss1 .formcss1 a {color: #fabd0f;}
+
+
+.ilightbox-wrapper #submitAddressButton {font-family: 'Akhand';}
+
+.ilightbox-wrapper #submitAddressButton:hover {color: #fabd0f}
+
+
+.ekomi_banner .ekomi.content .left p {font-family: 'Akhand';}
+
+.account-right h1 {font-family: 'Akhand';}
+.account-right h3 {font-family: 'Akhand';color: #fabd0f;}
+
+.account-right .footer_links li .red-button {font-family: 'Akhand';color: #fabd0f;}
+.account-right .footer_links li .red-button:hover {background: #fabd0f;}
+
+form.std p.text label {font-family: 'Akhand';}
+
+form.std p.text .textbox_2 {font-family: 'Akhand';}
+
+form.std p.password label {font-family: 'Akhand';}
+form.std p.password .textbox_2 {font-family: 'Akhand';}
+form.std .form_info_ {font-family: 'Akhand';}
+
+
+form.std p.selectfield label {font-family: 'Akhand';}
+form.std p.selectfield .select-wrapper {font-family: 'Akhand';}
+form.std .submit .largebtn, #order-confirmation .largebtn {background: #fabd0f;border: 1px solid #fabd0f;font-family: 'Akhand';}
+
+form.std .submit .largebtn:hover, #order-confirmation .largebtn:hover {color: #fabd0f}
+form.std .inline-infos {font-family: 'Akhand';}
+
+
+body#addresses .address li {font-family: 'Akhand';}
+
+body#addresses .address li.address_title {font-family: 'Akhand';}
+
+
+body#addresses .address li.address_update a, body#addresses .address li.address_delete a {color: #fabd0f;}
+
+body#addresses .address_add a.htc {font-family: 'Akhand';}
+body#authentication .lost_password a {color: #fabd0f;}
+
+.error_u {font-family: 'Akhand';}
+
+#cms .rte h1 {font-family: 'Akhand';}
+
+#cms .rte p, #cms .rte ul, #cms .rte ol {font-family: 'Akhand';}
+#cms .rte h2 {color: #fabd0f; font-family: 'Akhand';}
+
+#cms .rte h3 {font-family: 'Akhand';}
+
+#cms .rte .team_member {border: 3px solid #fabd0f;}
+
+
+#order .cart_unit .deposit_total_price {color: #fabd0f;font-family: 'Akhand';}
+
+.order-confirmation .saveurbox_leftside {font-family: 'Akhand';}
+
+
+.order-confirmation .saveurbox_leftside a {color: #fabd0f;}
+
+
+body#order-confirmation .rte h1 {font-family: 'Akhand';}
+body#order-confirmation .rte p {font-family: 'Akhand';}
+body#order-confirmation .rte h2 {color: #fabd0f;font-family: 'Akhand';}
+body#order-confirmation .rte a.small_link {color: #fabd0f;}
+
+
+.orderopc .rightblock .opc-main-block .headerblock a, #opc_payment_methods-overlay .headerblock a {font-family: 'Akhand'; color: #fabd0f;}
+
+.max_quantity_rule, .max_quantity_rule a {color: #fabd0f}
+.available_later {color: #fabd0f}
+
+#pagenotfound .largebtn {background: #fabd0f none repeat scroll 0 0;border: 1px solid #fabd0f; font-family: 'Akhand';}
+
+
+.orderopc .order-payment-name .paymentform .red-button {font-family: 'Akhand'; background: #fabd0f;border: 1px solid #fabd0f;}
+.orderopc .order-payment-name .paymentform .red-button:hover {border: 1px solid #fabd0f;color: #fabd0f;}
+
+#order .error {font-family: 'Akhand';}
+
+#order .success {font-family: 'Akhand';}
+
+.ordermsgtext {font-family: 'Akhand';}
+
+.cgv label {font-family: 'Akhand'; color: #fabd0f !important;}
+
+
+.cgv label {font-family: 'Akhand';}
+.orderopc .rightblock .opc-main-block .headerblock .saturday-shipping label {font-family: 'Akhand';}
+.opc-main-block .addresses .graybox_2 h3 {font-family: 'Akhand';}
+
+
+.product_list .feature_selon_votre_pompe {font-family: 'Akhand';}
+
+
+.menudroparow.futs_menudrop .select-wrapper {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+#identity .identity h3 {font-family: 'Akhand';}
+
+
+#history .orderdetails table tr td {font-family: 'Akhand';}
+#history .orderdetails .showaddress ul li span {font-family: 'Akhand';}
+#history .orderdetails .table_block table label {font-family: 'Akhand';}
+
+
+
+#history .orderdetails .table_block table th {font-family: 'Akhand';}
+
+#history .orderdetails .table_block table tr td {font-family: 'Akhand';}
+
+
+.gm-style .gm-style-iw h4 {font-family: 'Akhand';}
+
+.gm-style .gm-style-iw .gls-relais-info p a {font-family: 'Akhand';}
+
+.gm-style .gm-style-iw .gls-relais-info p a:hover {color: #fabd0f;}
+
+
+
+
+.gm-style .gm-style-iw .mondial-relais-info p a {border: 1px solid #fabd0f; background: #fabd0f;font-family: 'Akhand';}
+.gm-style .gm-style-iw .mondial-relais-info p a:hover {color: #fabd0f;}
+
+
+
+
+#mondial-relais-selected span {border: 1px solid #fabd0f;}
+
+#mondial-relais-selected span b {color: #fabd0f}
+
+
+.section_brewing_block .section_brewing_box .header {font-family: 'Akhand';color: #fabd0f;}
+
+
+
+.section_brewing_block .section_brewing_box p {font-family: 'Akhand';}
+.section_brewing_block .section_brewing_box .text2 {font-family: 'Akhand';}
+
+
+
+.section_brewing_block .section_brewing_box .text2 a {color: #fabd0f !important}
+
+.section_brewing_block .section_brewing_box .text2 span {color: #fabd0f !important}
+
+.section_brewing_block .section_brewing_box .text3 {font-family: 'Akhand';}
+
+
+.section_brewing_block .section_brewing_box .text3 a {color: #fabd0f !important}
+.section_brewing_block .section_brewing_box .text3 span {color: #fabd0f !important}
+
+
+
+
+.beerkit_textblock .sub_header {font-family: 'Akhand';color: #fabd0f;}
+
+.beerkit_textblock .header {font-family: 'Akhand';color: #fabd0f}
+.beerkit_textblock p {font-family: 'Akhand';}
+
+
+.beerdiscoverkit_block .beerdiscoverkit_button {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;}
+
+.beerdiscoverkit_block .beerdiscoverkit_button span {font-family: 'Akhand';color: #fabd0f;}
+
+.beerdiscoverkit_block .beerdiscoverkit_button:hover {	font-family: 'Akhand';}
+
+.beerdiscoverkit_block .beerdiscoverkit_button:hover span {background: #fabd0f;font-family: 'Akhand';}
+
+.brewingimage_button_block .brewingimage_button {border: 1px solid #fabd0f;font-family: 'Akhand';color: #fabd0f;background: #f0f0eb;}
+
+.brewingimage_button_block .brewingimage_button span {font-family: 'Akhand';color: #fabd0f;}
+
+.brewingimage_button_block .brewingimage_button:hover {font-family: 'Akhand';}
+
+.brewingimage_button_block .brewingimage_button:hover span {background: #fabd0f; font-family: 'Akhand';}
+
+.brewing_product .header {font-family: 'Akhand';color: #fabd0f}
+
+
+
+
+
+
+
+
+.lists ul li span {border: 1px solid #fabd0f; color: #fabd0f;}
+
+#last_viewed h3 {font-family: 'Akhand';}
+
+.sbox h3 {color: #fabd0f;font-family: clearfaceheavy;}
+
+
+
+.sbox_prod_title {font-family: clearfaceheavy}
+
+.sbox .checkout_toprightlink a {background: #fabd0f none repeat scroll 0 0;font-family: 'Akhand';}
+
+.sbox .checkout_toprightlink a:hover {color: #fabd0f;border: 1px solid #fabd0f}
+.sbox .checkout_toprightlink a:hover span {color: #fabd0f}
+
+
+
+
+
+
+.footer_flagsblock .footer_flaglink li .footer_flag .text {font-family: 'Akhand';}
+
+.product_right_block .product_delites_block .product_delites_list li a {font-family: 'Akhand'; font-size: 15px;}
+
+.product_right_block .product_delites_block .product_delites_list li .name {font-family: 'Akhand';color: #fabd0f;}
+.product_right_block .product_delites_block .product_delites_list li .valu {font-family: 'Akhand';}
+
+
+.product_content_block .other_deliteslist .other_list li {font-family: 'Akhand';}
+.product_content_block .other_deliteslist .other_list li strong {font-family: 'Akhand';}
+
+
+.videoexplains_block .text_block .header {font-family: 'Akhand';color: #fabd0f;}
+
+
+.videoexplains_block .text_block {font-family: 'Akhand';}
+
+.videoexplains_block .text_block strong {color: #fabd0f}
+
+
+
+
+.black_topheader_block .titel_text {font-family: 'Akhand';}
+#annuairebiere .contentarea {font-family: 'Akhand';}
+
+#annuairebiere .contentarea h3 {color: #fabd0f;font-family: 'Akhand';}
+
+#listebiere .contentarea h1 {color: #fabd0f;font-family: 'Akhand';}
+#fichelogobiere .contentarea #pa_intro h1 {color: #fabd0f;font-family: 'Akhand';}
+#listebrasserie .contentarea h1 {color: #fabd0f;font-family: 'Akhand';}
+#fichebrasserie .contentarea h1 {color: #fabd0f;font-family: 'Akhand';}
+#fichebrasserie .contentarea h3 {font-family: 'Akhand';}
+#annuairebrasserie #pa_content_cont_ h3 {color: #fabd0f;font-family: 'Akhand';}
+
+
+
+.cmsvideo_mainblock .cmsvideo_block .header {font-family: 'Akhand'; color: #fabd0f !important;}
+
+.topgreen_banner .topgreen_textblock h2 {font-family: 'Akhand';}
+.topgreen_banner .topgreen_textblock .header1 {font-family: 'Akhand';color: #fabd0f;}
+.topgreen_banner .topgreen_textblock .header2 {font-family: 'Akhand';}
+
+
+.ebox_free .cartbtn {font-family: 'Akhand';}
+.eurobox_top_cart_name {color: #fabd0f;}
+
+.ebox_free_add {background: #fabd0f none repeat scroll 0 0;border: 1px solid #fabd0f;font-family: 'Akhand';}
+
+.ebox_free .product-title {font-family: 'Akhand';}
+.ebox_free .product-price {font-family: 'Akhand';}
+.ebox_free_add:hover {color: #fabd0f;}
+
+.Visitthebrewery a {font-family: 'Akhand';}
+.left_text_block strong {font-family: 'robotobold'}
+
+.manufacturer_941 .visitthebrewery a {font-family: 'Akhand';}
+
+
+
+header .header .search_block .navbar-form #searchbox .search_button_responsive {background: #fabd0f; font-family: 'Akhand';}
+
+
+
+.responsive_menu_icon span {font-family: 'Akhand';}
+.panier_responsive_text {font-family: 'Akhand';}
+
+
+.select_responsive_button span {font-family: 'Akhand';}
+
+
+.tips_blondes_block.active .select_responsive_button {color: #fabd0f !important}
+.tips_blondes_block.active .select_responsive_button span {color: #fabd0f !important}
+.responsive_menu_icon.active {background: #fabd0f;}
+
+.submenu {background: #f0f0eb;}
+
+.submenu .futs_block .list_block .links a {font-family: 'Akhand' !important;}
+.responsive_menushow .menulist li {font-family: 'Akhand';}
+.responsive_menushow .menulist li a {font-family: "Akhand";}
+
+
+
+.menumain li a {
+	font-family: "Akhand";
+	color: #000000;
+
+}
+
+.navbar-nav > li a{font-family: "Akhand";color: #000000;}
+.evolproduct_buyblock .product_detailsblock .info_block .aboutproduct .header{font-family: "Akhand"; color:#fabd0f;}
+.evolproduct_buyblock .product_detailsblock .info_block .aboutproduct .subheader{color:#000000; font-family: "Akhand";}
+.evolproduct_buyblock .product_detailsblock .info_block p {color:#000000; font-family: "Akhand";}
+.navbar-default .navbar-nav > li > a {color: #000000;}
+
+.evolproduct_buyblock .product_list .list_box p {color: #000000; font-family:"Akhand";}
+.evolproduct_buyblock .product_detailsblock .info_block p {font-size: 15px;}
+
+.opinion_details_block .right_block .list li{ color:#000000; font-size:15px;}
+.opinion_details_block .right_block .list li strong{font-size: 15px;}
+
+.evolproduct_buyblock .product_list .list_box p {font-size: 15px;}
+.product_list .price_block .discount {font-size: 15px; color:#000000;}
+.product_list .price_block .old_price {font-size: 15px;}
+
+.product_type_2 .cart_block a span{ font-size:15px;  color:#000000;}
+.product_type_2 .cart_block a{ font-size:15px;}
+.hop_in_cart{ font-size:15px;}
+.product_type_2 .cart_block a span{ font-size:15px !important;}
+.evolcommande_block .addto_basket .price_block .price {color: #000000; font-family: "Akhand";}
+
+
+.gray_block .list_content_block .titel {font-family: 'Akhand';color: #000000;}
+.gray_block .list_content_block .top_subtitel {font-family: 'Akhand'; color: #fabd0f;font-size: 15px;}
+.gray_block .list_content_block p { font-family: "Arial";}
+.product_list .country a{ font-size:15px;}

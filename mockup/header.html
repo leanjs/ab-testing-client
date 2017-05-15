@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/fab_icon.ico" type="image/x-icon">
+    <title>saveur Biere</title>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,100,700,500' rel='stylesheet' type='text/css'>
+    
+    <!--[if lt IE 9]><script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--<script src="js/docs.min.js"></script>-->
+    <script src="js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/myscript.js"></script>
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--------slider----->
+    	<link rel="stylesheet" type="text/css" href="slick/slick.css"/>
+  		<link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+        
+<!--  <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>-->
+ 
+    <!--------slider----->
+
+    
+    <script type="text/javascript" src="js/fading-tabs.js"></script>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/global.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/responsive.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.5.4/bootstrap-select.min.css" rel="stylesheet" type="text/css" media="all" />
+    
+     <link rel="stylesheet" href="css/jquery-ui.css">
+	 <script src="js/jquery-ui.js"></script>
+     
+     <script type="text/javascript" src="js/accordion.js"></script>
+    
+  </head>
+  <body>
+  
+
+<header>
+<div class="top_header">
+    	<div class="container">
+        	<div class="pull-left">
+                <ul class="left_menu">
+                    <li><a href="https://www.saveur-biere.com/fr/content/258-qui-sommes-nous"><strong>Le n°1 de la bière en ligne</strong></a></li>
+                    <li><a href="https://www.saveur-biere.com/fr/content/258-qui-sommes-nous">Le plus grand stock d’Europe</a></li>
+                    <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">Expédition en 24h</a></li>
+                    <li><a href="https://www.saveur-biere.com/fr/content/1-conditions-de-livraison">Emballage de qualité</a></li>
+                    <li><a href="https://www.saveur-biere.com/fr/contact"><strong>À votre service au 03.20.73.47.76</strong></a></li>
+                </ul>
+            </div> 
+			<div class="pull-right" id="header-user">
+                <ul class="right_menu">
+                        <li><a href="https://www.saveur-biere.com/fr/mon-compte">Mon compte</a></li>
+                        <li><a href="https://www.saveur-biere.com/fr/mon-compte">Se connecter</a></li> 
+                </ul>
+		  </div>
+		  <div class="pull-right lang_block">
+				<ul class="right_menu">
+					<li><a href="" title="English (English)"><span>English</span></a></li>
+					<li><span class="selected_lang">Français</span></li></ul>
+		  </div>
+	</div>
+</div>
+<div class="header">
+    	<div class="container">
+        	<div class="row">
+            	<div class="col-sm-4 clearfix">
+                	<div class="search_block">
+                    	<div class="responsive_searchbox_button"></div>
+                    	<div class="nav navbar-nav navbar-form dropdown">
+                        
+							<!-- Search text box -->
+				<!-- Block search module TOP -->
+	<script type="text/javascript">
+	// <![CDATA[
+	
+		$('document').ready( function() {
+			$("#search_query_top")
+				.autocomplete(
+					'https://www.saveur-biere.com/fr/recherche', {
+						minChars: 3,
+						max: 10,
+						width: 500,
+						selectFirst: false,
+						scroll: false,
+						dataType: "json",
+						formatItem: function(data, i, max, value, term) {
+							return value;
+						},
+						parse: function(data) {
+							var mytab = new Array();
+							for (var i = 0; i < data.length; i++)
+								mytab[mytab.length] = { data: data[i], value: data[i].cname + ' > ' + data[i].pname };
+							return mytab;
+						},
+						extraParams: {
+							ajaxSearch: 1,
+							id_lang: 4
+						}
+					}
+				)
+				.result(function(event, data, formatted) {
+					$('#search_query_top').val(data.pname);
+					document.location.href = data.product_link;
+				})
+		});
+	
+	// ]]>
+	</script>
+
+	
+		<form method="get" action="https://www.saveur-biere.com/fr/recherche" id="searchbox">
+			<input type="hidden" name="controller" value="search" />
+			<input type="hidden" name="orderby" value="position" />
+			<input type="hidden" name="orderway" value="desc" />
+			
+			<input class="form-control search_query" type="text" id="search_query_top" name="search_query" value="" placeholder="Brewdog, Chimay, American IPA…" autofocus autocomplete="off" />
+			
+			<input type="submit" name="submit_search" value="Search" class="search_button" />
+            <input type="submit" name="submit_search" value="GO" class="search_button_responsive" />
+	   </form>
+	
+
+<!-- /Block search module TOP -->
+					
+							
+							
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 clearfix">
+                	<div class="logo"><a href="https://www.saveur-biere.com/fr/"><img src="https://img.saveur-biere.com/themes/sb3/images/logo.png" alt="logo"></a></div>
+                </div>
+                <div class="col-sm-4 clearfix">
+                	<div class="shopping_cart">
+											<div id="cart-top" class="anchorclass topcart cart_top htc scrolldown top1" rel="opencart">
+					
+
+								<div class="cartbody">
+									<span>Panier : 0 article</span>
+								</div>
+						
+								<div class="clear"></div>
+								
+								
+							</div>
+                           		 <div class="cart_dropdown_block" lang="showopencart" id="opencart" style="display:none">									
+										
+                                </div>
+								
+							
+					</div>
+                </div>
+            </div>
+        </div>
+	</div>
+    
+    
+
+
+<div id="block_top_menu" class="fr_menu">
+	<div class="container">
+	<div class="responsive_menu_icon"><span>MENU</span></div>
+		<ul class="menumain">
+        	
+            
+            <li class="menudroparow_first bouteilles_menudrop">
+                <a href="https://www.saveur-biere.com/fr/3-biere-bouteille" title="Bouteilles" class="">Bouteilles</a>
+                <span class="openmenuarrow1"></span>
+                <div class="bouteilles_responsive responsive_menushow">
+                    <ul class="nav nav-tabs countries_list menulist">
+                <li class="nav">
+                <a href="#tabs1" data-toggle="tab" id="country_tab_1" class="responsivetablink">
+                    <div class="map"><img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries1.png"></div>
+                    <span><strong>Toutes les bières !</strong>(1329)</span>
+                </a>
+                
+                <ul class="list">
+                <li><a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree">
+                <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                <div class="text_block">Ambrée</div></a></li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blanche</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Verte</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs2" data-toggle="tab" id="country_tab_2" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/679.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Belgique</strong>
+                                                                                                            
+                                                                    (417)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-belgique">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-belgique">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blanche</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-belgique">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-belgique">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-belgique">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-belgique">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-belgique">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/679-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs3" data-toggle="tab" id="country_tab_3" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/669.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Allemagne</strong>
+                                                                                                            
+                                                                    (31)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-allemagne">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-allemagne">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blanche</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-allemagne">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-allemagne">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-allemagne">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-allemagne">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/669-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs4" data-toggle="tab" id="country_tab_4" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/701.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>France</strong>
+                                                                                                            
+                                                                    (188)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blanche</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte/pays-france">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Verte</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-france">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/701-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs5" data-toggle="tab" id="country_tab_5" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/697.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Etats-Unis</strong>
+                                                                                                            
+                                                                    (196)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-etats_unis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche/pays-etats_unis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blanche</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-etats_unis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-etats_unis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-etats_unis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-etats_unis">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-etats_unis">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/697-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs6" data-toggle="tab" id="country_tab_6" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/671.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Angleterre</strong>
+                                                                                                            
+                                                                    (79)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-angleterre">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-angleterre">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-angleterre">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-angleterre">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-angleterre">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-angleterre">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/671-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs7" data-toggle="tab" id="country_tab_7" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/707.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Irlande</strong>
+                                                                                                            
+                                                                    (11)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-irlande">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-irlande">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-irlande">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-irlande">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-irlande">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-irlande">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/707-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs8" data-toggle="tab" id="country_tab_8" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                            <img src="https://img.saveur-biere.com/img/features/country_round_pic/693.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Ecosse</strong>
+                                                                                                            
+                                                                    (35)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree/pays-ecosse">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Ambrée</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde/pays-ecosse">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Blonde</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune/pays-ecosse">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Brune</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire/pays-ecosse">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Noire</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                                
+                                                                <li>
+                                                                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis/pays-ecosse">
+                                                                                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                                    <div class="text_block">Rubis</div>
+                                                                    </a>
+                                                                </li>
+                                                                                                                
+                                                                                                                    <li>
+                                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/pays-ecosse">
+                                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/country_round_pic/693-big.png" width="60" height="60"></span></div>
+                                                                            <div class="text_block">Tout !</div>
+                                                                        </a>
+                                                                    </li>
+                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                
+                                                
+                                                        <li class="nav">
+                                                            <a href="#tabs9" data-toggle="tab" id="country_tab_9" class="responsivetablink">
+                                                                <div class="map">
+                                                                                                                    
+                                                                        <img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries9.png">
+                                                                                                                    </div>
+                                                                <span>
+                                                                                                                            <strong>Autres pays</strong>
+                                                                                                            
+                                                                    (372)
+                                                                </span>
+                                                            </a>
+                                                     
+                                                            <ul class="list">
+                                                                
+                                                                                                                                                            </ul>
+                                                        </li>	
+                                                    
+                                                                                                                                    
+                                                    </ul>
+                                                </div>
+                <div class="submenu bouteilles_submenu">
+                    <div class="container">
+                        <div class="col-sm-3 clearfix bouteillesresponsive">
+                            <div class="nav_countries">
+                                <ul class="nav nav-tabs countries_list">
+                                        <li class="nav">
+                                            <a href="#tabs1">
+                                                <div class="map"><img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries1.png"></div>
+                                                <span><strong>Toutes les bières !</strong>(1329)</span>
+                                            </a>
+                                        </li>
+                    
+                                        <li class="nav">
+                                            <a href="#tabs2">
+                                                <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/679.png"></div>
+                                                <span><strong>Belgique</strong>(417)</span>
+                                            </a>
+                                        </li>
+                    
+                                        <li class="nav">
+                                            <a href="#tabs3">
+                                                <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/669.png"></div>
+                                                <span><strong>Allemagne</strong>(31)</span>
+                                            </a>
+                                        </li>
+                    
+                                        <li class="nav">
+                                            <a href="#tabs4">
+                                                 <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/701.png"></div>
+                                                 <span><strong>France</strong>(188)</span>
+                                                </a>
+                                         </li>
+                    
+                                        <li class="nav">
+                                            <a href="#tabs5">
+                                                <div class="map"> <img src="https://img.saveur-biere.com/img/features/country_round_pic/697.png"></div>
+                                                <span><strong>Etats-Unis</strong>(196)</span>
+                                            </a>
+                                        </li>
+                    
+                                        <li class="nav">
+                                            <a href="#tabs6">
+                                                <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/671.png"></div>
+                                                <span><strong>Angleterre</strong>(79)</span>
+                                            </a>
+                                        </li>
+                                        <li class="nav"><a href="#tabs7">
+                                                <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/707.png"></div>
+                                                <span><strong>Irlande</strong>(11)</span>
+                                            </a>
+                                        </li>
+                                    
+                                        <li class="nav">
+                                            <a href="#tabs8">
+                                                <div class="map"><img src="https://img.saveur-biere.com/img/features/country_round_pic/693.png"></div>
+                                                <span><strong>Ecosse</strong>(35)</span>
+                                            </a>
+                                        </li>
+                    
+                                        <li class="nav">
+                                            <a href="#tabs9">
+                                                <div class="map"><img src="https://img.saveur-biere.com/themes/sb3/images/nav_countries9.png"></div>
+                                                <span><strong>Autres pays</strong>(372)</span>
+                                            </a>
+                                        </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!-- Tab panes -->
+                        <div class="tab-content">
+                        <div class="" id="tabs1">
+                            <div class="col-sm-6 clearfix">
+                                 <div class="slider_box">
+                                            <div class="box_main">
+                                            	<h2 class="header_text __web-inspector-hide-shortcut__">Le paradis de la bière : la Belgique !</h2>
+                                                <ul class="list">
+                                                    <li>
+                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blanche">
+                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/651.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Blanche</div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-blonde">
+                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/653.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Blonde</div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-ambree">
+                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/641.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Ambrée</div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-brune">
+                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/655.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Brune</div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-noire">
+                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/659.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Noire</div>
+                                                        </a>
+                                                    </li>
+                                                    <li>
+                                                    <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                        <div class="text_block">Rubis</div>
+                                                    </a>
+                                                    </li>
+                                                    <li>
+                                                        <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-verte">
+                                                            <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/3753.png" width="60" height="60"></span></div>
+                                                            <div class="text_block">Verte</div>
+                                                        </a>
+                                                    </li>
+                                                     <li>
+                                                    <a href="https://www.saveur-biere.com/fr/3-biere-bouteille/couleur-rubis">
+                                                        <div class="image_block"><span><img src="https://img.saveur-biere.com/img/features/color_round_pic/667.png" width="60" height="60"></span></div>
+                                                        <div class="text_block">Rubis</div>
+                                                    </a>
+                                                    </li>
+                                                    </ul>
+                    
+                                                <div class="discovery_selection_block">
+                                                    <div class="discovery_image_block"><img src="https://img.saveur-biere.com/img/cms/top-tout.png" alt="Top des ventes de bières"></div>
+                                                    <div class="discovery_content_block" id="discovery_block-0">
+                                                        <h3 class="subtitel">SÉLECTION DÉCOUVERTE</h3>
+                                                        <div class="titel">Top des ventes de tous les pays</div>
+                                                        <div class="link_block"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille" class="link_button">DÉCOUVRIR LA SÉLECTION</a></div>
+                                                    </div>
+                                                </div>
+                               		 </div>
+                                </div>
+                             </div>
+                    
+                    		<div class="col-sm-3 clearfix menu_right_block">
+                        <div class="pushs_block">
+                            <ul class="pushs_list">
+                                <li id="push_list-0"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/volume_de_la_bouteille-75_cl">
+                                    <div class="box">
+                                        <div class="text_block">
+                                            <h5 class="sub_block">SELECTION</h5>
+                                            <h2 class="titel">Bières à partager en format 75cL</h2>
+                                        </div>
+                                        <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/75cl.png" alt="Bieres 75cl à partager entre amis"></div>
+                                    </div>
+                                </a>
+                                </li>
+                            <li id="push_list-1"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/nouveau_type-alcohol_free_beer_sans_alcool">
+                                <div class="box">
+                                    <div class="text_block">
+                                        <h5 class="sub_block">SELECTION</h5>
+                                        <h2 class="titel">Bières sans alcool</h2>
+                                    </div>
+                                    <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/sans-alcool.png" alt="image"></div>
+                                </div></a>
+                            </li>
+                            <li id="push_list-2"><a href="https://www.saveur-biere.com/fr/3-biere-bouteille#/nouveau_type-india_pale_ale">
+                            <div class="box">
+                                <div class="text_block">
+                                    <h5 class="sub_block">SELECTION</h5>
+                                    <h2 class="titel">Bières India Pale Ale</h2>
+                                </div>
+                                <div class="image_block"><img src="https://img.saveur-biere.com/img/cms/ipa.png" alt="Bières IPA : India Pale Ale"></div>
+                            </div></a>
+                            </li>
+                            </ul>
+                        </div>
+                    </div>
+                    	</div>
+                    	
+                        </div>
+                    </div>
+                </div>
+                </li>
+                
+                
+                
+                
+                
+                
+                
+            	
+        </ul>   
+	</div>
+</div>
+
+    
+</header>
+
+
+</body>
+</html>
+
+            

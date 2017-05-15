@@ -1,0 +1,243 @@
+body{ widows:100%; padding:0px; margin:0px; clear:both; background:#f0eee9 url("../images/SBbackground_image.png") no-repeat scroll center -40px; /*padding-top:410px;*/}
+.christmas_treeblock{ width:787px; height:950px; background:url(../images/christmas_tree.png) no-repeat top center; position:relative; padding:0px; margin:0px auto;}
+.christmas_counter{ 
+	color: white;
+    font-family: "clearfaceheavy";
+    font-size: 32px;
+    height: 170px;
+    margin: 0 auto;
+    padding: 55px 0 0;
+    position: relative;
+    text-align: center;
+    width: 787px;
+}
+.christmas_counter .counter {
+	color: black;
+	font-size: 26px;
+}
+.christmas_counter .counter span {
+	color: white;
+	font-size: 32px;
+}
+
+.roundblock{ display:inline-block; padding:0px; margin:0px; clear:both; text-decoration:none; outline:none; border:none;
+position:absolute;}
+
+.roundblock.rugbybox{top: 50px; left: 180px;}
+.roundblock.rugbybox .product_name{top: 40px; left: -36px;}
+
+.roundblock.setbrewing{top: 50px; right: 174px;}
+.roundblock.setbrewing .product_name{bottom: 22px; right: -71px;}
+
+.roundblock.beerengine{top:214px; left:311px;}
+.roundblock.beerengine .product_name{bottom: -55px; right: 29px;}
+
+.roundblock.boxflavor{top:340px; left:21px;}
+.roundblock.boxflavor .product_name{top: -16px; left: -36px;}
+
+.roundblock.giftbox{top:453px; left: 197px;}
+.roundblock.giftbox .product_name{top:201px; left: 28px;}
+
+.roundblock.greatbottle{top:453px; right: 195px;}
+.roundblock.greatbottle .product_name{top:201px; left: 28px;}
+
+.roundblock.brandcase{top: 344px; right: 28px;}
+.roundblock.brandcase .product_name{top:146px; right:-53px; text-align:right;}
+
+
+.roundblock.beerkit{top: 616px; left: -29px;}
+.roundblock.beerkit .product_name{top:5px; left: -7px;}
+
+.roundblock.beerglass{top:704px; left: 165px}
+.roundblock.beerglass .product_name{top: 119px; left: -50px;}
+
+.roundblock.giftvoucher{top:702px; right: 162px;}
+.roundblock.giftvoucher .product_name{top: 111px; right: -69px;}
+
+.roundblock.assortedbeers{top: 624px; right: -62px;}
+.roundblock.assortedbeers .product_name{top: 25px; right: -80px; text-align: left;}
+
+
+
+
+
+.roundblock .christmas_productbox{ display:inline-block; padding:0px; margin:0px; clear:both; position:relative;}
+.roundblock .christmas_balls{ display:inline-block; padding:28px 0px 0px 0px; margin:0px; clear:both; text-decoration:none; outline:none; border:none; cursor:pointer;
+width:168px; height:168px; background:url(../images/christmas_roundbg.png) no-repeat top center; text-align:center;}
+.product_images{ display:table-cell; vertical-align:middle; padding:0px; margin:0px; width:168px; height:168px; background:#ffffff; border-radius:100%; border:none; outline:none;
+overflow:hidden;}
+.product_name{ display:inline-block; padding:0px;margin:0px; clear:both; font-family: 'clearfaceheavy'; font-size:18px; line-height:20px; color:#ffffff; position:absolute; font-weight:normal;}
+
+
+/* Wobble Horizontal */
+@-webkit-keyframes wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+@keyframes wobble-horizontal {
+  16.65% {
+    -webkit-transform: translateX(8px);
+    transform: translateX(8px);
+  }
+
+  33.3% {
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+
+  49.95% {
+    -webkit-transform: translateX(4px);
+    transform: translateX(4px);
+  }
+
+  66.6% {
+    -webkit-transform: translateX(-2px);
+    transform: translateX(-2px);
+  }
+
+  83.25% {
+    -webkit-transform: translateX(1px);
+    transform: translateX(1px);
+  }
+
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+}
+
+.wobble-horizontal {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-horizontal:hover, .wobble-horizontal:focus, .wobble-horizontal:active {
+  -webkit-animation-name: wobble-horizontal;
+  animation-name: wobble-horizontal;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+/* Wobble To Bottom Right */
+@-webkit-keyframes wobble-to-bottom-right {
+  16.65% {
+    -webkit-transform: translate(8px, 8px);
+    transform: translate(8px, 8px);
+  }
+
+  33.3% {
+    -webkit-transform: translate(-6px, -6px);
+    transform: translate(-6px, -6px);
+  }
+
+  49.95% {
+    -webkit-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+  }
+
+  66.6% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  83.25% {
+    -webkit-transform: translate(1px, 1px);
+    transform: translate(1px, 1px);
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+@keyframes wobble-to-bottom-right {
+  16.65% {
+    -webkit-transform: translate(8px, 8px);
+    transform: translate(8px, 8px);
+  }
+
+  33.3% {
+    -webkit-transform: translate(-6px, -6px);
+    transform: translate(-6px, -6px);
+  }
+
+  49.95% {
+    -webkit-transform: translate(4px, 4px);
+    transform: translate(4px, 4px);
+  }
+
+  66.6% {
+    -webkit-transform: translate(-2px, -2px);
+    transform: translate(-2px, -2px);
+  }
+
+  83.25% {
+    -webkit-transform: translate(1px, 1px);
+    transform: translate(1px, 1px);
+  }
+
+  100% {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0, 0);
+  }
+}
+
+.wobble-to-bottom-right {
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.wobble-to-bottom-right:hover, .wobble-to-bottom-right:focus, .wobble-to-bottom-right:active {
+  -webkit-animation-name: wobble-to-bottom-right;
+  animation-name: wobble-to-bottom-right;
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-timing-function: ease-in-out;
+  animation-timing-function: ease-in-out;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+}
+
+.tree_footerblock{ width:100%; display:inline-block; padding:90px 0px 0px 0px; margin:0px; clear:both; height:208px; background:url(../images/blacl_border.png) no-repeat top center;
+position:relative; margin-top: -45px;}
+.tree_footerblock .container{ max-width:900px; margin:0 auto;}
+.tree_footerblock a{ border:none; outline: none; text-decoration:none;}
+.tree_footerblock .christmas_iconbox{ width:100%; padding:0px; margin:0px; clear:both;}
+.tree_footerblock .christmas_iconbox .icon{ width:70px; display:inline-block; padding:0px; margin:0px; clear:both; float:left; text-align:left;}
+.tree_footerblock .christmas_iconbox p{ width:185px; display:inline-block; padding:0px; margin:0px; float:left; font-family: 'clearfaceheavy'; color:#f0eee9;
+font-size:16px; line-height:18px; font-weight:normal;}

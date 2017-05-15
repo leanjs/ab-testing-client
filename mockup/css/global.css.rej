@@ -1,0 +1,10 @@
+diff a/themes/sb3/css/global.css b/themes/sb3/css/global.css	(rejected hunks)
+@@ -2254,7 +2254,7 @@
+ }
+ 
+ .bootstrap-select.open .btn .caret{ display: none; }
+-.bootstrap-select.selected .btn .caret{ content: ""; width: 8px; height:8px; background:url(../images/selectbox_close.png) no-repeat;  margin-top:-4px; border:none !important;}
++.bootstrap-select.selected .btn .caret{ content: "";  width:30px; height:30px; background:url(../images/close_icon.png) no-repeat;  margin-top:-4px; border:none !important;}
+ 
+ #layered_form .dropdown-menu.open{ position:relative;}
+ #layered_form .open .selectpicker:before {
